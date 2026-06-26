@@ -1,0 +1,1208 @@
+ifx (IFORT) 2023.0.0 20221201
+Copyright (C) 1985-2022 Intel Corporation. All rights reserved.
+LLVM (http://llvm.org/):
+  LLVM version 16.0.6
+  Optimized build.
+-- The C compiler identification is IntelLLVM 2023.0.0
+-- The CXX compiler identification is IntelLLVM 2023.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin/icx - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin/icpx - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+LLVM_SHLIBEXT=.so
+LLVM ABS DIR /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm
+CMAKE_PREFIX_PATH 
+-- Performing Test Terminfo_LINKABLE
+-- Performing Test Terminfo_LINKABLE - Success
+-- Found Terminfo: /home/jf01/dev/spack/opt/spack/linux-skylake/ncurses-6.5-20250705-wlklaxnw5mvdbekexklto446dyogqbe5/lib/libtinfo.so  
+-- Found ZLIB: /home/jf01/dev/spack/opt/spack/linux-skylake/zlib-ng-2.2.4-tkyyjk247idlzgrbzyjmxvykbfvbqxy6/lib/libz.so (found version "1.3.1")  
+found llvm lit /home/jf01/miniconda3/bin/lit
+LLVM dir /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm
+clang dir from llvm /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm/../clang
+-- Linker detection: GNU ld
+clang dir /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm/../clang
+mlir dir 
+clang inc dir /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include
+found Clang 1
+found MLIR 0
+LLVM_INSTALL_PREFIX: /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2
+LLVM_INCLUDE_DIRS: /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include
+found LLVM definitions -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+found LLVM version 16
+first llvm include directory/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include
+-- Looking for mpfr.h
+-- Looking for mpfr.h - found
+MPFR lib: /home/jf01/dev/spack/opt/spack/linux-skylake/mpfr-4.2.1-r5ytvwmwzfpyzxabhwj2mvkylrhtlg3b/lib/libmpfr.so
+MPFR header: 1
+Building Fortran bindings
+-- The Fortran compiler identification is IntelLLVM 2023.0.0
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin/ifx - skipped
+-- Detecting Fortran/C Interface
+-- Detecting Fortran/C Interface - Found GLOBAL and MODULE mangling
+-- Verifying Fortran/C Compiler Compatibility
+-- Verifying Fortran/C Compiler Compatibility - Success
+Building Fortran tests
+-- Configuring done (1.5s)
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm/TableGen.cmake:95 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:23 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm/TableGen.cmake:95 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:28 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm/TableGen.cmake:95 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:27 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm/TableGen.cmake:95 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:30 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm/TableGen.cmake:95 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:29 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm/TableGen.cmake:95 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:25 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm/TableGen.cmake:95 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:26 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/lib/cmake/llvm/TableGen.cmake:95 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:24 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jf01/dev/Enzyme/build
+[0/2] Re-checking globbed directories...
+[1/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/caching.cpp.o
+[2/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/datastructures.cpp.o
+[3/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/blas-tblgen.cpp.o
+[4/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/enzyme-tblgen.cpp.o
+[5/39] Linking CXX executable tools/enzyme-tblgen/enzyme-tblgen
+[6/39] Building BinopDerivatives.inc...
+[7/39] Building InstructionDerivatives.inc...
+[8/39] Building IntrinsicDerivatives.inc...
+[9/39] Building BlasTA.inc...
+[10/39] Building BlasAttributor.inc...
+[11/39] Building BlasDiffUse.inc...
+[12/39] Building BlasDerivatives.inc...
+[13/39] Building CallDerivatives.inc...
+[14/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/JLInstSimplify.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/JLInstSimplify.cpp:53:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/LibraryFuncs.h:33:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/JLInstSimplify.cpp:53:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/LibraryFuncs.h:33:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[15/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/TraceUtils.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceUtils.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceUtils.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceUtils.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceUtils.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[16/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/TypeAnalysis/TypeTree.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.cpp:36:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.cpp:36:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[17/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/TypeAnalysis/RustDebugInfo.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.h:33:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.h:33:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[18/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/TraceInterface.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceInterface.cpp:29:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceInterface.cpp:29:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[19/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/SimpleGVN.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/SimpleGVN.cpp:87:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/SimpleGVN.cpp:87:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[20/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/TraceGenerator.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceGenerator.cpp:26:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceGenerator.h:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceGenerator.cpp:26:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceGenerator.h:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[21/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/MustExitScalarEvolution.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/MustExitScalarEvolution.cpp:29:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/MustExitScalarEvolution.cpp:29:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[22/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/TypeAnalysis/TypeAnalysisPrinter.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp:57:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp:92:51: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+        auto et = cast<PointerType>(a.getType())->getPointerElementType();
+                                                  ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp:122:55: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+      auto et = cast<PointerType>(F.getReturnType())->getPointerElementType();
+                                                      ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp:57:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+5 warnings generated.
+[23/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/PreserveNVVM.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/PreserveNVVM.cpp:49:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/PreserveNVVM.cpp:208:44: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                    subTy = arg.getType()->getPointerElementType();
+                                           ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/PreserveNVVM.cpp:208:44: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                    subTy = arg.getType()->getPointerElementType();
+                                           ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/PreserveNVVM.cpp:483:7: note: in instantiation of function template specialization 'handleCustomDerivative<gradient_handler_name, DerivativeMode::ReverseModeGradient, 3>' requested here
+      handleCustomDerivative<gradient_handler_name,
+      ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/PreserveNVVM.cpp:49:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+5 warnings generated.
+[24/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/ActivityAnalysisPrinter.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysisPrinter.cpp:52:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysisPrinter.cpp:91:32: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+        auto et = a.getType()->getPointerElementType();
+                               ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysisPrinter.cpp:116:36: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+      auto et = F.getReturnType()->getPointerElementType();
+                                   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysisPrinter.cpp:52:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+5 warnings generated.
+[25/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/InstructionBatcher.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/InstructionBatcher.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/InstructionBatcher.h:48:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/InstructionBatcher.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/InstructionBatcher.h:48:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[26/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/DiffeGradientUtils.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.cpp:30:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.cpp:219:43: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    assert(differentials[val]->getType()->getPointerElementType() == type);
+                                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.cpp:895:49: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    if (toset->getType() != tostore->getType()->getPointerElementType()) {
+                                                ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.cpp:899:52: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    assert(toset->getType() == tostore->getType()->getPointerElementType());
+                                                   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.cpp:942:41: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    assert(T == metaforfree->getType()->getPointerElementType());
+                                        ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.cpp:1004:37: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    needsCast = origptr->getType()->getPointerElementType() != addingType;
+                                    ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.cpp:30:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+8 warnings generated.
+[27/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/CacheUtility.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.h:52:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.cpp:1433:47: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    if (tostore->getType() != loc->getType()->getPointerElementType()) {
+                                              ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.cpp:1438:50: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    assert(tostore->getType() == loc->getType()->getPointerElementType());
+                                                 ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.h:52:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+5 warnings generated.
+[28/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/FixupJuliaCallingConvention.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:2:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:727:39: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+      auto T = FT->getParamType(idx)->getPointerElementType();
+                                      ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:752:40: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+      auto NT = FT->getParamType(idx)->getPointerElementType();
+                                       ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:2:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+5 warnings generated.
+[29/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/ActivityAnalysis.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.cpp:55:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.cpp:55:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[30/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/CApi.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CApi.cpp:25:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CApi.cpp:25:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[31/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/DifferentialUseAnalysis.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DifferentialUseAnalysis.cpp:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DifferentialUseAnalysis.h:43:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DifferentialUseAnalysis.cpp:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DifferentialUseAnalysis.h:43:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[32/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/Utils.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:25:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:721:24: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+      needsCast = !PT->getPointerElementType()->isIntegerTy(8);
+                       ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:1205:35: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    if (fpType != ptr->getType()->getPointerElementType()) {
+                                  ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:1845:18: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+      assert(PT->getPointerElementType() == elementType);
+                 ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:1965:18: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+      assert(PT->getPointerElementType() == elementType);
+                 ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:2835:59: warning: 'getFixedSize' is deprecated: Use getFixedValue() instead [-Wdeprecated-declarations]
+          APInt(width, DL.getTypeStoreSize(LI->getType()).getFixedSize()));
+                                                          ^~~~~~~~~~~~
+                                                          getFixedValue
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/Support/TypeSize.h:338:3: note: 'getFixedSize' has been explicitly marked deprecated here
+  LLVM_DEPRECATED("Use getFixedValue() instead", "getFixedValue")
+  ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/Support/Compiler.h:143:50: note: expanded from macro 'LLVM_DEPRECATED'
+#define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+                                                 ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:2855:29: warning: 'getFixedSize' is deprecated: Use getFixedValue() instead [-Wdeprecated-declarations]
+                           .getFixedSize()));
+                            ^~~~~~~~~~~~
+                            getFixedValue
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/Support/TypeSize.h:338:3: note: 'getFixedSize' has been explicitly marked deprecated here
+  LLVM_DEPRECATED("Use getFixedValue() instead", "getFixedValue")
+  ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/Support/Compiler.h:143:50: note: expanded from macro 'LLVM_DEPRECATED'
+#define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+                                                 ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:25:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+8 warnings generated.
+[33/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/TypeAnalysis/TypeAnalysis.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:54:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:5856:52: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                    call.getOperand(1)->getType()->getPointerElementType()) /
+                                                   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:54:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+4 warnings generated.
+[34/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/Enzyme.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:76:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:140:42: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+              res, PointerType::get(ptr->getPointerElementType(),
+                                         ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:980:48: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                    res, PointerType::get(ptr->getPointerElementType(),
+                                               ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:1152:34: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+          auto et = a.getType()->getPointerElementType();
+                                 ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:76:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+6 warnings generated.
+[35/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/FunctionUtils.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:25:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:335:28: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+            CI->getType()->getPointerElementType(),
+                           ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:363:52: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+          resTy = PointerType::get(rep->getType()->getPointerElementType(), 11);
+                                                   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:474:52: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+          resTy = PointerType::get(rep->getType()->getPointerElementType(), 11);
+                                                   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:495:50: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                PointerType::get(rep->getType()->getPointerElementType(), 11);
+                                                 ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:1123:25: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+        AIV->getType()->getPointerElementType() !=
+                        ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:1124:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+            T->getType()->getPointerElementType()) {
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:1128:34: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                   T->getType()->getPointerElementType(),
+                                 ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:1405:17: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+        if (PT->getPointerElementType() != res->getType())
+                ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:8759:54: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+          V = B.CreateAddrSpaceCast(V, getUnqual(PT->getPointerElementType()));
+                                                     ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:25:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+12 warnings generated.
+[36/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/GradientUtils.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.cpp:33:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.cpp:2792:34: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+          innerType = innerType->getPointerElementType();
+                                 ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.cpp:2854:34: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+        assert(cache->getType()->getPointerElementType() == ret->getType());
+                                 ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.cpp:3122:32: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+        innerType = innerType->getPointerElementType();
+                               ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.cpp:5877:17: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+            PT->getPointerElementType()->isFunctionTy()) {
+                ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+5 warnings generated.
+[37/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/EnzymeLogic.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:30:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:32:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:3184:29: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+              auto ET = PT->getPointerElementType();
+                            ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:32:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:3499:31: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                auto ET = PT->getPointerElementType();
+                              ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:4216:
+/home/jf01/dev/Enzyme/build/Enzyme/BlasDerivatives.inc:7262:24: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+      needsCast = !PT->getPointerElementType()->isIntegerTy(8);
+                       ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:32:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:4813:19: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                ->getPointerElementType()
+                  ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:32:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:4817:44: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                                         ->getPointerElementType()
+                                           ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:30:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+8 warnings generated.
+[38/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-16.dir/CallDerivatives.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:42:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:27: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+    switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+                          ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:27:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:3184:29: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+              auto ET = PT->getPointerElementType();
+                            ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:27:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:3499:31: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                auto ET = PT->getPointerElementType();
+                              ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:4216:
+/home/jf01/dev/Enzyme/build/Enzyme/BlasDerivatives.inc:7262:24: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+      needsCast = !PT->getPointerElementType()->isIntegerTy(8);
+                       ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:27:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:4813:19: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                ->getPointerElementType()
+                  ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:27:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:4817:44: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                                         ->getPointerElementType()
+                                           ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:157:30: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+            statusType = PT->getPointerElementType();
+                             ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:680:30: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+            statusType = PT->getPointerElementType();
+                             ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:3143:46: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                        elTy = U->getType()->getPointerElementType();
+                                             ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:3177:42: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                    if (anti->getType()->getPointerElementType() != elTy)
+                                         ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:3180:54: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                          getUnqual(anti->getType()->getPointerElementType()));
+                                                     ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:3189:44: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+                          anti->getType()->getPointerElementType(), AS);
+                                           ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:3366:36: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+              elTy = U->getType()->getPointerElementType();
+                                   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:3402:29: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+        if (call.getType()->getPointerElementType() != elTy)
+                            ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:3404:54: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+              replacement, getUnqual(call.getType()->getPointerElementType()));
+                                                     ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:3411:49: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+          PT = PointerType::get(call.getType()->getPointerElementType(), AS);
+                                                ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:3779:48: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+        PT = call.getArgOperand(0)->getType()->getPointerElementType();
+                                               ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:3842:48: warning: 'getPointerElementType' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+        PT = call.getArgOperand(0)->getType()->getPointerElementType();
+                                               ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/include/llvm/IR/Type.h:406:5: note: 'getPointerElementType' has been explicitly marked deprecated here
+  [[deprecated("Deprecated without replacement, see "
+    ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:42:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+20 warnings generated.
+[39/39] Linking CXX shared module Enzyme/LLVMEnzyme-16.so
+[0/2] Re-checking globbed directories...
+[1/7] Building Fortran preprocessed Fortran/CMakeFiles/EnzymeFortran.dir/enzyme_function_hooks.f90-pp.f90
+[2/7] Building Fortran preprocessed Fortran/CMakeFiles/EnzymeFortran.dir/enzyme.f90-pp.f90
+[3/7] Generating Fortran dyndep file Fortran/CMakeFiles/EnzymeFortran.dir/Fortran.dd
+[4/7] Building Fortran object Fortran/CMakeFiles/EnzymeFortran.dir/enzyme_function_hooks.f90.o
+[5/7] Building Fortran object Fortran/CMakeFiles/EnzymeFortran.dir/enzyme.f90.o
+[6/7] Linking Fortran shared library Fortran/libEnzymeFortran.so
+[6/7] Running enzyme fortran integration tests
+-- Testing: 6 tests, 6 workers --
+Testing: 
+FAIL: Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 (1 of 6)
+******************** TEST 'Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90' FAILED ********************
+Exit Code: 1
+
+Command Output (stderr):
+--
+RUN: at line 1: if [[ ifx != ifx ]]; then ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90; fi
++ [[ ifx != ifx ]]
+RUN: at line 2: ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90
++ ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
+/home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90(27): error #7013: This module file was not generated by any release of this compiler.   [AD]
+    use AD, only: selectFirst
+--------^
+/home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90(43): error #6406: Conflicting attributes or multiple declaration of name.   [SELECTFIRST]
+    call enzyme_fwddiff(selectFirst, enzyme_const, n, &
+------------------------^
+/home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90(43): error #6404: This name does not have a type, and must have an explicit type.   [ENZYME_CONST]
+    call enzyme_fwddiff(selectFirst, enzyme_const, n, &
+-------------------------------------^
+/home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90(44): error #6404: This name does not have a type, and must have an explicit type.   [ENZYME_DUP]
+                        enzyme_dup, x, dx, enzyme_dup, y, dy)
+------------------------^
+/home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90(27): error #6580: Name in only-list does not exist or is not accessible.   [SELECTFIRST]
+    use AD, only: selectFirst
+------------------^
+/home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90(28): error #6580: Name in only-list does not exist or is not accessible.   [ENZYME_CONST]
+    use enzyme, only: enzyme_const, enzyme_dup, enzyme_fwddiff
+----------------------^
+/home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90(28): error #6580: Name in only-list does not exist or is not accessible.   [ENZYME_DUP]
+    use enzyme, only: enzyme_const, enzyme_dup, enzyme_fwddiff
+------------------------------------^
+/home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90(28): error #6580: Name in only-list does not exist or is not accessible.   [ENZYME_FWDDIFF]
+    use enzyme, only: enzyme_const, enzyme_dup, enzyme_fwddiff
+------------------------------------------------^
+compilation aborted for /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 (code 1)
+
+--
+
+********************
+Testing:  0.. 10.
+FAIL: Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 (2 of 6)
+******************** TEST 'Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90' FAILED ********************
+Exit Code: 1
+
+Command Output (stderr):
+--
+RUN: at line 2: ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
+error: <unknown>:0:0: in function selectfirst__enzyme_autodiff_.t228p.t229p.t230p.t231p.t232p void (void (%"QNCA_a0$float*$rank1$"*, float*)*, float*, float*, float*, float*): Enzyme: failed to find fn to differentiate  call void (...) @selectfirst__enzyme_autodiff_(void (%"QNCA_a0$float*$rank1$"*, float*)* %arg0, float* %arg1, float* %arg2, float* %arg3, float* %arg4) - found - void (%"QNCA_a0$float*$rank1$"*, float*)* %arg0
+
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30
+FAIL: Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 (3 of 6)
+******************** TEST 'Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90' FAILED ********************
+Exit Code: 3
+
+Command Output (stderr):
+--
+RUN: at line 2: ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
++ ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
+#0 0x0000000001c55e52 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1c55e52)
+#1 0x0000000001c55e26 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1c55e26)
+#2 0x0000000001b95cb5 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1b95cb5)
+#3 0x0000000001d028ee (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1d028ee)
+#4 0x0000793dc9c2a1ca __libc_start_call_main libc_start_call_main.h:74
+#5 0x0000793dc9c2a28b call_init libc-start.c:128
+#6 0x0000793dc9c2a28b __libc_start_main libc-start.c:347
+#7 0x0000000001982da9 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1982da9)
+
+/home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll(1): error #5623: **Internal compiler error: internal abort** Please report this error along with the circumstances in which it occurred in a Software Problem Report.  Note: File and line given may not be explicit cause of this error.
+compilation aborted for /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll (code 3)
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 
+FAIL: Enzyme :: Fortran/ReverseMode/square_with_bindings.f90 (4 of 6)
+******************** TEST 'Enzyme :: Fortran/ReverseMode/square_with_bindings.f90' FAILED ********************
+Exit Code: 3
+
+Command Output (stderr):
+--
+RUN: at line 1: if [[ ifx != ifx ]]; then ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp.ll && ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_bindings.f90; fi
++ [[ ifx != ifx ]]
+RUN: at line 2: ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp.ll && ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_bindings.f90
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes=enzyme -o /dev/stdout
++ ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_bindings.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp.ll
++ ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp1
+#0 0x0000000001c55e52 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1c55e52)
+#1 0x0000000001c55e26 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1c55e26)
+#2 0x0000000001b95cb5 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1b95cb5)
+#3 0x0000000001d028ee (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1d028ee)
+#4 0x000073ba5202a1ca __libc_start_call_main libc_start_call_main.h:74
+#5 0x000073ba5202a28b call_init libc-start.c:128
+#6 0x000073ba5202a28b __libc_start_main libc-start.c:347
+#7 0x0000000001982da9 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1982da9)
+
+/home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp.ll(1): error #5623: **Internal compiler error: internal abort** Please report this error along with the circumstances in which it occurred in a Software Problem Report.  Note: File and line given may not be explicit cause of this error.
+compilation aborted for /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_bindings.f90.tmp.ll (code 3)
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 60.
+FAIL: Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 (5 of 6)
+******************** TEST 'Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90' FAILED ********************
+Exit Code: 3
+
+Command Output (stderr):
+--
+RUN: at line 2: if [[ ifx != ifx ]]; then ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90; fi
++ [[ ifx != ifx ]]
+RUN: at line 3: ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90
++ ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes=enzyme -o /dev/stdout
++ ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1
+#0 0x0000000001c55e52 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1c55e52)
+#1 0x0000000001c55e26 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1c55e26)
+#2 0x0000000001b95cb5 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1b95cb5)
+#3 0x0000000001d028ee (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1d028ee)
+#4 0x00007624be42a1ca __libc_start_call_main libc_start_call_main.h:74
+#5 0x00007624be42a28b call_init libc-start.c:128
+#6 0x00007624be42a28b __libc_start_main libc-start.c:347
+#7 0x0000000001982da9 (/home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.0.0-h5rub7u7jue4s4ihgqbtjj6m3yr2o2lk/compiler/2023.0.0/linux/bin-llvm/xfortcom+0x1982da9)
+
+/home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll(1): error #5623: **Internal compiler error: internal abort** Please report this error along with the circumstances in which it occurred in a Software Problem Report.  Note: File and line given may not be explicit cause of this error.
+compilation aborted for /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll (code 3)
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 60.. 70.. 80
+FAIL: Enzyme :: Fortran/ReverseMode/square_with_explicit_interface.f90 (6 of 6)
+******************** TEST 'Enzyme :: Fortran/ReverseMode/square_with_explicit_interface.f90' FAILED ********************
+Exit Code: 1
+
+Command Output (stderr):
+--
+RUN: at line 1: ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp.ll && ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90
++ ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-16.so --enzyme-attributor=0 -opaque-pointers=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-16.0.6-tqxdvx76ujtqjbxmald7oovfg45trie2/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp.ll
++ ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp1
+ld: error: Failed to link module /tmp/lit-tmp-xagrku0b/ifx0490226090P0kvB3/ifxoMasLy.o: Opaque pointers are only supported in -opaque-pointers mode (Producer: 'Intel.oneAPI.DPCPP.Compiler_2023.0.0' Reader: 'Intel.oneAPI.DPCPP.Compiler_2023.0.0')
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 60.. 70.. 80.. 90.. 
+********************
+Failed Tests (6):
+  Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90
+  Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
+  Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90
+  Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
+  Enzyme :: Fortran/ReverseMode/square_with_bindings.f90
+  Enzyme :: Fortran/ReverseMode/square_with_explicit_interface.f90
+
+
+Testing Time: 0.13s
+
+Total Discovered Tests: 6
+  Failed: 6 (100.00%)
+FAILED: test/Fortran/CMakeFiles/check-enzyme-fortran /home/jf01/dev/Enzyme/build/test/Fortran/CMakeFiles/check-enzyme-fortran 
+cd /home/jf01/dev/Enzyme/build/test/Fortran && /home/jf01/miniconda3/bin/lit -v -sv /home/jf01/dev/Enzyme/build/test/Fortran
+ninja: build stopped: subcommand failed.

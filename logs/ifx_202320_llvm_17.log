@@ -1,0 +1,459 @@
+ifx (IFX) 2023.2.0 20230622
+Copyright (C) 1985-2023 Intel Corporation. All rights reserved.
+LLVM (http://llvm.org/):
+  LLVM version 17.0.6
+  Optimized build.
+-- The C compiler identification is IntelLLVM 2023.2.0
+-- The CXX compiler identification is IntelLLVM 2023.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.2.0-b34qufe37yhpw42vgyd4h2ncc4klj7en/compiler/2023.2.0/linux/bin/icx - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.2.0-b34qufe37yhpw42vgyd4h2ncc4klj7en/compiler/2023.2.0/linux/bin/icpx - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+LLVM_SHLIBEXT=.so
+LLVM ABS DIR /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm
+CMAKE_PREFIX_PATH 
+-- Looking for histedit.h
+-- Looking for histedit.h - found
+-- Found LibEdit: /home/jf01/dev/spack/opt/spack/linux-skylake/libedit-3.1-20240808-3gxpzfkc4ye25ai2szrpbkcsykcqnpdh/include (found version "2.11") 
+-- Performing Test Terminfo_LINKABLE
+-- Performing Test Terminfo_LINKABLE - Success
+-- Found Terminfo: /home/jf01/dev/spack/opt/spack/linux-skylake/ncurses-6.5-20250705-wlklaxnw5mvdbekexklto446dyogqbe5/lib/libtinfo.so  
+-- Found ZLIB: /home/jf01/dev/spack/opt/spack/linux-skylake/zlib-ng-2.2.4-tkyyjk247idlzgrbzyjmxvykbfvbqxy6/lib/libz.so (found version "1.3.1")  
+found llvm lit /home/jf01/miniconda3/bin/lit
+LLVM dir /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm
+clang dir from llvm /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm/../clang
+-- Linker detection: GNU ld
+clang dir /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm/../clang
+mlir dir 
+clang inc dir /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/include
+found Clang 1
+found MLIR 0
+LLVM_INSTALL_PREFIX: /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt
+LLVM_INCLUDE_DIRS: /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/include
+found LLVM definitions -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+found LLVM version 17
+first llvm include directory/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/include
+-- Looking for mpfr.h
+-- Looking for mpfr.h - found
+MPFR lib: /usr/lib/x86_64-linux-gnu/libmpfr.so
+MPFR header: 1
+Building Fortran bindings
+-- The Fortran compiler identification is IntelLLVM 2023.2.0
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2023.2.0-b34qufe37yhpw42vgyd4h2ncc4klj7en/compiler/2023.2.0/linux/bin/ifx - skipped
+-- Detecting Fortran/C Interface
+-- Detecting Fortran/C Interface - Found GLOBAL and MODULE mangling
+-- Verifying Fortran/C Compiler Compatibility
+-- Verifying Fortran/C Compiler Compatibility - Success
+Building Fortran tests
+-- Configuring done (1.8s)
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm/TableGen.cmake:101 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:23 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm/TableGen.cmake:101 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:28 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm/TableGen.cmake:101 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:27 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm/TableGen.cmake:101 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:30 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm/TableGen.cmake:101 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:29 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm/TableGen.cmake:101 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:25 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm/TableGen.cmake:101 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:26 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/lib/cmake/llvm/TableGen.cmake:101 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:24 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jf01/dev/Enzyme/build
+[0/2] Re-checking globbed directories...
+[1/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/caching.cpp.o
+[2/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/datastructures.cpp.o
+[3/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/blas-tblgen.cpp.o
+[4/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/enzyme-tblgen.cpp.o
+[5/39] Linking CXX executable tools/enzyme-tblgen/enzyme-tblgen
+[6/39] Building BinopDerivatives.inc...
+[7/39] Building InstructionDerivatives.inc...
+[8/39] Building BlasAttributor.inc...
+[9/39] Building IntrinsicDerivatives.inc...
+[10/39] Building BlasDiffUse.inc...
+[11/39] Building BlasTA.inc...
+[12/39] Building BlasDerivatives.inc...
+[13/39] Building CallDerivatives.inc...
+[14/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/PreserveNVVM.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/PreserveNVVM.cpp:49:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[15/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/TypeAnalysis/TypeTree.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.cpp:36:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[16/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/JLInstSimplify.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/JLInstSimplify.cpp:53:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/LibraryFuncs.h:33:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[17/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/TraceInterface.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceInterface.cpp:29:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[18/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/TraceGenerator.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceGenerator.cpp:26:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceGenerator.h:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[19/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/ActivityAnalysisPrinter.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysisPrinter.cpp:52:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[20/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/InstructionBatcher.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/InstructionBatcher.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/InstructionBatcher.h:48:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[21/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/TraceUtils.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceUtils.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceUtils.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[22/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/MustExitScalarEvolution.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/MustExitScalarEvolution.cpp:29:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[23/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/SimpleGVN.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/SimpleGVN.cpp:87:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[24/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/TypeAnalysis/RustDebugInfo.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.h:33:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[25/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/TypeAnalysis/TypeAnalysisPrinter.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp:57:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[26/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/CacheUtility.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.h:52:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[27/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/DiffeGradientUtils.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.cpp:30:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[28/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/ActivityAnalysis.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.cpp:55:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[29/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/CApi.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CApi.cpp:25:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[30/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/FixupJuliaCallingConvention.cpp.o
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:437:13: warning: 'isOpaquePointerTy' is deprecated: Use isPointerTy() instead [-Wdeprecated-declarations]
+  return T->isOpaquePointerTy();
+            ^~~~~~~~~~~~~~~~~
+            isPointerTy
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/include/llvm/IR/Type.h:259:3: note: 'isOpaquePointerTy' has been explicitly marked deprecated here
+  LLVM_DEPRECATED("Use isPointerTy() instead", "isPointerTy")
+  ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/include/llvm/Support/Compiler.h:155:50: note: expanded from macro 'LLVM_DEPRECATED'
+#define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+                                                 ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:2:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[31/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/Utils.cpp.o
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:2835:59: warning: 'getFixedSize' is deprecated: Use getFixedValue() instead [-Wdeprecated-declarations]
+          APInt(width, DL.getTypeStoreSize(LI->getType()).getFixedSize()));
+                                                          ^~~~~~~~~~~~
+                                                          getFixedValue
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/include/llvm/Support/TypeSize.h:338:3: note: 'getFixedSize' has been explicitly marked deprecated here
+  LLVM_DEPRECATED("Use getFixedValue() instead", "getFixedValue")
+  ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/include/llvm/Support/Compiler.h:155:50: note: expanded from macro 'LLVM_DEPRECATED'
+#define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+                                                 ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:2855:29: warning: 'getFixedSize' is deprecated: Use getFixedValue() instead [-Wdeprecated-declarations]
+                           .getFixedSize()));
+                            ^~~~~~~~~~~~
+                            getFixedValue
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/include/llvm/Support/TypeSize.h:338:3: note: 'getFixedSize' has been explicitly marked deprecated here
+  LLVM_DEPRECATED("Use getFixedValue() instead", "getFixedValue")
+  ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-17.0.6-3louuyhjvuv3iqoldzdviad55tze5htt/include/llvm/Support/Compiler.h:155:50: note: expanded from macro 'LLVM_DEPRECATED'
+#define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+                                                 ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:25:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+3 warnings generated.
+[32/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/DifferentialUseAnalysis.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DifferentialUseAnalysis.cpp:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DifferentialUseAnalysis.h:43:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[33/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/Enzyme.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:76:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[34/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/TypeAnalysis/TypeAnalysis.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:54:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[35/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/FunctionUtils.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:25:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[36/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/GradientUtils.cpp.o
+[37/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/EnzymeLogic.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:30:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[38/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-17.dir/CallDerivatives.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:42:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+static bool anyJuliaObjects(llvm::Type *T) {
+            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+static bool hasTerminator(llvm::BasicBlock *BB) {
+            ^
+2 warnings generated.
+[39/39] Linking CXX shared module Enzyme/LLVMEnzyme-17.so
+[0/2] Re-checking globbed directories...
+[1/7] Building Fortran preprocessed Fortran/CMakeFiles/EnzymeFortran.dir/enzyme_function_hooks.f90-pp.f90
+[2/7] Building Fortran preprocessed Fortran/CMakeFiles/EnzymeFortran.dir/enzyme.f90-pp.f90
+[3/7] Generating Fortran dyndep file Fortran/CMakeFiles/EnzymeFortran.dir/Fortran.dd
+[4/7] Building Fortran object Fortran/CMakeFiles/EnzymeFortran.dir/enzyme_function_hooks.f90.o
+[5/7] Building Fortran object Fortran/CMakeFiles/EnzymeFortran.dir/enzyme.f90.o
+[6/7] Linking Fortran shared library Fortran/libEnzymeFortran.so
+[6/7] Running enzyme fortran integration tests
+-- Testing: 6 tests, 6 workers --
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 60.. 70.. 80.. 90.. 
+
+Testing Time: 0.53s
+
+Total Discovered Tests: 6
+  Passed: 6 (100.00%)
