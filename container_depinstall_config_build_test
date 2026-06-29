@@ -4,7 +4,7 @@
 # ```
 # docker run -it -v $(pwd):/home/user/Enzyme enzyme-fortran
 # cd Enzyme
-# ./container_depinstall_config_build_test 15 2023.0.0
+# ./container_depinstall_config_build_test 2023.0.0 15
 # ```
 set -e
 
@@ -17,18 +17,18 @@ then
 fi
 
 required="required"
-matrix_llvm="${1:-$required}"
-matrix_ifx_version="${2:-$required}"
-
-if [[ ${matrix_llvm} == ${required} ]] 
-then
-    echo "[ERROR]: missing positional argument MATRIX_LLVM"
-    exit 1 
-fi
+matrix_ifx_version="${1:-$required}"
+matrix_llvm="${2:-$required}"
 
 if [[ ${matrix_ifx_version} == ${required} ]] 
 then
     echo "[ERROR]: missing positional argument MATRIX_IFX_VERSION"
+    exit 1 
+fi
+
+if [[ ${matrix_llvm} == ${required} ]] 
+then
+    echo "[ERROR]: missing positional argument MATRIX_LLVM"
     exit 1 
 fi
 

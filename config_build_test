@@ -7,6 +7,12 @@ llvm_version="${2:-$REQUIRED}"
 [[ ${ifx_version} == "${REQUIRED}" ]] && echo "missing pos arg IFX_VERSION" && exit 1 
 [[ ${llvm_version} == "${REQUIRED}" ]] && echo "missing pos arg LLVM_VERSION" && exit 1 
 
+if [[ -z $(which spack) ]]
+then
+    echo "[ERROR]: spack not found. Spack is required for loading IFX and LLVM."
+    exit 1 
+fi
+
 (
 rm -rf build && mkdir build && cd build
 
