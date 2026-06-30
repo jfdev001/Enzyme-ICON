@@ -1,0 +1,1509 @@
+--2026-06-30 08:13:20--  https://apt.llvm.org/llvm-snapshot.gpg.key
+Resolving apt.llvm.org (apt.llvm.org)... 151.101.6.49, 2a04:4e42:1::561
+Connecting to apt.llvm.org (apt.llvm.org)|151.101.6.49|:443... connected.
+Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).
+HTTP request sent, awaiting response... 200 OK
+Length: 3167 (3.1K) [application/octet-stream]
+Saving to: 'STDOUT'
+
+     0K ...                                                   100% 45.2M=0s
+
+2026-06-30 08:13:20 (45.2 MB/s) - written to stdout [3167/3167]
+
+OK
+Get:1 https://apt.llvm.org/jammy llvm-toolchain-jammy-15 InRelease [6833 B]
+Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Get:5 https://apt.repos.intel.com/oneapi all InRelease [5684 B]
+Hit:6 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:7 https://ppa.launchpadcontent.net/ubuntu-toolchain-r/test/ubuntu jammy InRelease
+Get:8 https://apt.llvm.org/jammy llvm-toolchain-jammy-15/main amd64 Packages [12.4 kB]
+Get:9 https://apt.repos.intel.com/oneapi all/main amd64 Packages [884 kB]
+Get:10 https://apt.repos.intel.com/oneapi all/main all Packages [251 kB]
+Fetched 1161 kB in 1s (1005 kB/s)
+Reading package lists...
+W: http://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-15/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: https://apt.repos.intel.com/oneapi/dists/all/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+Repository: 'deb http://apt.llvm.org/jammy/ llvm-toolchain-jammy-15 main'
+Description:
+Archive for codename: llvm-toolchain-jammy-15 components: main
+More info: http://apt.llvm.org/jammy/
+Adding repository.
+Adding deb entry to /etc/apt/sources.list.d/archive_uri-http_apt_llvm_org_jammy_-jammy.list
+Adding disabled deb-src entry to /etc/apt/sources.list.d/archive_uri-http_apt_llvm_org_jammy_-jammy.list
+Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:3 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:4 https://apt.repos.intel.com/oneapi all InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:1 https://apt.llvm.org/jammy llvm-toolchain-jammy-15 InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:7 https://ppa.launchpadcontent.net/ubuntu-toolchain-r/test/ubuntu jammy InRelease
+Reading package lists...
+W: https://apt.repos.intel.com/oneapi/dists/all/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: http://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-15/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  icu-devtools libclang-cpp15 libffi-dev libicu-dev libllvm15 libpfm4
+  libxml2-dev libz3-4 libz3-dev llvm-15 llvm-15-linker-tools llvm-15-runtime
+  llvm-15-tools python3-pygments python3-yaml
+Suggested packages:
+  icu-doc pkg-config llvm-15-doc python-pygments-doc ttf-bitstream-vera
+The following NEW packages will be installed:
+  icu-devtools libclang-cpp15 libffi-dev libicu-dev libllvm15 libpfm4
+  libxml2-dev libz3-4 libz3-dev llvm-15 llvm-15-dev llvm-15-linker-tools
+  llvm-15-runtime llvm-15-tools python3-pygments python3-yaml
+0 upgraded, 16 newly installed, 0 to remove and 6 not upgraded.
+Need to get 115 MB of archives.
+After this operation, 615 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-yaml amd64 5.4.1-1ubuntu1 [129 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy/main amd64 icu-devtools amd64 70.1-2 [197 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libllvm15 amd64 1:15.0.7-0ubuntu0.22.04.3 [25.4 MB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libclang-cpp15 amd64 1:15.0.7-0ubuntu0.22.04.3 [12.6 MB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 libicu-dev amd64 70.1-2 [11.6 MB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxml2-dev amd64 2.9.13+dfsg-1ubuntu0.12 [805 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 llvm-15-runtime amd64 1:15.0.7-0ubuntu0.22.04.3 [504 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 llvm-15-linker-tools amd64 1:15.0.7-0ubuntu0.22.04.3 [1358 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpfm4 amd64 4.11.1+git32-gd0b85fb-1ubuntu0.1 [345 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 llvm-15 amd64 1:15.0.7-0ubuntu0.22.04.3 [13.3 MB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 libffi-dev amd64 3.4.2-4 [63.7 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-pygments all 2.11.2+dfsg-2ubuntu0.1 [750 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 llvm-15-tools amd64 1:15.0.7-0ubuntu0.22.04.3 [439 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libz3-4 amd64 4.8.12-1 [5766 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libz3-dev amd64 4.8.12-1 [72.2 kB]
+Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 llvm-15-dev amd64 1:15.0.7-0ubuntu0.22.04.3 [41.2 MB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 115 MB in 1s (92.4 MB/s)
+Selecting previously unselected package python3-yaml.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 24727 files and directories currently installed.)
+Preparing to unpack .../00-python3-yaml_5.4.1-1ubuntu1_amd64.deb ...
+Unpacking python3-yaml (5.4.1-1ubuntu1) ...
+Selecting previously unselected package icu-devtools.
+Preparing to unpack .../01-icu-devtools_70.1-2_amd64.deb ...
+Unpacking icu-devtools (70.1-2) ...
+Selecting previously unselected package libllvm15:amd64.
+Preparing to unpack .../02-libllvm15_1%3a15.0.7-0ubuntu0.22.04.3_amd64.deb ...
+Unpacking libllvm15:amd64 (1:15.0.7-0ubuntu0.22.04.3) ...
+Selecting previously unselected package libclang-cpp15.
+Preparing to unpack .../03-libclang-cpp15_1%3a15.0.7-0ubuntu0.22.04.3_amd64.deb ...
+Unpacking libclang-cpp15 (1:15.0.7-0ubuntu0.22.04.3) ...
+Selecting previously unselected package libicu-dev:amd64.
+Preparing to unpack .../04-libicu-dev_70.1-2_amd64.deb ...
+Unpacking libicu-dev:amd64 (70.1-2) ...
+Selecting previously unselected package libxml2-dev:amd64.
+Preparing to unpack .../05-libxml2-dev_2.9.13+dfsg-1ubuntu0.12_amd64.deb ...
+Unpacking libxml2-dev:amd64 (2.9.13+dfsg-1ubuntu0.12) ...
+Selecting previously unselected package llvm-15-runtime.
+Preparing to unpack .../06-llvm-15-runtime_1%3a15.0.7-0ubuntu0.22.04.3_amd64.deb ...
+Unpacking llvm-15-runtime (1:15.0.7-0ubuntu0.22.04.3) ...
+Selecting previously unselected package llvm-15-linker-tools.
+Preparing to unpack .../07-llvm-15-linker-tools_1%3a15.0.7-0ubuntu0.22.04.3_amd64.deb ...
+Unpacking llvm-15-linker-tools (1:15.0.7-0ubuntu0.22.04.3) ...
+Selecting previously unselected package libpfm4:amd64.
+Preparing to unpack .../08-libpfm4_4.11.1+git32-gd0b85fb-1ubuntu0.1_amd64.deb ...
+Unpacking libpfm4:amd64 (4.11.1+git32-gd0b85fb-1ubuntu0.1) ...
+Selecting previously unselected package llvm-15.
+Preparing to unpack .../09-llvm-15_1%3a15.0.7-0ubuntu0.22.04.3_amd64.deb ...
+Unpacking llvm-15 (1:15.0.7-0ubuntu0.22.04.3) ...
+Selecting previously unselected package libffi-dev:amd64.
+Preparing to unpack .../10-libffi-dev_3.4.2-4_amd64.deb ...
+Unpacking libffi-dev:amd64 (3.4.2-4) ...
+Selecting previously unselected package python3-pygments.
+Preparing to unpack .../11-python3-pygments_2.11.2+dfsg-2ubuntu0.1_all.deb ...
+Unpacking python3-pygments (2.11.2+dfsg-2ubuntu0.1) ...
+Selecting previously unselected package llvm-15-tools.
+Preparing to unpack .../12-llvm-15-tools_1%3a15.0.7-0ubuntu0.22.04.3_amd64.deb ...
+Unpacking llvm-15-tools (1:15.0.7-0ubuntu0.22.04.3) ...
+Selecting previously unselected package libz3-4:amd64.
+Preparing to unpack .../13-libz3-4_4.8.12-1_amd64.deb ...
+Unpacking libz3-4:amd64 (4.8.12-1) ...
+Selecting previously unselected package libz3-dev:amd64.
+Preparing to unpack .../14-libz3-dev_4.8.12-1_amd64.deb ...
+Unpacking libz3-dev:amd64 (4.8.12-1) ...
+Selecting previously unselected package llvm-15-dev.
+Preparing to unpack .../15-llvm-15-dev_1%3a15.0.7-0ubuntu0.22.04.3_amd64.deb ...
+Unpacking llvm-15-dev (1:15.0.7-0ubuntu0.22.04.3) ...
+Setting up python3-yaml (5.4.1-1ubuntu1) ...
+Setting up libffi-dev:amd64 (3.4.2-4) ...
+Setting up python3-pygments (2.11.2+dfsg-2ubuntu0.1) ...
+Setting up libz3-4:amd64 (4.8.12-1) ...
+Setting up libpfm4:amd64 (4.11.1+git32-gd0b85fb-1ubuntu0.1) ...
+Setting up icu-devtools (70.1-2) ...
+Setting up libllvm15:amd64 (1:15.0.7-0ubuntu0.22.04.3) ...
+Setting up libicu-dev:amd64 (70.1-2) ...
+Setting up libz3-dev:amd64 (4.8.12-1) ...
+Setting up llvm-15-linker-tools (1:15.0.7-0ubuntu0.22.04.3) ...
+Setting up llvm-15-tools (1:15.0.7-0ubuntu0.22.04.3) ...
+Setting up libxml2-dev:amd64 (2.9.13+dfsg-1ubuntu0.12) ...
+Setting up libclang-cpp15 (1:15.0.7-0ubuntu0.22.04.3) ...
+Setting up llvm-15-runtime (1:15.0.7-0ubuntu0.22.04.3) ...
+Setting up llvm-15 (1:15.0.7-0ubuntu0.22.04.3) ...
+Setting up llvm-15-dev (1:15.0.7-0ubuntu0.22.04.3) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.13) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  intel-oneapi-common-licensing-2023.0.0
+  intel-oneapi-common-licensing-2023.1.0 intel-oneapi-common-licensing-2026.0
+  intel-oneapi-common-oneapi-vars-2026.0 intel-oneapi-common-vars
+  intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-2023.0.0
+  intel-oneapi-compiler-fortran-common-2023.0.0
+  intel-oneapi-compiler-fortran-runtime-2023.0.0
+  intel-oneapi-compiler-shared-2023.0.0
+  intel-oneapi-compiler-shared-common-2023.0.0
+  intel-oneapi-compiler-shared-runtime-2023.0.0 intel-oneapi-condaindex
+  intel-oneapi-dpcpp-debugger-2023.0.0 intel-oneapi-dpcpp-debugger-eclipse-cfg
+  intel-oneapi-mpi-2021.8.0 intel-oneapi-openmp-2023.0.0
+  intel-oneapi-openmp-common-2023.0.0
+The following NEW packages will be installed:
+  intel-oneapi-common-licensing-2023.0.0
+  intel-oneapi-common-licensing-2023.1.0 intel-oneapi-common-licensing-2026.0
+  intel-oneapi-common-oneapi-vars-2026.0 intel-oneapi-common-vars
+  intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-2023.0.0
+  intel-oneapi-compiler-fortran-2023.0.0
+  intel-oneapi-compiler-fortran-common-2023.0.0
+  intel-oneapi-compiler-fortran-runtime-2023.0.0
+  intel-oneapi-compiler-shared-2023.0.0
+  intel-oneapi-compiler-shared-common-2023.0.0
+  intel-oneapi-compiler-shared-runtime-2023.0.0 intel-oneapi-condaindex
+  intel-oneapi-dpcpp-debugger-2023.0.0 intel-oneapi-dpcpp-debugger-eclipse-cfg
+  intel-oneapi-mpi-2021.8.0 intel-oneapi-openmp-2023.0.0
+  intel-oneapi-openmp-common-2023.0.0
+0 upgraded, 18 newly installed, 0 to remove and 6 not upgraded.
+Need to get 748 MB of archives.
+After this operation, 2391 MB of additional disk space will be used.
+Get:1 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-common-licensing-2023.0.0 all 2023.0.0-25325 [30.5 kB]
+Get:2 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-common-licensing-2023.1.0 all 2023.1.0-43473 [30.5 kB]
+Get:3 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-common-licensing-2026.0 all 2026.0.0-235 [30.7 kB]
+Get:4 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-common-oneapi-vars-2026.0 all 2026.0.0-235 [10.6 kB]
+Get:5 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-common-vars all 2026.0.0-235 [12.7 kB]
+Get:6 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-condaindex amd64 2023.2.0-49417 [676 kB]
+Get:7 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-openmp-common-2023.0.0 all 2023.0.0-25370 [19.2 kB]
+Get:8 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-openmp-2023.0.0 amd64 2023.0.0-25370 [221 MB]
+Get:9 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-compiler-shared-runtime-2023.0.0 amd64 2023.0.0-25370 [144 MB]
+Get:10 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-2023.0.0 amd64 2023.0.0-25370 [79.9 kB]
+Get:11 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-compiler-shared-common-2023.0.0 all 2023.0.0-25370 [100 MB]
+Get:12 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-dpcpp-debugger-eclipse-cfg all 2023.1.0-43513 [2004 B]
+Get:13 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-dpcpp-debugger-2023.0.0 amd64 2023.0.0-25336 [196 MB]
+Get:14 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-compiler-shared-2023.0.0 amd64 2023.0.0-25370 [16.6 MB]
+Get:15 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-compiler-fortran-common-2023.0.0 all 2023.0.0-25370 [187 kB]
+Get:16 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-mpi-2021.8.0 amd64 2021.8.0-25329 [31.8 MB]
+Get:17 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-compiler-fortran-runtime-2023.0.0 amd64 2023.0.0-25370 [525 kB]
+Get:18 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-compiler-fortran-2023.0.0 amd64 2023.0.0-25370 [36.6 MB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 748 MB in 7s (109 MB/s)
+Selecting previously unselected package intel-oneapi-common-licensing-2023.0.0.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28391 files and directories currently installed.)
+Preparing to unpack .../00-intel-oneapi-common-licensing-2023.0.0_2023.0.0-25325_all.deb ...
+Unpacking intel-oneapi-common-licensing-2023.0.0 (2023.0.0-25325) ...
+Selecting previously unselected package intel-oneapi-common-licensing-2023.1.0.
+Preparing to unpack .../01-intel-oneapi-common-licensing-2023.1.0_2023.1.0-43473_all.deb ...
+Unpacking intel-oneapi-common-licensing-2023.1.0 (2023.1.0-43473) ...
+Selecting previously unselected package intel-oneapi-common-licensing-2026.0.
+Preparing to unpack .../02-intel-oneapi-common-licensing-2026.0_2026.0.0-235_all.deb ...
+Unpacking intel-oneapi-common-licensing-2026.0 (2026.0.0-235) ...
+Selecting previously unselected package intel-oneapi-common-oneapi-vars-2026.0.
+Preparing to unpack .../03-intel-oneapi-common-oneapi-vars-2026.0_2026.0.0-235_all.deb ...
+Unpacking intel-oneapi-common-oneapi-vars-2026.0 (2026.0.0-235) ...
+Selecting previously unselected package intel-oneapi-common-vars.
+Preparing to unpack .../04-intel-oneapi-common-vars_2026.0.0-235_all.deb ...
+Unpacking intel-oneapi-common-vars (2026.0.0-235) ...
+Selecting previously unselected package intel-oneapi-condaindex.
+Preparing to unpack .../05-intel-oneapi-condaindex_2023.2.0-49417_amd64.deb ...
+Unpacking intel-oneapi-condaindex (2023.2.0-49417) ...
+Selecting previously unselected package intel-oneapi-openmp-common-2023.0.0.
+Preparing to unpack .../06-intel-oneapi-openmp-common-2023.0.0_2023.0.0-25370_all.deb ...
+Unpacking intel-oneapi-openmp-common-2023.0.0 (2023.0.0-25370) ...
+Selecting previously unselected package intel-oneapi-openmp-2023.0.0.
+Preparing to unpack .../07-intel-oneapi-openmp-2023.0.0_2023.0.0-25370_amd64.deb ...
+Unpacking intel-oneapi-openmp-2023.0.0 (2023.0.0-25370) ...
+Selecting previously unselected package intel-oneapi-compiler-shared-runtime-2023.0.0.
+Preparing to unpack .../08-intel-oneapi-compiler-shared-runtime-2023.0.0_2023.0.0-25370_amd64.deb ...
+Unpacking intel-oneapi-compiler-shared-runtime-2023.0.0 (2023.0.0-25370) ...
+Selecting previously unselected package intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-2023.0.0.
+Preparing to unpack .../09-intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-2023.0.0_2023.0.0-25370_amd64.deb ...
+Unpacking intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-2023.0.0 (2023.0.0-25370) ...
+Selecting previously unselected package intel-oneapi-compiler-shared-common-2023.0.0.
+Preparing to unpack .../10-intel-oneapi-compiler-shared-common-2023.0.0_2023.0.0-25370_all.deb ...
+Unpacking intel-oneapi-compiler-shared-common-2023.0.0 (2023.0.0-25370) ...
+Selecting previously unselected package intel-oneapi-dpcpp-debugger-eclipse-cfg.
+Preparing to unpack .../11-intel-oneapi-dpcpp-debugger-eclipse-cfg_2023.1.0-43513_all.deb ...
+Unpacking intel-oneapi-dpcpp-debugger-eclipse-cfg (2023.1.0-43513) ...
+Selecting previously unselected package intel-oneapi-dpcpp-debugger-2023.0.0.
+Preparing to unpack .../12-intel-oneapi-dpcpp-debugger-2023.0.0_2023.0.0-25336_amd64.deb ...
+Unpacking intel-oneapi-dpcpp-debugger-2023.0.0 (2023.0.0-25336) ...
+Selecting previously unselected package intel-oneapi-compiler-shared-2023.0.0.
+Preparing to unpack .../13-intel-oneapi-compiler-shared-2023.0.0_2023.0.0-25370_amd64.deb ...
+Unpacking intel-oneapi-compiler-shared-2023.0.0 (2023.0.0-25370) ...
+Selecting previously unselected package intel-oneapi-compiler-fortran-common-2023.0.0.
+Preparing to unpack .../14-intel-oneapi-compiler-fortran-common-2023.0.0_2023.0.0-25370_all.deb ...
+Unpacking intel-oneapi-compiler-fortran-common-2023.0.0 (2023.0.0-25370) ...
+Selecting previously unselected package intel-oneapi-mpi-2021.8.0.
+Preparing to unpack .../15-intel-oneapi-mpi-2021.8.0_2021.8.0-25329_amd64.deb ...
+Unpacking intel-oneapi-mpi-2021.8.0 (2021.8.0-25329) ...
+Selecting previously unselected package intel-oneapi-compiler-fortran-runtime-2023.0.0.
+Preparing to unpack .../16-intel-oneapi-compiler-fortran-runtime-2023.0.0_2023.0.0-25370_amd64.deb ...
+Unpacking intel-oneapi-compiler-fortran-runtime-2023.0.0 (2023.0.0-25370) ...
+Selecting previously unselected package intel-oneapi-compiler-fortran-2023.0.0.
+Preparing to unpack .../17-intel-oneapi-compiler-fortran-2023.0.0_2023.0.0-25370_amd64.deb ...
+Unpacking intel-oneapi-compiler-fortran-2023.0.0 (2023.0.0-25370) ...
+Setting up intel-oneapi-common-licensing-2023.1.0 (2023.1.0-43473) ...
+Setting up intel-oneapi-common-licensing-2026.0 (2026.0.0-235) ...
+Setting up intel-oneapi-common-licensing-2023.0.0 (2023.0.0-25325) ...
+Setting up intel-oneapi-common-oneapi-vars-2026.0 (2026.0.0-235) ...
+Setting up intel-oneapi-condaindex (2023.2.0-49417) ...
+Setting up intel-oneapi-common-vars (2026.0.0-235) ...
+Setting up intel-oneapi-dpcpp-debugger-eclipse-cfg (2023.1.0-43513) ...
+Setting up intel-oneapi-compiler-shared-common-2023.0.0 (2023.0.0-25370) ...
+Setting up intel-oneapi-openmp-common-2023.0.0 (2023.0.0-25370) ...
+Setting up intel-oneapi-mpi-2021.8.0 (2021.8.0-25329) ...
+Setting up intel-oneapi-compiler-fortran-common-2023.0.0 (2023.0.0-25370) ...
+Setting up intel-oneapi-dpcpp-debugger-2023.0.0 (2023.0.0-25336) ...
+Setting up intel-oneapi-openmp-2023.0.0 (2023.0.0-25370) ...
+Setting up intel-oneapi-compiler-shared-runtime-2023.0.0 (2023.0.0-25370) ...
+Setting up intel-oneapi-compiler-shared-2023.0.0 (2023.0.0-25370) ...
+Setting up intel-oneapi-compiler-dpcpp-cpp-classic-fortran-shared-runtime-2023.0.0 (2023.0.0-25370) ...
+Setting up intel-oneapi-compiler-fortran-runtime-2023.0.0 (2023.0.0-25370) ...
+Setting up intel-oneapi-compiler-fortran-2023.0.0 (2023.0.0-25370) ...
+ 
+:: initializing oneAPI environment ...
+   container_depinstall_config_build_test: BASH_VERSION = 5.1.16(1)-release
+   args: Using "$@" for setvars.sh arguments: --force
+:: compiler -- latest
+:: debugger -- latest
+:: mpi -- latest
+:: oneAPI environment initialized ::
+ 
+ifx (IFORT) 2023.0.0 20221201 Copyright (C) 1985-2022 Intel Corporation. All rights reserved.
+Ubuntu LLVM version 15.0.7 Optimized build. Default target: x86_64-pc-linux-gnu Host CPU: goldmont
+-- The C compiler identification is GNU 13.4.0
+-- The CXX compiler identification is GNU 13.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+LLVM_SHLIBEXT=.so
+LLVM ABS DIR /usr/lib/llvm-15/lib/cmake/llvm
+CMAKE_PREFIX_PATH 
+-- Performing Test HAVE_FFI_CALL
+-- Performing Test HAVE_FFI_CALL - Success
+-- Found FFI: /usr/lib/x86_64-linux-gnu/libffi.so  
+-- Performing Test Terminfo_LINKABLE
+-- Performing Test Terminfo_LINKABLE - Success
+-- Found Terminfo: /usr/lib/x86_64-linux-gnu/libtinfo.so  
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.13") 
+found llvm lit /usr/local/bin/lit
+LLVM dir /usr/lib/llvm-15/lib/cmake/llvm
+clang dir from llvm 
+-- Linker detection: GNU ld
+clang dir 
+mlir dir 
+found Clang 0
+found MLIR 0
+LLVM_INSTALL_PREFIX: /usr/lib/llvm-15
+LLVM_INCLUDE_DIRS: /usr/lib/llvm-15/include
+found LLVM definitions -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+found LLVM version 15
+first llvm include directory/usr/lib/llvm-15/include
+-- Looking for mpfr.h
+-- Looking for mpfr.h - not found
+MPFR lib: MPFR_LIB_PATH-NOTFOUND
+MPFR header: 
+Building Fortran bindings
+-- The Fortran compiler identification is IntelLLVM 2023.0.0
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /opt/intel/oneapi/compiler/2023.0.0/linux/bin/ifx - skipped
+-- Detecting Fortran/C Interface
+-- Detecting Fortran/C Interface - Found GLOBAL and MODULE mangling
+-- Verifying Fortran/C Compiler Compatibility
+-- Verifying Fortran/C Compiler Compatibility - Failed
+Building Fortran tests
+-- Configuring done
+CMake Warning (dev) at /usr/lib/llvm-15/lib/cmake/llvm/TableGen.cmake:103 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:23 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/lib/llvm-15/lib/cmake/llvm/TableGen.cmake:103 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:28 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/lib/llvm-15/lib/cmake/llvm/TableGen.cmake:103 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:27 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/lib/llvm-15/lib/cmake/llvm/TableGen.cmake:103 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:30 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/lib/llvm-15/lib/cmake/llvm/TableGen.cmake:103 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:29 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/lib/llvm-15/lib/cmake/llvm/TableGen.cmake:103 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:25 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/lib/llvm-15/lib/cmake/llvm/TableGen.cmake:103 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:26 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/lib/llvm-15/lib/cmake/llvm/TableGen.cmake:103 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:24 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/user/Enzyme-container/build
+[0/2] Re-checking globbed directories...
+[1/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/caching.cpp.o
+[2/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/datastructures.cpp.o
+[3/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/blas-tblgen.cpp.o
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/blas-tblgen.cpp: In function 'llvm::SmallString<80> ValueType_helper(const TGPattern&, ssize_t, const llvm::DagInit*)':
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/blas-tblgen.cpp:810:15: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'ssize_t' {aka 'long int'} [-Wsign-compare]
+  810 |       if (pos == actPos || actPos == -1) {
+      |           ~~~~^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/blas-tblgen.cpp:822:69: warning: comparison of integer expressions of different signedness: 'ssize_t' {aka 'long int'} and 'size_t' {aka 'long unsigned int'} [-Wsign-compare]
+  822 |           (!ruleDag || hasAdjoint(pattern, ruleDag, name) || actPos == pos)
+      |                                                              ~~~~~~~^~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/blas-tblgen.cpp:826:15: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'ssize_t' {aka 'long int'} [-Wsign-compare]
+  826 |       if (pos == actPos || actPos == -1) {
+      |           ~~~~^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/blas-tblgen.cpp:840:68: warning: comparison of integer expressions of different signedness: 'ssize_t' {aka 'long int'} and 'size_t' {aka 'long unsigned int'} [-Wsign-compare]
+  840 |       if (!ruleDag || hasAdjoint(pattern, ruleDag, name) || actPos == pos) {
+      |                                                             ~~~~~~~^~~~~~
+[4/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/enzyme-tblgen.cpp.o
+In file included from /usr/lib/llvm-15/include/llvm/ADT/SmallString.h:18,
+                 from /usr/lib/llvm-15/include/llvm/ADT/StringExtras.h:19,
+                 from /home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:15:
+In constructor 'constexpr llvm::StringRef::StringRef(const char*)',
+    inlined from 'void emitDiffUse(const llvm::RecordKeeper&, llvm::raw_ostream&, ActionType)' at /home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:2891:76:
+/usr/lib/llvm-15/include/llvm/ADT/StringRef.h:108:11: warning: 'patternNames' may be used uninitialized [-Wmaybe-uninitialized]
+  108 |         : Data(Str), Length(Str ? strLen(Str) : 0) {}
+      |           ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp: In function 'void emitDiffUse(const llvm::RecordKeeper&, llvm::raw_ostream&, ActionType)':
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:2869:15: note: 'patternNames' was declared here
+ 2869 |   const char *patternNames;
+      |               ^~~~~~~~~~~~
+[5/39] Linking CXX executable tools/enzyme-tblgen/enzyme-tblgen
+[6/39] Building InstructionDerivatives.inc...
+[7/39] Building BinopDerivatives.inc...
+[8/39] Building BlasTA.inc...
+[9/39] Building IntrinsicDerivatives.inc...
+[10/39] Building BlasAttributor.inc...
+[11/39] Building BlasDerivatives.inc...
+[12/39] Building BlasDiffUse.inc...
+[13/39] Building CallDerivatives.inc...
+[14/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/TraceInterface.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TraceInterface.cpp:29:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Constants.h:31,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantFolder.h:21,
+                 from /usr/lib/llvm-15/include/llvm/IR/IRBuilder.h:25,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceInterface.h:30,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceInterface.cpp:27:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[15/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/JLInstSimplify.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/LibraryFuncs.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/JLInstSimplify.cpp:53:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Constants.h:31,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/JLInstSimplify.cpp:31:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[16/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/TypeAnalysis/TypeTree.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeTree.cpp:36:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/DataLayout.h:27,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeTree.cpp:31:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[17/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/TypeAnalysis/TypeAnalysisPrinter.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp:57:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantRange.h:35,
+                 from /home/user/Enzyme-container/build/include/SCEV/ScalarEvolution.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp:31:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp: In function 'bool {anonymous}::printTypeAnalyses(llvm::Function&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp:92:72: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+   92 |         auto et = cast<PointerType>(a.getType())->getPointerElementType();
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp:122:76: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  122 |       auto et = cast<PointerType>(F.getReturnType())->getPointerElementType();
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[18/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/SimpleGVN.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/SimpleGVN.cpp:87:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Constants.h:31,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/SimpleGVN.cpp:61:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[19/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/TraceUtils.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.h:41,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.cpp:27:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Constants.h:31,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantFolder.h:21,
+                 from /usr/lib/llvm-15/include/llvm/IR/IRBuilder.h:25,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.h:33:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+In file included from /usr/lib/llvm-15/include/llvm/IR/BasicBlock.h:17,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.h:32:
+In constructor 'llvm::Twine::Twine(const char*)',
+    inlined from 'static TraceUtils* TraceUtils::FromClone(ProbProgMode, const llvm::SmallPtrSetImpl<llvm::Function*>&, const llvm::SmallPtrSetImpl<llvm::Function*>&, TraceInterface*, llvm::Function*, llvm::ValueToValueMapTy&)' at /home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.cpp:102:7:
+/usr/lib/llvm-15/include/llvm/ADT/Twine.h:272:16: warning: 'mode_str' may be used uninitialized [-Wmaybe-uninitialized]
+  272 |       if (Str[0] != '\0') {
+      |           ~~~~~^
+/home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.cpp: In static member function 'static TraceUtils* TraceUtils::FromClone(ProbProgMode, const llvm::SmallPtrSetImpl<llvm::Function*>&, const llvm::SmallPtrSetImpl<llvm::Function*>&, TraceInterface*, llvm::Function*, llvm::ValueToValueMapTy&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.cpp:87:15: note: 'mode_str' was declared here
+   87 |   const char *mode_str;
+      |               ^~~~~~~~
+[20/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/PreserveNVVM.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp:49:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Constants.h:31,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp:34:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp: In instantiation of 'void handleCustomDerivative(llvm::Module&, llvm::GlobalVariable&, llvm::SmallVectorImpl<llvm::GlobalVariable*>&) [with const char* handlername = (& gradient_handler_name); DerivativeMode Mode = DerivativeMode::ReverseModeGradient; int numargs = 3]':
+/home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp:484:69:   required from here
+/home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp:208:65: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  208 |                     subTy = arg.getType()->getPointerElementType();
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp:208:65: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  208 |                     subTy = arg.getType()->getPointerElementType();
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp: In function 'bool preserveNVVM(bool, llvm::Module&)':
+/home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp:951:19: warning: 'val' may be used uninitialized [-Wmaybe-uninitialized]
+  951 |       F.setLinkage((Function::LinkageTypes)val);
+      |       ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp:949:15: note: 'val' was declared here
+  949 |       int64_t val;
+      |               ^~~
+[21/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/MustExitScalarEvolution.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:43,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/MustExitScalarEvolution.cpp:29:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantRange.h:35,
+                 from /home/user/Enzyme-container/build/include/SCEV/ScalarEvolution.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/MustExitScalarEvolution.h:38,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/MustExitScalarEvolution.cpp:28:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[22/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/TypeAnalysis/RustDebugInfo.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp:32:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Constants.h:31,
+                 from /usr/lib/llvm-15/include/llvm/IR/DebugInfoMetadata.h:25,
+                 from /usr/lib/llvm-15/include/llvm/IR/DIBuilder.h:25,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp:27:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[23/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/TraceGenerator.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.h:47,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.h:32,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp:26:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Function.h:29,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstVisitor.h:13,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.h:29:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp: In member function 'void TraceGenerator::handleArbitraryCall(llvm::CallInst&, llvm::CallInst*)':
+/home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp:393:24: warning: 'replacement' may be used uninitialized [-Wmaybe-uninitialized]
+  393 |   replacement->takeName(new_call);
+      |   ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp:303:16: note: 'replacement' was declared here
+  303 |   Instruction *replacement;
+      |                ^~~~~~~~~~~
+In file included from /usr/lib/llvm-15/include/llvm/IR/Function.h:22:
+In constructor 'llvm::Twine::Twine(const char*)',
+    inlined from 'void TraceGenerator::handleSampleCall(llvm::CallInst&, llvm::CallInst*)' at /home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp:216:7:
+/usr/lib/llvm-15/include/llvm/ADT/Twine.h:272:16: warning: 'mode_str' may be used uninitialized [-Wmaybe-uninitialized]
+  272 |       if (Str[0] != '\0') {
+      |           ~~~~~^
+/home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp: In member function 'void TraceGenerator::handleSampleCall(llvm::CallInst&, llvm::CallInst*)':
+/home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp:203:15: note: 'mode_str' was declared here
+  203 |   const char *mode_str;
+      |               ^~~~~~~~
+[24/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/InstructionBatcher.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.h:47,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/InstructionBatcher.h:48,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/InstructionBatcher.cpp:27:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantRange.h:35,
+                 from /home/user/Enzyme-container/build/include/SCEV/ScalarEvolution.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/InstructionBatcher.h:38:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[25/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/ActivityAnalysisPrinter.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysisPrinter.cpp:52:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantRange.h:35,
+                 from /usr/lib/llvm-15/include/llvm/Analysis/ScalarEvolution.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysisPrinter.cpp:27:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysisPrinter.cpp: In function 'bool {anonymous}::printActivityAnalysis(llvm::Function&, llvm::TargetLibraryInfo&)':
+/home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysisPrinter.cpp:91:53: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+   91 |         auto et = a.getType()->getPointerElementType();
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysisPrinter.cpp:116:57: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  116 |       auto et = F.getReturnType()->getPointerElementType();
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[26/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/DiffeGradientUtils.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:68,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.h:31,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:30:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantRange.h:35,
+                 from /home/user/Enzyme-container/build/include/SCEV/ScalarEvolution.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:43:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/13/cassert:44,
+                 from /usr/lib/llvm-15/include/llvm/IR/InlineAsm.h:21,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/LibraryFuncs.h:30,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:49:
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp: In member function 'llvm::AllocaInst* DiffeGradientUtils::getDifferential(llvm::Value*)':
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:219:64: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  219 |     assert(differentials[val]->getType()->getPointerElementType() == type);
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp: In member function 'void DiffeGradientUtils::setDiffe(llvm::Value*, llvm::Value*, llvm::IRBuilder<>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:895:70: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  895 |     if (toset->getType() != tostore->getType()->getPointerElementType()) {
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:899:73: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  899 |     assert(toset->getType() == tostore->getType()->getPointerElementType());
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp: In member function 'virtual llvm::CallInst* DiffeGradientUtils::freeCache(llvm::BasicBlock*, const CacheUtility::SubLimitType&, int, llvm::AllocaInst*, llvm::Type*, llvm::ConstantInt*, llvm::Value*, llvm::MDNode*)':
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:942:62: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  942 |     assert(T == metaforfree->getType()->getPointerElementType());
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp: In member function 'void DiffeGradientUtils::addToInvertedPtrDiffe(llvm::Instruction*, llvm::Value*, llvm::Type*, unsigned int, unsigned int, llvm::Value*, llvm::Value*, llvm::IRBuilder<>&, llvm::MaybeAlign, llvm::Value*)':
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:1004:58: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 1004 |     needsCast = origptr->getType()->getPointerElementType() != addingType;
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[27/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/CacheUtility.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:43,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.h:52,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp:27:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantRange.h:35,
+                 from /home/user/Enzyme-container/build/include/SCEV/ScalarEvolution.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.h:37:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp: In member function 'void CacheUtility::storeInstructionInCache(LimitContext, llvm::IRBuilder<>&, llvm::Value*, llvm::AllocaInst*, llvm::MDNode*)':
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp:1433:68: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 1433 |     if (tostore->getType() != loc->getType()->getPointerElementType()) {
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/13/cassert:44,
+                 from /usr/lib/llvm-15/include/llvm/Support/SMLoc.h:18,
+                 from /usr/lib/llvm-15/include/llvm/Support/SourceMgr.h:20,
+                 from /usr/lib/llvm-15/include/llvm/IR/DiagnosticInfo.h:26,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Utils.h:65:
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp:1438:71: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 1438 |     assert(tostore->getType() == loc->getType()->getPointerElementType());
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[28/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/FixupJuliaCallingConvention.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:43,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:2:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantRange.h:35,
+                 from /home/user/Enzyme-container/build/include/SCEV/ScalarEvolution.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:39:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FixupJuliaCallingConvention.cpp: In function 'void EnzymeFixupJuliaCallingConvention(llvm::Function*, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:727:60: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  727 |       auto T = FT->getParamType(idx)->getPointerElementType();
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:752:61: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  752 |       auto NT = FT->getParamType(idx)->getPointerElementType();
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[29/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/ActivityAnalysis.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.cpp:55:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Constants.h:31,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.cpp:40:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[30/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/CApi.cpp.o
+In file included from /usr/lib/llvm-15/include/llvm/Transforms/IPO/Attributor.h:109,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/CApi.cpp:56:
+/usr/lib/llvm-15/include/llvm/Analysis/CFG.h:129:1: warning: multi-line comment [-Wcomment]
+  129 | ///  /   \
+      | ^
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/CApi.cpp:25:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Function.h:29,
+                 from /usr/lib/llvm-15/include/llvm/IR/PassManager.h:45,
+                 from /usr/lib/llvm-15/include/llvm/Analysis/AliasAnalysis.h:44,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Utils.h:32:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CApi.cpp: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/CApi.cpp:1147:19: warning: 'ID' initialized and declared 'extern'
+ 1147 | extern "C++" char MyAttributorLegacyPass::ID = 0;
+      |                   ^~~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[31/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/DifferentialUseAnalysis.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:68,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.h:31,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DifferentialUseAnalysis.h:43,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DifferentialUseAnalysis.cpp:32:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantRange.h:35,
+                 from /home/user/Enzyme-container/build/include/SCEV/ScalarEvolution.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:43:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[32/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/Utils.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:25:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Function.h:29,
+                 from /usr/lib/llvm-15/include/llvm/IR/PassManager.h:45,
+                 from /usr/lib/llvm-15/include/llvm/Analysis/AliasAnalysis.h:44,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Utils.h:32:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp: In function 'llvm::Value* CreateAllocation(llvm::IRBuilder<>&, llvm::Type*, llvm::Value*, const llvm::Twine&, llvm::CallInst**, llvm::Instruction**, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:721:45: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  721 |       needsCast = !PT->getPointerElementType()->isIntegerTy(8);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp: In function 'llvm::Value* lookup_with_layout(llvm::IRBuilder<>&, llvm::Type*, llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1205:56: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 1205 |     if (fpType != ptr->getType()->getPointerElementType()) {
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/13/cassert:44,
+                 from /usr/lib/llvm-15/include/llvm/IR/InlineAsm.h:21,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:43:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp: In function 'llvm::Function* getOrInsertMemcpyMat(llvm::Module&, llvm::Type*, llvm::PointerType*, llvm::IntegerType*, unsigned int, unsigned int)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1845:39: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 1845 |       assert(PT->getPointerElementType() == elementType);
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp: In function 'llvm::Function* getOrInsertDifferentialFloatMemcpyMat(llvm::Module&, llvm::Type*, llvm::PointerType*, llvm::IntegerType*, llvm::IntegerType*, unsigned int, unsigned int, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1965:39: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 1965 |       assert(PT->getPointerElementType() == elementType);
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[33/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/Enzyme.cpp.o
+In file included from /usr/lib/llvm-15/include/llvm/Transforms/IPO/Attributor.h:109,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:89:
+/usr/lib/llvm-15/include/llvm/Analysis/CFG.h:129:1: warning: multi-line comment [-Wcomment]
+  129 | ///  /   \
+      | ^
+In file included from /usr/lib/llvm-15/include/llvm/Transforms/Scalar/JumpThreading.h:22,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:3124:
+/usr/lib/llvm-15/include/llvm/Analysis/BranchProbabilityInfo.h:85:1: warning: multi-line comment [-Wcomment]
+   85 | ///         /   \
+      | ^
+/usr/lib/llvm-15/include/llvm/Analysis/BranchProbabilityInfo.h:88:1: warning: multi-line comment [-Wcomment]
+   88 | ///     /   \
+      | ^
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:76:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantRange.h:35,
+                 from /home/user/Enzyme-container/build/include/SCEV/ScalarEvolution.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:35:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp: In function 'llvm::Value* {anonymous}::castToDiffeFunctionArgType(llvm::IRBuilder<>&, llvm::CallInst*, llvm::FunctionType*, llvm::Type*, unsigned int, DerivativeMode, llvm::Value*, unsigned int)':
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:140:63: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  140 |               res, PointerType::get(ptr->getPointerElementType(),
+      |                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp: In static member function 'static llvm::Optional<{anonymous}::EnzymeBase::Options> {anonymous}::EnzymeBase::handleArguments(llvm::IRBuilder<>&, llvm::CallInst*, llvm::Function*, DerivativeMode, bool, std::vector<DIFFE_TYPE>&, llvm::SmallVectorImpl<llvm::Value*>&, std::map<int, llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:980:69: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  980 |                     res, PointerType::get(ptr->getPointerElementType(),
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp: In static member function 'static FnTypeInfo {anonymous}::EnzymeBase::populate_type_args(TypeAnalysis&, llvm::Function*, DerivativeMode)':
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:1152:55: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 1152 |           auto et = a.getType()->getPointerElementType();
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+In file included from /usr/include/c++/13/map:63,
+                 from /usr/lib/llvm-15/include/llvm/Support/JSON.h:56,
+                 from /usr/lib/llvm-15/include/llvm/Analysis/TensorSpec.h:16,
+                 from /usr/lib/llvm-15/include/llvm/Analysis/InlineModelFeatureMaps.h:13,
+                 from /usr/lib/llvm-15/include/llvm/Analysis/InlineCost.h:19,
+                 from /usr/lib/llvm-15/include/llvm/Analysis/InlineAdvisor.h:13,
+                 from /usr/lib/llvm-15/include/llvm/Transforms/IPO/Inliner.h:14,
+                 from /usr/lib/llvm-15/include/llvm/Passes/PassBuilder.h:25,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:49:
+In member function 'std::map<_Key, _Tp, _Compare, _Alloc>::const_iterator std::map<_Key, _Tp, _Compare, _Alloc>::find(const key_type&) const [with _Key = AugmentedStruct; _Tp = int; _Compare = std::less<AugmentedStruct>; _Alloc = std::allocator<std::pair<const AugmentedStruct, int> >]',
+    inlined from 'bool {anonymous}::EnzymeBase::HandleAutoDiff(llvm::Instruction*, llvm::CallingConv::ID, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, const std::map<int, llvm::Type*>&, const std::vector<DIFFE_TYPE>&, llvm::Function*, DerivativeMode, Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&)' at /home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:1744:28:
+/usr/include/c++/13/bits/stl_map.h:1245:25: warning: 'aug' may be used uninitialized [-Wmaybe-uninitialized]
+ 1245 |       { return _M_t.find(__x); }
+      |                ~~~~~~~~~^~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp: In member function 'bool {anonymous}::EnzymeBase::HandleAutoDiff(llvm::Instruction*, llvm::CallingConv::ID, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, const std::map<int, llvm::Type*>&, const std::vector<DIFFE_TYPE>&, llvm::Function*, DerivativeMode, Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:1473:28: note: 'aug' was declared here
+ 1473 |     const AugmentedReturn *aug;
+      |                            ^~~
+[34/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/TypeAnalysis/TypeAnalysis.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:54:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Constants.h:31,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:33:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp: In member function 'void TypeAnalyzer::visitCallBase(llvm::CallBase&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:5856:73: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 5856 |                     call.getOperand(1)->getType()->getPointerElementType()) /
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+In file included from /usr/include/c++/13/deque:62,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:26:
+In static member function 'static _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(_Tp*, _Tp*, _Up*) [with _Tp = const int; _Up = int; bool _IsMove = false]',
+    inlined from '_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]' at /usr/include/c++/13/bits/stl_algobase.h:506:30,
+    inlined from '_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]' at /usr/include/c++/13/bits/stl_algobase.h:533:42,
+    inlined from '_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const int*, vector<int, allocator<int> > >; _OI = int*]' at /usr/include/c++/13/bits/stl_algobase.h:540:31,
+    inlined from '_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const int*, vector<int, allocator<int> > >; _OI = int*]' at /usr/include/c++/13/bits/stl_algobase.h:633:7,
+    inlined from 'static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const int*, std::vector<int, std::allocator<int> > >; _ForwardIterator = int*]' at /usr/include/c++/13/bits/stl_uninitialized.h:147:27,
+    inlined from '_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const int*, vector<int, allocator<int> > >; _ForwardIterator = int*]' at /usr/include/c++/13/bits/stl_uninitialized.h:185:15,
+    inlined from '_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const int*, vector<int, allocator<int> > >; _ForwardIterator = int*; _Tp = int]' at /usr/include/c++/13/bits/stl_uninitialized.h:373:37,
+    inlined from 'std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]' at /usr/include/c++/13/bits/stl_vector.h:606:31,
+    inlined from 'TypeTree TypeTree::KeepMinusOne(bool&) const' at /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeTree.h:801:21:
+/usr/include/c++/13/bits/stl_algobase.h:437:30: warning: 'void* __builtin_memmove(void*, const void*, long unsigned int)' forming offset 4 is out of the bounds [0, 4] [-Warray-bounds=]
+  437 |             __builtin_memmove(__result, __first, sizeof(_Tp) * _Num);
+      |             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In static member function 'static void std::__copy_move<false, false, std::random_access_iterator_tag>::__assign_one(_Tp*, _Up*) [with _Tp = int; _Up = const int]',
+    inlined from 'static _Up* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(_Tp*, _Tp*, _Up*) [with _Tp = const int; _Up = int; bool _IsMove = false]' at /usr/include/c++/13/bits/stl_algobase.h:440:20,
+    inlined from '_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]' at /usr/include/c++/13/bits/stl_algobase.h:506:30,
+    inlined from '_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = const int*; _OI = int*]' at /usr/include/c++/13/bits/stl_algobase.h:533:42,
+    inlined from '_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const int*, vector<int, allocator<int> > >; _OI = int*]' at /usr/include/c++/13/bits/stl_algobase.h:540:31,
+    inlined from '_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const int*, vector<int, allocator<int> > >; _OI = int*]' at /usr/include/c++/13/bits/stl_algobase.h:633:7,
+    inlined from 'static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const int*, std::vector<int, std::allocator<int> > >; _ForwardIterator = int*]' at /usr/include/c++/13/bits/stl_uninitialized.h:147:27,
+    inlined from '_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const int*, vector<int, allocator<int> > >; _ForwardIterator = int*]' at /usr/include/c++/13/bits/stl_uninitialized.h:185:15,
+    inlined from '_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const int*, vector<int, allocator<int> > >; _ForwardIterator = int*; _Tp = int]' at /usr/include/c++/13/bits/stl_uninitialized.h:373:37,
+    inlined from 'std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]' at /usr/include/c++/13/bits/stl_vector.h:606:31,
+    inlined from 'constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&) [with _U1 = const std::vector<int, std::allocator<int> >&; _U2 = ConcreteType&; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<true, _T1, _T2>::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> = true; _T1 = std::vector<int, std::allocator<int> >; _T2 = ConcreteType]' at /usr/include/c++/13/bits/stl_pair.h:688:4,
+    inlined from 'constexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = const vector<int, allocator<int> >&; _T2 = ConcreteType&]' at /usr/include/c++/13/bits/stl_pair.h:927:72,
+    inlined from 'bool TypeTree::binopIn(bool&, const TypeTree&, llvm::Instruction::BinaryOps)' at /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeTree.h:1443:40:
+/usr/include/c++/13/bits/stl_algobase.h:398:17: warning: array subscript 0 is outside array bounds of 'int [0]' [-Warray-bounds=]
+  398 |         { *__to = *__from; }
+      |           ~~~~~~^~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:33,
+                 from /usr/include/c++/13/bits/allocator.h:46,
+                 from /usr/include/c++/13/deque:63:
+In member function '_Tp* std::__new_allocator<_Tp>::allocate(size_type, const void*) [with _Tp = int]',
+    inlined from 'static _Tp* std::allocator_traits<std::allocator<_Tp1> >::allocate(allocator_type&, size_type) [with _Tp = int]' at /usr/include/c++/13/bits/alloc_traits.h:482:28,
+    inlined from 'std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]' at /usr/include/c++/13/bits/stl_vector.h:381:33,
+    inlined from 'std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]' at /usr/include/c++/13/bits/stl_vector.h:378:7,
+    inlined from 'void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]' at /usr/include/c++/13/bits/stl_vector.h:398:44,
+    inlined from 'std::_Vector_base<_Tp, _Alloc>::_Vector_base(std::size_t, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]' at /usr/include/c++/13/bits/stl_vector.h:335:26,
+    inlined from 'std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]' at /usr/include/c++/13/bits/stl_vector.h:603:61,
+    inlined from 'constexpr std::pair<_T1, _T2>::pair(_U1&&, _U2&&) [with _U1 = const std::vector<int, std::allocator<int> >&; _U2 = ConcreteType&; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_MoveConstructiblePair<_U1, _U2>() && std::_PCC<true, _T1, _T2>::_ImplicitlyMoveConvertiblePair<_U1, _U2>()), bool>::type <anonymous> = true; _T1 = std::vector<int, std::allocator<int> >; _T2 = ConcreteType]' at /usr/include/c++/13/bits/stl_pair.h:688:4,
+    inlined from 'constexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = const vector<int, allocator<int> >&; _T2 = ConcreteType&]' at /usr/include/c++/13/bits/stl_pair.h:927:72,
+    inlined from 'bool TypeTree::binopIn(bool&, const TypeTree&, llvm::Instruction::BinaryOps)' at /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeTree.h:1443:40:
+/usr/include/c++/13/bits/new_allocator.h:151:55: note: object of size 0 allocated by 'operator new'
+  151 |         return static_cast<_Tp*>(_GLIBCXX_OPERATOR_NEW(__n * sizeof(_Tp)));
+      |                                                       ^
+[35/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/FunctionUtils.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:43,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:25:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantRange.h:35,
+                 from /home/user/Enzyme-container/build/include/SCEV/ScalarEvolution.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:39:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp: In function 'void RecursivelyReplaceAddressSpace(llvm::SmallVector<std::tuple<llvm::Value*, llvm::Value*, llvm::Instruction*>, 1>&, llvm::SmallVector<llvm::Instruction*, 1>&, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:335:49: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  335 |             CI->getType()->getPointerElementType(),
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:363:73: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  363 |           resTy = PointerType::get(rep->getType()->getPointerElementType(), 11);
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:474:73: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  474 |           resTy = PointerType::get(rep->getType()->getPointerElementType(), 11);
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:495:71: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  495 |                 PointerType::get(rep->getType()->getPointerElementType(), 11);
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp: In member function 'void PreProcessCache::LowerAllocAddr(llvm::Function*)':
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:1123:46: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 1123 |         AIV->getType()->getPointerElementType() !=
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:1124:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 1124 |             T->getType()->getPointerElementType()) {
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:1128:55: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 1128 |                    T->getType()->getPointerElementType(),
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp: In function 'void SimplifyMPIQueries(llvm::Function&, llvm::FunctionAnalysisManager&)':
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:1405:38: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 1405 |         if (PT->getPointerElementType() != res->getType())
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp: In lambda function:
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:8759:75: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 8759 |           V = B.CreateAddrSpaceCast(V, getUnqual(PT->getPointerElementType()));
+      |                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[36/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/GradientUtils.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:68,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:33:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-15/include/llvm/IR/ConstantRange.h:35,
+                 from /home/user/Enzyme-container/build/include/SCEV/ScalarEvolution.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:43:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp: In member function 'llvm::Value* GradientUtils::cacheForReverse(llvm::IRBuilder<>&, llvm::Value*, int, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:2792:55: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 2792 |           innerType = innerType->getPointerElementType();
+      |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/13/cassert:44,
+                 from /usr/lib/llvm-15/include/llvm/IR/InlineAsm.h:21,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/LibraryFuncs.h:30,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DifferentialUseAnalysis.h:45,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:37:
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:2854:55: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 2854 |         assert(cache->getType()->getPointerElementType() == ret->getType());
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:3122:53: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3122 |         innerType = innerType->getPointerElementType();
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp: In member function 'llvm::Value* GradientUtils::invertPointerM(llvm::Value*, llvm::IRBuilder<>&, TypeTree)':
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:5877:38: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 5877 |             PT->getPointerElementType()->isFunctionTy()) {
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+[37/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/EnzymeLogic.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.h:47,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:30:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Function.h:29,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.h:37:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:32:
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h: In member function 'void AdjointGenerator::visitMemSetCommon(llvm::CallInst&)':
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:3184:50: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3184 |               auto ET = PT->getPointerElementType();
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h: In member function 'void AdjointGenerator::visitMemTransferCommon(llvm::Intrinsic::ID, llvm::MaybeAlign, llvm::MaybeAlign, llvm::CallInst&, llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*)':
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:3499:52: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3499 |                 auto ET = PT->getPointerElementType();
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:4216:
+/home/user/Enzyme-container/build/Enzyme/BlasDerivatives.inc: In lambda function:
+/home/user/Enzyme-container/build/Enzyme/BlasDerivatives.inc:7262:45: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 7262 |       needsCast = !PT->getPointerElementType()->isIntegerTy(8);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h: In member function 'void AdjointGenerator::DifferentiableMemCopyFloats(llvm::CallInst&, llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, llvm::IRBuilder<>&, llvm::ArrayRef<llvm::OperandBundleDefT<llvm::Value*> >)':
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:4813:40: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 4811 |             cast<CastInst>(origArg)
+      |             ~~~~~~~~~~~~~~~~~~~~~~~     
+ 4812 |                 ->getSrcTy()
+      |                 ~~~~~~~~~~~~            
+ 4813 |                 ->getPointerElementType()
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:4817:65: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 4815 |           vd = TypeTree(ConcreteType(cast<CastInst>(origArg)
+      |                                      ~~~~~~~~~~~~~~~~~~~~~~~     
+ 4816 |                                          ->getSrcTy()
+      |                                          ~~~~~~~~~~~~            
+ 4817 |                                          ->getPointerElementType()
+      |                                          ~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp: In member function 'const AugmentedReturn& EnzymeLogic::CreateAugmentedPrimal(RequestContext, llvm::Function*, DIFFE_TYPE, llvm::ArrayRef<DIFFE_TYPE>, TypeAnalysis&, bool, bool, const FnTypeInfo&, bool, std::vector<bool>, bool, bool, bool, unsigned int, bool, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:2982:29: warning: 'tapeMemory' may be used uninitialized [-Wmaybe-uninitialized]
+ 2982 |           gep = ib.CreateGEP(tapeType, tapeMemory, Idxs, "");
+      |                 ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:2915:12: note: 'tapeMemory' was declared here
+ 2915 |     Value *tapeMemory;
+      |            ^~~~~~~~~~
+[38/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-15.dir/CallDerivatives.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:68,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.h:31,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:42,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:27:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: In function 'DIFFE_TYPE whatType(llvm::Type*, DerivativeMode, bool, std::set<llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:546:48: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  546 |     switch (whatType(arg->getPointerElementType(), mode, integersAreConstant,
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-15/include/llvm/IR/DerivedTypes.h:23,
+                 from /usr/lib/llvm-15/include/llvm/IR/Constants.h:31,
+                 from /usr/lib/llvm-15/include/llvm/Analysis/ValueTracking.h:20,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:34:
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h: In member function 'void AdjointGenerator::visitMemSetCommon(llvm::CallInst&)':
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:3184:50: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3184 |               auto ET = PT->getPointerElementType();
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h: In member function 'void AdjointGenerator::visitMemTransferCommon(llvm::Intrinsic::ID, llvm::MaybeAlign, llvm::MaybeAlign, llvm::CallInst&, llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*)':
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:3499:52: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3499 |                 auto ET = PT->getPointerElementType();
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:4216:
+/home/user/Enzyme-container/build/Enzyme/BlasDerivatives.inc: In lambda function:
+/home/user/Enzyme-container/build/Enzyme/BlasDerivatives.inc:7262:45: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 7262 |       needsCast = !PT->getPointerElementType()->isIntegerTy(8);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h: In member function 'void AdjointGenerator::DifferentiableMemCopyFloats(llvm::CallInst&, llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, llvm::IRBuilder<>&, llvm::ArrayRef<llvm::OperandBundleDefT<llvm::Value*> >)':
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:4813:40: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 4811 |             cast<CastInst>(origArg)
+      |             ~~~~~~~~~~~~~~~~~~~~~~~     
+ 4812 |                 ->getSrcTy()
+      |                 ~~~~~~~~~~~~            
+ 4813 |                 ->getPointerElementType()
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:4817:65: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 4815 |           vd = TypeTree(ConcreteType(cast<CastInst>(origArg)
+      |                                      ~~~~~~~~~~~~~~~~~~~~~~~     
+ 4816 |                                          ->getSrcTy()
+      |                                          ~~~~~~~~~~~~            
+ 4817 |                                          ->getPointerElementType()
+      |                                          ~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp: In member function 'void AdjointGenerator::handleMPI(llvm::CallInst&, llvm::Function*, llvm::StringRef)':
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:157:51: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  157 |             statusType = PT->getPointerElementType();
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:680:51: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+  680 |             statusType = PT->getPointerElementType();
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp: In member function 'bool AdjointGenerator::handleKnownCallDerivatives(llvm::CallInst&, llvm::Function*, llvm::StringRef, bool, const std::vector<bool>&, llvm::CallInst*)':
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3143:67: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3143 |                         elTy = U->getType()->getPointerElementType();
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp: In lambda function:
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3177:63: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3177 |                     if (anti->getType()->getPointerElementType() != elTy)
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3180:75: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3180 |                           getUnqual(anti->getType()->getPointerElementType()));
+      |                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3189:65: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3189 |                           anti->getType()->getPointerElementType(), AS);
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp: In lambda function:
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3366:57: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3366 |               elTy = U->getType()->getPointerElementType();
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3402:50: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3402 |         if (call.getType()->getPointerElementType() != elTy)
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3404:75: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3404 |               replacement, getUnqual(call.getType()->getPointerElementType()));
+      |                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3411:70: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3411 |           PT = PointerType::get(call.getType()->getPointerElementType(), AS);
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp: In member function 'bool AdjointGenerator::handleKnownCallDerivatives(llvm::CallInst&, llvm::Function*, llvm::StringRef, bool, const std::vector<bool>&, llvm::CallInst*)':
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3779:69: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3779 |         PT = call.getArgOperand(0)->getType()->getPointerElementType();
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3842:69: warning: 'llvm::Type* llvm::Type::getPointerElementType() const' is deprecated: Deprecated without replacement, see https://llvm.org/docs/OpaquePointers.html for context and migration instructions [-Wdeprecated-declarations]
+ 3842 |         PT = call.getArgOperand(0)->getType()->getPointerElementType();
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-15/include/llvm/IR/Type.h:380:9: note: declared here
+  380 |   Type *getPointerElementType() const {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp: In member function 'bool AdjointGenerator::handleKnownCallDerivatives(llvm::CallInst&, llvm::Function*, llvm::StringRef, bool, const std::vector<bool>&, llvm::CallInst*)':
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3954:42: warning: 'val' may be used uninitialized [-Wmaybe-uninitialized]
+ 3954 |           Value *tofree = gutils->lookupM(val, Builder2, ValueToValueMapTy(),
+      |                           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 3955 |                                           /*tryLegalRecompute*/ false);
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3837:12: note: 'val' was declared here
+ 3837 |     Value *val;
+      |            ^~~
+[39/39] Linking CXX shared module Enzyme/LLVMEnzyme-15.so
+[0/2] Re-checking globbed directories...
+[1/7] Building Fortran preprocessed Fortran/CMakeFiles/EnzymeFortran.dir/enzyme.f90-pp.f90
+[2/7] Building Fortran preprocessed Fortran/CMakeFiles/EnzymeFortran.dir/enzyme_function_hooks.f90-pp.f90
+[3/7] Generating Fortran dyndep file Fortran/CMakeFiles/EnzymeFortran.dir/Fortran.dd
+[4/7] Building Fortran object Fortran/CMakeFiles/EnzymeFortran.dir/enzyme_function_hooks.f90.o
+[5/7] Building Fortran object Fortran/CMakeFiles/EnzymeFortran.dir/enzyme.f90.o
+[6/7] Linking Fortran shared library Fortran/libEnzymeFortran.so
+[6/7] Running enzyme fortran integration tests
+-- Testing: 6 tests, 6 workers --
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 60.. 70.. 80.. 90.. 
+
+Testing Time: 0.45s
+
+Total Discovered Tests: 6
+  Passed: 6 (100.00%)

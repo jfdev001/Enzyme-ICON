@@ -2,9 +2,13 @@
 # @brief Replicate fortran workflows install for use in container
 # @examples
 # ```
-# docker run -it -v $(pwd):/home/user/Enzyme enzyme-fortran
+# docker run -it -v /tmp:/home/user/tmp -v $(pwd):/home/user/Enzyme enzyme-fortran
 # cd Enzyme
 # ./container_depinstall_config_build_test 2023.0.0 15
+#
+# docker run -it -v /tmp:/home/user/tmp -v $(pwd):/home/user/Enzyme enzyme-fortran
+# cd Enzyme
+# ./container_depinstall_config_build_test 2025.3 21 2>&1 | tee ~/tmp/log.out
 # ```
 set -e
 
@@ -46,6 +50,7 @@ fi
 sudo apt-get install -y intel-oneapi-compiler-fortran-${matrix_ifx_version}
 source /opt/intel/oneapi/setvars.sh --force
 echo $(ifx --version)
+echo $(llvm-dis-${matrix_llvm} --version)
 
 # configure build
 rm -rf ~/Enzyme-container

@@ -1,0 +1,1655 @@
+--2026-06-30 07:49:28--  https://apt.llvm.org/llvm-snapshot.gpg.key
+Resolving apt.llvm.org (apt.llvm.org)... 151.101.6.49, 2a04:4e42:1::561
+Connecting to apt.llvm.org (apt.llvm.org)|151.101.6.49|:443... connected.
+Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).
+HTTP request sent, awaiting response... 200 OK
+Length: 3167 (3.1K) [application/octet-stream]
+Saving to: 'STDOUT'
+
+     0K ...                                                   100% 76.8M=0s
+
+2026-06-30 07:49:28 (76.8 MB/s) - written to stdout [3167/3167]
+
+OK
+Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy InRelease
+Get:1 https://apt.llvm.org/jammy llvm-toolchain-jammy-21 InRelease [5557 B]
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Get:5 https://apt.repos.intel.com/oneapi all InRelease [5684 B]
+Hit:6 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:7 https://ppa.launchpadcontent.net/ubuntu-toolchain-r/test/ubuntu jammy InRelease
+Get:8 https://apt.llvm.org/jammy llvm-toolchain-jammy-21/main amd64 Packages [13.4 kB]
+Get:9 https://apt.repos.intel.com/oneapi all/main amd64 Packages [884 kB]
+Get:10 https://apt.repos.intel.com/oneapi all/main all Packages [251 kB]
+Fetched 1160 kB in 1s (1119 kB/s)
+Reading package lists...
+W: http://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-21/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: https://apt.repos.intel.com/oneapi/dists/all/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+Repository: 'deb http://apt.llvm.org/jammy/ llvm-toolchain-jammy-21 main'
+Description:
+Archive for codename: llvm-toolchain-jammy-21 components: main
+More info: http://apt.llvm.org/jammy/
+Adding repository.
+Adding deb entry to /etc/apt/sources.list.d/archive_uri-http_apt_llvm_org_jammy_-jammy.list
+Adding disabled deb-src entry to /etc/apt/sources.list.d/archive_uri-http_apt_llvm_org_jammy_-jammy.list
+Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:4 https://apt.repos.intel.com/oneapi all InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:6 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:1 https://apt.llvm.org/jammy llvm-toolchain-jammy-21 InRelease
+Hit:7 https://ppa.launchpadcontent.net/ubuntu-toolchain-r/test/ubuntu jammy InRelease
+Reading package lists...
+W: https://apt.repos.intel.com/oneapi/dists/all/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: http://apt.llvm.org/jammy/dists/llvm-toolchain-jammy-21/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  icu-devtools libclang-cpp21 libffi-dev libicu-dev libllvm21 libpfm4
+  libxml2-dev llvm-21 llvm-21-linker-tools llvm-21-runtime llvm-21-tools
+  python3-pygments python3-yaml
+Suggested packages:
+  icu-doc pkg-config llvm-21-doc python-pygments-doc ttf-bitstream-vera
+The following NEW packages will be installed:
+  icu-devtools libclang-cpp21 libffi-dev libicu-dev libllvm21 libpfm4
+  libxml2-dev llvm-21 llvm-21-dev llvm-21-linker-tools llvm-21-runtime
+  llvm-21-tools python3-pygments python3-yaml
+0 upgraded, 14 newly installed, 0 to remove and 6 not upgraded.
+Need to get 135 MB of archives.
+After this operation, 744 MB of additional disk space will be used.
+Get:2 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-yaml amd64 5.4.1-1ubuntu1 [129 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 icu-devtools amd64 70.1-2 [197 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 libicu-dev amd64 70.1-2 [11.6 MB]
+Get:1 https://apt.llvm.org/jammy llvm-toolchain-jammy-21/main amd64 libllvm21 amd64 1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77 [31.0 MB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxml2-dev amd64 2.9.13+dfsg-1ubuntu0.12 [805 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpfm4 amd64 4.11.1+git32-gd0b85fb-1ubuntu0.1 [345 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy/main amd64 libffi-dev amd64 3.4.2-4 [63.7 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-pygments all 2.11.2+dfsg-2ubuntu0.1 [750 kB]
+Get:3 https://apt.llvm.org/jammy llvm-toolchain-jammy-21/main amd64 libclang-cpp21 amd64 1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77 [14.0 MB]
+Get:4 https://apt.llvm.org/jammy llvm-toolchain-jammy-21/main amd64 llvm-21-runtime amd64 1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77 [644 kB]
+Get:7 https://apt.llvm.org/jammy llvm-toolchain-jammy-21/main amd64 llvm-21-linker-tools amd64 1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77 [1424 kB]
+Get:8 https://apt.llvm.org/jammy llvm-toolchain-jammy-21/main amd64 llvm-21 amd64 1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77 [20.2 MB]
+Get:9 https://apt.llvm.org/jammy llvm-toolchain-jammy-21/main amd64 llvm-21-tools amd64 1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77 [627 kB]
+Get:10 https://apt.llvm.org/jammy llvm-toolchain-jammy-21/main amd64 llvm-21-dev amd64 1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77 [53.1 MB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 135 MB in 5s (25.5 MB/s)
+Selecting previously unselected package python3-yaml.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 24727 files and directories currently installed.)
+Preparing to unpack .../00-python3-yaml_5.4.1-1ubuntu1_amd64.deb ...
+Unpacking python3-yaml (5.4.1-1ubuntu1) ...
+Selecting previously unselected package icu-devtools.
+Preparing to unpack .../01-icu-devtools_70.1-2_amd64.deb ...
+Unpacking icu-devtools (70.1-2) ...
+Selecting previously unselected package libllvm21:amd64.
+Preparing to unpack .../02-libllvm21_1%3a21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77_amd64.deb ...
+Unpacking libllvm21:amd64 (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Selecting previously unselected package libclang-cpp21.
+Preparing to unpack .../03-libclang-cpp21_1%3a21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77_amd64.deb ...
+Unpacking libclang-cpp21 (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Selecting previously unselected package libicu-dev:amd64.
+Preparing to unpack .../04-libicu-dev_70.1-2_amd64.deb ...
+Unpacking libicu-dev:amd64 (70.1-2) ...
+Selecting previously unselected package libxml2-dev:amd64.
+Preparing to unpack .../05-libxml2-dev_2.9.13+dfsg-1ubuntu0.12_amd64.deb ...
+Unpacking libxml2-dev:amd64 (2.9.13+dfsg-1ubuntu0.12) ...
+Selecting previously unselected package llvm-21-runtime.
+Preparing to unpack .../06-llvm-21-runtime_1%3a21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77_amd64.deb ...
+Unpacking llvm-21-runtime (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Selecting previously unselected package llvm-21-linker-tools.
+Preparing to unpack .../07-llvm-21-linker-tools_1%3a21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77_amd64.deb ...
+Unpacking llvm-21-linker-tools (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Selecting previously unselected package libpfm4:amd64.
+Preparing to unpack .../08-libpfm4_4.11.1+git32-gd0b85fb-1ubuntu0.1_amd64.deb ...
+Unpacking libpfm4:amd64 (4.11.1+git32-gd0b85fb-1ubuntu0.1) ...
+Selecting previously unselected package llvm-21.
+Preparing to unpack .../09-llvm-21_1%3a21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77_amd64.deb ...
+Unpacking llvm-21 (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Selecting previously unselected package libffi-dev:amd64.
+Preparing to unpack .../10-libffi-dev_3.4.2-4_amd64.deb ...
+Unpacking libffi-dev:amd64 (3.4.2-4) ...
+Selecting previously unselected package python3-pygments.
+Preparing to unpack .../11-python3-pygments_2.11.2+dfsg-2ubuntu0.1_all.deb ...
+Unpacking python3-pygments (2.11.2+dfsg-2ubuntu0.1) ...
+Selecting previously unselected package llvm-21-tools.
+Preparing to unpack .../12-llvm-21-tools_1%3a21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77_amd64.deb ...
+Unpacking llvm-21-tools (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Selecting previously unselected package llvm-21-dev.
+Preparing to unpack .../13-llvm-21-dev_1%3a21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77_amd64.deb ...
+Unpacking llvm-21-dev (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Setting up python3-yaml (5.4.1-1ubuntu1) ...
+Setting up libffi-dev:amd64 (3.4.2-4) ...
+Setting up python3-pygments (2.11.2+dfsg-2ubuntu0.1) ...
+Setting up libpfm4:amd64 (4.11.1+git32-gd0b85fb-1ubuntu0.1) ...
+Setting up libllvm21:amd64 (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Setting up icu-devtools (70.1-2) ...
+Setting up llvm-21-linker-tools (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Setting up libicu-dev:amd64 (70.1-2) ...
+Setting up libxml2-dev:amd64 (2.9.13+dfsg-1ubuntu0.12) ...
+Setting up libclang-cpp21 (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Setting up llvm-21-tools (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Setting up llvm-21-runtime (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Setting up llvm-21 (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Setting up llvm-21-dev (1:21.1.8~++20251221032842+2078da43e25a-1~exp1~20251221153008.77) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.13) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  intel-oneapi-common-licensing-2025.3 intel-oneapi-common-licensing-2026.0
+  intel-oneapi-common-oneapi-vars-2025.3
+  intel-oneapi-common-oneapi-vars-2026.0 intel-oneapi-common-vars
+  intel-oneapi-compiler-fortran-common-2025.3
+  intel-oneapi-compiler-fortran-runtime-2025.3
+  intel-oneapi-compiler-shared-2025.3
+  intel-oneapi-compiler-shared-common-2025.3
+  intel-oneapi-compiler-shared-runtime-2025.3
+  intel-oneapi-dpcpp-debugger-2025.3 intel-oneapi-mpi-2021.17
+  intel-oneapi-openmp-2025.3 intel-oneapi-openmp-common-2025.3
+  intel-oneapi-tcm-1.4 intel-oneapi-umf-1.0
+The following NEW packages will be installed:
+  intel-oneapi-common-licensing-2025.3 intel-oneapi-common-licensing-2026.0
+  intel-oneapi-common-oneapi-vars-2025.3
+  intel-oneapi-common-oneapi-vars-2026.0 intel-oneapi-common-vars
+  intel-oneapi-compiler-fortran-2025.3
+  intel-oneapi-compiler-fortran-common-2025.3
+  intel-oneapi-compiler-fortran-runtime-2025.3
+  intel-oneapi-compiler-shared-2025.3
+  intel-oneapi-compiler-shared-common-2025.3
+  intel-oneapi-compiler-shared-runtime-2025.3
+  intel-oneapi-dpcpp-debugger-2025.3 intel-oneapi-mpi-2021.17
+  intel-oneapi-openmp-2025.3 intel-oneapi-openmp-common-2025.3
+  intel-oneapi-tcm-1.4 intel-oneapi-umf-1.0
+0 upgraded, 17 newly installed, 0 to remove and 6 not upgraded.
+Need to get 807 MB of archives.
+After this operation, 2367 MB of additional disk space will be used.
+Get:1 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-common-licensing-2025.3 all 2025.3.1-15 [31.1 kB]
+Get:2 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-common-licensing-2026.0 all 2026.0.0-235 [30.7 kB]
+Get:3 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-common-oneapi-vars-2025.3 all 2025.3.1-15 [10.6 kB]
+Get:4 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-common-oneapi-vars-2026.0 all 2026.0.0-235 [10.6 kB]
+Get:5 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-common-vars all 2026.0.0-235 [12.7 kB]
+Get:6 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-mpi-2021.17 amd64 2021.17.2-91 [51.2 MB]
+Get:7 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-compiler-shared-common-2025.3 all 2025.3.3-30 [73.7 MB]
+Get:8 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-openmp-common-2025.3 all 2025.3.3-30 [17.0 kB]
+Get:9 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-tcm-1.4 amd64 1.4.1-445 [657 kB]
+Get:10 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-umf-1.0 amd64 1.0.3-17 [114 kB]
+Get:11 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-openmp-2025.3 amd64 2025.3.3-30 [91.7 MB]
+Get:12 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-compiler-shared-runtime-2025.3 amd64 2025.3.3-30 [96.7 MB]
+Get:13 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-dpcpp-debugger-2025.3 amd64 2025.3.1-7 [444 MB]
+Get:14 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-compiler-shared-2025.3 amd64 2025.3.3-30 [15.2 MB]
+Get:15 https://apt.repos.intel.com/oneapi all/main all intel-oneapi-compiler-fortran-common-2025.3 all 2025.3.3-30 [111 kB]
+Get:16 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-compiler-fortran-runtime-2025.3 amd64 2025.3.3-30 [526 kB]
+Get:17 https://apt.repos.intel.com/oneapi all/main amd64 intel-oneapi-compiler-fortran-2025.3 amd64 2025.3.3-30 [33.5 MB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 807 MB in 7s (111 MB/s)
+Selecting previously unselected package intel-oneapi-common-licensing-2025.3.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29021 files and directories currently installed.)
+Preparing to unpack .../00-intel-oneapi-common-licensing-2025.3_2025.3.1-15_all.deb ...
+Unpacking intel-oneapi-common-licensing-2025.3 (2025.3.1-15) ...
+Selecting previously unselected package intel-oneapi-common-licensing-2026.0.
+Preparing to unpack .../01-intel-oneapi-common-licensing-2026.0_2026.0.0-235_all.deb ...
+Unpacking intel-oneapi-common-licensing-2026.0 (2026.0.0-235) ...
+Selecting previously unselected package intel-oneapi-common-oneapi-vars-2025.3.
+Preparing to unpack .../02-intel-oneapi-common-oneapi-vars-2025.3_2025.3.1-15_all.deb ...
+Unpacking intel-oneapi-common-oneapi-vars-2025.3 (2025.3.1-15) ...
+Selecting previously unselected package intel-oneapi-common-oneapi-vars-2026.0.
+Preparing to unpack .../03-intel-oneapi-common-oneapi-vars-2026.0_2026.0.0-235_all.deb ...
+Unpacking intel-oneapi-common-oneapi-vars-2026.0 (2026.0.0-235) ...
+Selecting previously unselected package intel-oneapi-common-vars.
+Preparing to unpack .../04-intel-oneapi-common-vars_2026.0.0-235_all.deb ...
+Unpacking intel-oneapi-common-vars (2026.0.0-235) ...
+Selecting previously unselected package intel-oneapi-mpi-2021.17.
+Preparing to unpack .../05-intel-oneapi-mpi-2021.17_2021.17.2-91_amd64.deb ...
+Unpacking intel-oneapi-mpi-2021.17 (2021.17.2-91) ...
+Selecting previously unselected package intel-oneapi-compiler-shared-common-2025.3.
+Preparing to unpack .../06-intel-oneapi-compiler-shared-common-2025.3_2025.3.3-30_all.deb ...
+Unpacking intel-oneapi-compiler-shared-common-2025.3 (2025.3.3-30) ...
+Selecting previously unselected package intel-oneapi-openmp-common-2025.3.
+Preparing to unpack .../07-intel-oneapi-openmp-common-2025.3_2025.3.3-30_all.deb ...
+Unpacking intel-oneapi-openmp-common-2025.3 (2025.3.3-30) ...
+Selecting previously unselected package intel-oneapi-tcm-1.4.
+Preparing to unpack .../08-intel-oneapi-tcm-1.4_1.4.1-445_amd64.deb ...
+Unpacking intel-oneapi-tcm-1.4 (1.4.1-445) ...
+Selecting previously unselected package intel-oneapi-umf-1.0.
+Preparing to unpack .../09-intel-oneapi-umf-1.0_1.0.3-17_amd64.deb ...
+Unpacking intel-oneapi-umf-1.0 (1.0.3-17) ...
+Selecting previously unselected package intel-oneapi-openmp-2025.3.
+Preparing to unpack .../10-intel-oneapi-openmp-2025.3_2025.3.3-30_amd64.deb ...
+Unpacking intel-oneapi-openmp-2025.3 (2025.3.3-30) ...
+Selecting previously unselected package intel-oneapi-compiler-shared-runtime-2025.3.
+Preparing to unpack .../11-intel-oneapi-compiler-shared-runtime-2025.3_2025.3.3-30_amd64.deb ...
+Unpacking intel-oneapi-compiler-shared-runtime-2025.3 (2025.3.3-30) ...
+Selecting previously unselected package intel-oneapi-dpcpp-debugger-2025.3.
+Preparing to unpack .../12-intel-oneapi-dpcpp-debugger-2025.3_2025.3.1-7_amd64.deb ...
+Unpacking intel-oneapi-dpcpp-debugger-2025.3 (2025.3.1-7) ...
+Selecting previously unselected package intel-oneapi-compiler-shared-2025.3.
+Preparing to unpack .../13-intel-oneapi-compiler-shared-2025.3_2025.3.3-30_amd64.deb ...
+Unpacking intel-oneapi-compiler-shared-2025.3 (2025.3.3-30) ...
+Selecting previously unselected package intel-oneapi-compiler-fortran-common-2025.3.
+Preparing to unpack .../14-intel-oneapi-compiler-fortran-common-2025.3_2025.3.3-30_all.deb ...
+Unpacking intel-oneapi-compiler-fortran-common-2025.3 (2025.3.3-30) ...
+Selecting previously unselected package intel-oneapi-compiler-fortran-runtime-2025.3.
+Preparing to unpack .../15-intel-oneapi-compiler-fortran-runtime-2025.3_2025.3.3-30_amd64.deb ...
+Unpacking intel-oneapi-compiler-fortran-runtime-2025.3 (2025.3.3-30) ...
+Selecting previously unselected package intel-oneapi-compiler-fortran-2025.3.
+Preparing to unpack .../16-intel-oneapi-compiler-fortran-2025.3_2025.3.3-30_amd64.deb ...
+Unpacking intel-oneapi-compiler-fortran-2025.3 (2025.3.3-30) ...
+Setting up intel-oneapi-common-licensing-2026.0 (2026.0.0-235) ...
+Setting up intel-oneapi-common-licensing-2025.3 (2025.3.1-15) ...
+Setting up intel-oneapi-common-oneapi-vars-2025.3 (2025.3.1-15) ...
+Setting up intel-oneapi-common-oneapi-vars-2026.0 (2026.0.0-235) ...
+Setting up intel-oneapi-common-vars (2026.0.0-235) ...
+Setting up intel-oneapi-mpi-2021.17 (2021.17.2-91) ...
+Setting up intel-oneapi-openmp-common-2025.3 (2025.3.3-30) ...
+Setting up intel-oneapi-tcm-1.4 (1.4.1-445) ...
+Setting up intel-oneapi-dpcpp-debugger-2025.3 (2025.3.1-7) ...
+Setting up intel-oneapi-umf-1.0 (1.0.3-17) ...
+Setting up intel-oneapi-compiler-shared-common-2025.3 (2025.3.3-30) ...
+Setting up intel-oneapi-compiler-fortran-common-2025.3 (2025.3.3-30) ...
+Setting up intel-oneapi-openmp-2025.3 (2025.3.3-30) ...
+Setting up intel-oneapi-compiler-shared-runtime-2025.3 (2025.3.3-30) ...
+Setting up intel-oneapi-compiler-fortran-runtime-2025.3 (2025.3.3-30) ...
+Setting up intel-oneapi-compiler-shared-2025.3 (2025.3.3-30) ...
+Setting up intel-oneapi-compiler-fortran-2025.3 (2025.3.3-30) ...
+ 
+:: initializing oneAPI environment ...
+   container_depinstall_config_build_test: BASH_VERSION = 5.1.16(1)-release
+   args: Using "$@" for setvars.sh arguments: --force
+:: compiler -- latest
+:: debugger -- latest
+:: mpi -- latest
+:: umf -- latest
+:: oneAPI environment initialized ::
+ 
+ifx (IFX) 2025.3.3 20260319 Copyright (C) 1985-2026 Intel Corporation. All rights reserved.
+Ubuntu LLVM version 21.1.8 Optimized build.
+-- The C compiler identification is GNU 13.4.0
+-- The CXX compiler identification is GNU 13.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+LLVM_SHLIBEXT=.so
+LLVM ABS DIR /usr/lib/llvm-21/lib/cmake/llvm
+CMAKE_PREFIX_PATH 
+-- Performing Test HAVE_FFI_CALL
+-- Performing Test HAVE_FFI_CALL - Success
+-- Found FFI: /usr/lib/x86_64-linux-gnu/libffi.so  
+-- Looking for histedit.h
+-- Looking for histedit.h - found
+-- Found LibEdit: /usr/include (found version "2.11") 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found zstd: /usr/lib/x86_64-linux-gnu/libzstd.so  
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.13") 
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+found llvm lit /usr/local/bin/lit
+LLVM dir /usr/lib/llvm-21/lib/cmake/llvm
+clang dir from llvm 
+-- Linker detection: GNU ld
+clang dir 
+mlir dir 
+found Clang 0
+found MLIR 0
+LLVM_INSTALL_PREFIX: /usr/lib/llvm-21
+LLVM_INCLUDE_DIRS: /usr/lib/llvm-21/include
+found LLVM definitions -D_GNU_SOURCE -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+found LLVM version 21
+first llvm include directory/usr/lib/llvm-21/include
+-- Looking for mpfr.h
+-- Looking for mpfr.h - not found
+MPFR lib: MPFR_LIB_PATH-NOTFOUND
+MPFR header: 
+-- Performing Test LLVM_LINKER_SUPPORTS_B_SYMBOLIC_FUNCTIONS
+-- Performing Test LLVM_LINKER_SUPPORTS_B_SYMBOLIC_FUNCTIONS - Success
+Building Fortran bindings
+-- The Fortran compiler identification is IntelLLVM 2025.3.3
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /opt/intel/oneapi/compiler/2025.3/bin/ifx - skipped
+-- Detecting Fortran/C Interface
+-- Detecting Fortran/C Interface - Found GLOBAL and MODULE mangling
+-- Verifying Fortran/C Compiler Compatibility
+-- Verifying Fortran/C Compiler Compatibility - Failed
+Building Fortran tests
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/Enzyme-container/build
+[0/2] Re-checking globbed directories...
+[1/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/caching.cpp.o
+[2/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/datastructures.cpp.o
+[3/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/blas-tblgen.cpp.o
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/blas-tblgen.cpp: In function 'llvm::SmallString<80> ValueType_helper(const TGPattern&, ssize_t, const llvm::DagInit*)':
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/blas-tblgen.cpp:810:15: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'ssize_t' {aka 'long int'} [-Wsign-compare]
+  810 |       if (pos == actPos || actPos == -1) {
+      |           ~~~~^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/blas-tblgen.cpp:822:69: warning: comparison of integer expressions of different signedness: 'ssize_t' {aka 'long int'} and 'size_t' {aka 'long unsigned int'} [-Wsign-compare]
+  822 |           (!ruleDag || hasAdjoint(pattern, ruleDag, name) || actPos == pos)
+      |                                                              ~~~~~~~^~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/blas-tblgen.cpp:826:15: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'ssize_t' {aka 'long int'} [-Wsign-compare]
+  826 |       if (pos == actPos || actPos == -1) {
+      |           ~~~~^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/blas-tblgen.cpp:840:68: warning: comparison of integer expressions of different signedness: 'ssize_t' {aka 'long int'} and 'size_t' {aka 'long unsigned int'} [-Wsign-compare]
+  840 |       if (!ruleDag || hasAdjoint(pattern, ruleDag, name) || actPos == pos) {
+      |                                                             ~~~~~~~^~~~~~
+[4/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/enzyme-tblgen.cpp.o
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp: In function 'bool handle(const llvm::Twine&, const llvm::Twine&, llvm::raw_ostream&, const llvm::Record*, const llvm::Init*, llvm::StringRef, VariableSetting&, bool, llvm::ArrayRef<unsigned int>, llvm::StringRef, bool, ActionType)':
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:385:30: warning: 'llvm::ArrayRef<const llvm::Init*> llvm::ListInit::getValues() const' is deprecated: Use getElements instead [-Wdeprecated-declarations]
+  385 |       if (indicesP->getValues().size() == 1 &&
+      |           ~~~~~~~~~~~~~~~~~~~^~
+In file included from /home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:27:
+/usr/lib/llvm-21/include/llvm/TableGen/Record.h:777:26: note: declared here
+  777 |   ArrayRef<const Init *> getValues() const { return getElements(); }
+      |                          ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:386:44: warning: 'llvm::ArrayRef<const llvm::Init*> llvm::ListInit::getValues() const' is deprecated: Use getElements instead [-Wdeprecated-declarations]
+  386 |           cast<IntInit>(indicesP->getValues()[0])->getValue() == -1) {
+      |                         ~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/TableGen/Record.h:777:26: note: declared here
+  777 |   ArrayRef<const Init *> getValues() const { return getElements(); }
+      |                          ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:389:44: warning: 'llvm::ArrayRef<const llvm::Init*> llvm::ListInit::getValues() const' is deprecated: Use getElements instead [-Wdeprecated-declarations]
+  389 |         for (auto res : indicesP->getValues()) {
+      |                         ~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/TableGen/Record.h:777:26: note: declared here
+  777 |   ArrayRef<const Init *> getValues() const { return getElements(); }
+      |                          ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp: In function 'void emitDerivatives(const llvm::RecordKeeper&, llvm::raw_ostream&, ActionType)':
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:2050:57: warning: 'llvm::ArrayRef<const llvm::Init*> llvm::ListInit::getValues() const' is deprecated: Use getElements instead [-Wdeprecated-declarations]
+ 2050 |         StringRef name = cast<StringInit>(lst->getValues()[0])->getValue();
+      |                                           ~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/TableGen/Record.h:777:26: note: declared here
+  777 |   ArrayRef<const Init *> getValues() const { return getElements(); }
+      |                          ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:2052:53: warning: 'llvm::ArrayRef<const llvm::Init*> llvm::ListInit::getValues() const' is deprecated: Use getElements instead [-Wdeprecated-declarations]
+ 2052 |           auto min = cast<StringInit>(lst->getValues()[1])->getValue();
+      |                                       ~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/TableGen/Record.h:777:26: note: declared here
+  777 |   ArrayRef<const Init *> getValues() const { return getElements(); }
+      |                          ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:2058:55: warning: 'llvm::ArrayRef<const llvm::Init*> llvm::ListInit::getValues() const' is deprecated: Use getElements instead [-Wdeprecated-declarations]
+ 2058 |             auto max = cast<StringInit>(lst->getValues()[2])->getValue();
+      |                                         ~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/TableGen/Record.h:777:26: note: declared here
+  777 |   ArrayRef<const Init *> getValues() const { return getElements(); }
+      |                          ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp: In function 'void emitDiffUse(const llvm::RecordKeeper&, llvm::raw_ostream&, ActionType)':
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:2942:57: warning: 'llvm::ArrayRef<const llvm::Init*> llvm::ListInit::getValues() const' is deprecated: Use getElements instead [-Wdeprecated-declarations]
+ 2942 |         StringRef name = cast<StringInit>(lst->getValues()[0])->getValue();
+      |                                           ~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/TableGen/Record.h:777:26: note: declared here
+  777 |   ArrayRef<const Init *> getValues() const { return getElements(); }
+      |                          ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:2944:53: warning: 'llvm::ArrayRef<const llvm::Init*> llvm::ListInit::getValues() const' is deprecated: Use getElements instead [-Wdeprecated-declarations]
+ 2944 |           auto min = cast<StringInit>(lst->getValues()[1])->getValue();
+      |                                       ~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/TableGen/Record.h:777:26: note: declared here
+  777 |   ArrayRef<const Init *> getValues() const { return getElements(); }
+      |                          ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:2953:55: warning: 'llvm::ArrayRef<const llvm::Init*> llvm::ListInit::getValues() const' is deprecated: Use getElements instead [-Wdeprecated-declarations]
+ 2953 |             auto max = cast<StringInit>(lst->getValues()[2])->getValue();
+      |                                         ~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/TableGen/Record.h:777:26: note: declared here
+  777 |   ArrayRef<const Init *> getValues() const { return getElements(); }
+      |                          ^~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/ADT/SmallString.h:18,
+                 from /usr/lib/llvm-21/include/llvm/ADT/StringExtras.h:19,
+                 from /home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:15:
+In constructor 'constexpr llvm::StringRef::StringRef(const char*)',
+    inlined from 'void emitDiffUse(const llvm::RecordKeeper&, llvm::raw_ostream&, ActionType)' at /home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:2891:63:
+/usr/lib/llvm-21/include/llvm/ADT/StringRef.h:91:11: warning: 'patternNames' may be used uninitialized [-Wmaybe-uninitialized]
+   91 |         : Data(Str), Length(Str ?
+      |           ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp: In function 'void emitDiffUse(const llvm::RecordKeeper&, llvm::raw_ostream&, ActionType)':
+/home/user/Enzyme-container/enzyme/tools/enzyme-tblgen/enzyme-tblgen.cpp:2869:15: note: 'patternNames' was declared here
+ 2869 |   const char *patternNames;
+      |               ^~~~~~~~~~~~
+[5/39] Linking CXX executable tools/enzyme-tblgen/enzyme-tblgen
+[6/39] Building InstructionDerivatives.inc...
+[7/39] Building BinopDerivatives.inc...
+[8/39] Building IntrinsicDerivatives.inc...
+[9/39] Building BlasTA.inc...
+[10/39] Building BlasAttributor.inc...
+[11/39] Building BlasDiffUse.inc...
+[12/39] Building BlasDerivatives.inc...
+[13/39] Building CallDerivatives.inc...
+[14/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/TypeAnalysis/TypeTree.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeTree.cpp:36:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[15/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/TraceInterface.cpp.o
+/home/user/Enzyme-container/enzyme/Enzyme/TraceInterface.cpp: In member function 'llvm::Function* DynamicTraceInterface::MaterializeInterfaceFunction(llvm::IRBuilder<>&, llvm::Value*, llvm::FunctionType*, unsigned int, llvm::Module&, const llvm::Twine&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TraceInterface.cpp:371:30: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  371 |   auto pty = PointerType::get(FTy, load->getPointerAddressSpace());
+      |              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:26,
+                 from /usr/lib/llvm-21/include/llvm/IR/ConstantFold.h:24,
+                 from /usr/lib/llvm-21/include/llvm/IR/ConstantFolder.h:21,
+                 from /usr/lib/llvm-21/include/llvm/IR/IRBuilder.h:24,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceInterface.h:30,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceInterface.cpp:27:
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TraceInterface.cpp:29:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[16/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/JLInstSimplify.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/LibraryFuncs.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/JLInstSimplify.cpp:53:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[17/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/TraceUtils.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.h:41,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.cpp:27:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:18,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.h:32:
+In constructor 'llvm::Twine::Twine(const char*)',
+    inlined from 'static TraceUtils* TraceUtils::FromClone(ProbProgMode, const llvm::SmallPtrSetImpl<llvm::Function*>&, const llvm::SmallPtrSetImpl<llvm::Function*>&, TraceInterface*, llvm::Function*, llvm::ValueToValueMapTy&)' at /home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.cpp:102:7:
+/usr/lib/llvm-21/include/llvm/ADT/Twine.h:275:16: warning: 'mode_str' may be used uninitialized [-Wmaybe-uninitialized]
+  275 |       if (Str[0] != '\0') {
+      |           ~~~~~^
+/home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.cpp: In static member function 'static TraceUtils* TraceUtils::FromClone(ProbProgMode, const llvm::SmallPtrSetImpl<llvm::Function*>&, const llvm::SmallPtrSetImpl<llvm::Function*>&, TraceInterface*, llvm::Function*, llvm::ValueToValueMapTy&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TraceUtils.cpp:87:15: note: 'mode_str' was declared here
+   87 |   const char *mode_str;
+      |               ^~~~~~~~
+[18/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/MustExitScalarEvolution.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:43,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/MustExitScalarEvolution.cpp:29:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[19/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/SimpleGVN.cpp.o
+/home/user/Enzyme-container/enzyme/Enzyme/SimpleGVN.cpp: In function 'llvm::Value* {anonymous}::extractValue(llvm::IRBuilder<>&, llvm::Value*, llvm::Type*, const llvm::DataLayout&, llvm::APInt, llvm::APInt, uint64_t)':
+/home/user/Enzyme-container/enzyme/Enzyme/SimpleGVN.cpp:127:45: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  127 |         Type *T_prjlvalue = PointerType::get(T_jlvalue, 11); // Derived is 11
+      |                             ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:26,
+                 from /usr/lib/llvm-21/include/llvm/IR/ConstantRange.h:35,
+                 from /usr/lib/llvm-21/include/llvm/IR/Constants.h:29,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/SimpleGVN.cpp:61:
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/SimpleGVN.cpp:128:44: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  128 |         Type *T_pjlvalue = PointerType::get(T_jlvalue, 0);
+      |                            ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/SimpleGVN.cpp:136:38: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  136 |           StoredVal, PointerType::get(T_jlvalue, 11));
+      |                      ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/SimpleGVN.cpp:190:47: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  190 |         Type *PtrAddrSpace0 = PointerType::get(EmptyStructTy, 0);
+      |                               ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/SimpleGVN.cpp:87:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[20/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/PreserveNVVM.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp:49:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp: In function 'bool preserveNVVM(bool, llvm::Module&)':
+/home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp:951:19: warning: 'val' may be used uninitialized [-Wmaybe-uninitialized]
+  951 |       F.setLinkage((Function::LinkageTypes)val);
+      |       ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/PreserveNVVM.cpp:949:15: note: 'val' was declared here
+  949 |       int64_t val;
+      |               ^~~
+[21/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/TypeAnalysis/RustDebugInfo.cpp.o
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp: In function 'TypeTree parseDIType(llvm::DICompositeType&, llvm::Instruction&, llvm::DataLayout&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp:68:63: warning: 'T llvm::PointerUnion<PTs>::get() const [with T = llvm::ConstantInt*; PTs = {llvm::ConstantInt*, llvm::DIVariable*, llvm::DIExpression*}]' is deprecated: Use cast instead [-Wdeprecated-declarations]
+   68 |       if (auto Count = Subrange->getCount().get<ConstantInt *>()) {
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-21/include/llvm/IR/DebugInfoMetadata.h:18,
+                 from /usr/lib/llvm-21/include/llvm/IR/DIBuilder.h:24,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp:27:
+/usr/lib/llvm-21/include/llvm/ADT/PointerUnion.h:161:12: note: declared here
+  161 |   inline T get() const {
+      |            ^~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp:32:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[22/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/TraceGenerator.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.h:47,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.h:32,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp:26:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/Function.h:22,
+                 from /usr/lib/llvm-21/include/llvm/IR/InstVisitor.h:13,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.h:29:
+In constructor 'llvm::Twine::Twine(const char*)',
+    inlined from 'void TraceGenerator::handleSampleCall(llvm::CallInst&, llvm::CallInst*)' at /home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp:216:7:
+/usr/lib/llvm-21/include/llvm/ADT/Twine.h:275:16: warning: 'mode_str' may be used uninitialized [-Wmaybe-uninitialized]
+  275 |       if (Str[0] != '\0') {
+      |           ~~~~~^
+/home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp: In member function 'void TraceGenerator::handleSampleCall(llvm::CallInst&, llvm::CallInst*)':
+/home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp:203:15: note: 'mode_str' was declared here
+  203 |   const char *mode_str;
+      |               ^~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp: In member function 'void TraceGenerator::handleArbitraryCall(llvm::CallInst&, llvm::CallInst*)':
+/home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp:393:24: warning: 'replacement' may be used uninitialized [-Wmaybe-uninitialized]
+  393 |   replacement->takeName(new_call);
+      |   ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TraceGenerator.cpp:303:16: note: 'replacement' was declared here
+  303 |   Instruction *replacement;
+      |                ^~~~~~~~~~~
+[23/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/InstructionBatcher.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.h:47,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/InstructionBatcher.h:48,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/InstructionBatcher.cpp:27:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[24/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/TypeAnalysis/TypeAnalysisPrinter.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp:57:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[25/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/ActivityAnalysisPrinter.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysisPrinter.cpp:52:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[26/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/CacheUtility.cpp.o
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp: In function 'std::pair<llvm::PHINode*, llvm::Instruction*> FindCanonicalIV(llvm::Loop*, llvm::Type*)':
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp:198:22: warning: 'void llvm::Instruction::moveBefore(llvm::Instruction*)' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+  198 |       Inc->moveBefore(getFirstNonPHIOrDbg(Header));
+      |       ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/DebugProgramInstruction.h:55,
+                 from /usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:23,
+                 from /usr/lib/llvm-21/include/llvm/IR/Function.h:27,
+                 from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-21/include/llvm/IR/ConstantRange.h:35,
+                 from /usr/lib/llvm-21/include/llvm/Analysis/ScalarEvolution.h:32,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.h:33,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp:27:
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:246:37: note: declared here
+  246 |                            "") void moveBefore(Instruction *MovePos);
+      |                                     ^~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp: In function 'void RemoveRedundantIVs(llvm::BasicBlock*, llvm::PHINode*, llvm::Instruction*, MustExitScalarEvolution&, llvm::function_ref<void(llvm::Instruction*, llvm::Value*)>, llvm::function_ref<void(llvm::Instruction*)>)':
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp:259:68: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+  259 |         Exp.expandCodeFor(S, Tmp->getType(), Header->getFirstNonPHI());
+      |                                              ~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp:286:64: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+  286 |   Increment->moveAfter(CanonicalIV->getParent()->getFirstNonPHI());
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp: In function 'void CanonicalizeLatches(const llvm::Loop*, llvm::BasicBlock*, llvm::BasicBlock*, llvm::PHINode*, MustExitScalarEvolution&, CacheUtility&, llvm::Instruction*, llvm::ArrayRef<llvm::BasicBlock*>)':
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp:400:66: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+  400 |     Increment->moveAfter(CanonicalIV->getParent()->getFirstNonPHI());
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp: In member function 'void CacheUtility::storeInstructionInCache(LimitContext, llvm::Instruction*, llvm::AllocaInst*, llvm::MDNode*)':
+/home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.cpp:1489:69: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 1489 |                                 ? (inst->getParent()->getFirstNonPHI())
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:43,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/CacheUtility.h:52:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[27/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/FixupJuliaCallingConvention.cpp.o
+/home/user/Enzyme-container/enzyme/Enzyme/FixupJuliaCallingConvention.cpp: In function 'bool needsReRooting(llvm::Argument*, bool&, llvm::Type*)':
+/home/user/Enzyme-container/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:85:69: warning: 'static llvm::PointerType* llvm::PointerType::getUnqual(llvm::Type*)' is deprecated: PointerType::getUnqual with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+   85 |         auto nullp = ConstantPointerNull::get(PointerType::getUnqual(SRetType));
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:26,
+                 from /usr/lib/llvm-21/include/llvm/IR/ConstantRange.h:35,
+                 from /usr/lib/llvm-21/include/llvm/Analysis/ScalarEvolution.h:32,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:35,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:2:
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:720:23: note: declared here
+  720 |   static PointerType *getUnqual(Type *ElementType) {
+      |                       ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:88:67: warning: 'static llvm::PointerType* llvm::PointerType::getUnqual(llvm::Type*)' is deprecated: PointerType::getUnqual with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+   88 |         if (gep == ConstantPointerNull::get(PointerType::getUnqual(PT))) {
+      |                                             ~~~~~~~~~~~~~~~~~~~~~~^~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:720:23: note: declared here
+  720 |   static PointerType *getUnqual(Type *ElementType) {
+      |                       ^~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FixupJuliaCallingConvention.cpp: In function 'void EnzymeFixupJuliaCallingConvention(llvm::Function*, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:716:38: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  716 |   auto T_prjlvalue = PointerType::get(T_jlvalue, AddressSpace::Tracked);
+      |                      ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:43:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[28/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/ActivityAnalysis.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.cpp:55:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[29/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/DiffeGradientUtils.cpp.o
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp: In lambda function:
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:1017:34: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1017 |             ptr, PointerType::get(
+      |                  ~~~~~~~~~~~~~~~~^
+ 1018 |                      i8, cast<PointerType>(ptr->getType())->getAddressSpace()));
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:26,
+                 from /usr/lib/llvm-21/include/llvm/IR/ConstantRange.h:35,
+                 from /usr/lib/llvm-21/include/llvm/Analysis/ScalarEvolution.h:32,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:39,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.h:31,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:30:
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:1024:34: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1024 |             ptr, PointerType::get(
+      |                  ~~~~~~~~~~~~~~~~^
+ 1025 |                      addingType,
+      |                      ~~~~~~~~~~~  
+ 1026 |                      cast<PointerType>(ptr->getType())->getAddressSpace()));
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp: In member function 'void DiffeGradientUtils::addToInvertedPtrDiffe(llvm::Instruction*, llvm::Value*, llvm::Type*, unsigned int, unsigned int, llvm::Value*, llvm::Value*, llvm::IRBuilder<>&, llvm::MaybeAlign, llvm::Value*)':
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:1031:25: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1031 |         PointerType::get(
+      |         ~~~~~~~~~~~~~~~~^
+ 1032 |             addingType,
+      |             ~~~~~~~~~~~  
+ 1033 |             isa<PointerType>(origptr->getType())
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1034 |                 ? cast<PointerType>(origptr->getType())->getAddressSpace()
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1035 |                 : 0),
+      |                 ~~~~     
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp: In lambda function:
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:1119:61: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1119 |                                             PointerType::get(addingType, 1));
+      |                                             ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp: In member function 'void DiffeGradientUtils::addToInvertedPtrDiffe(llvm::Instruction*, llvm::Value*, llvm::Type*, unsigned int, unsigned int, llvm::Value*, llvm::Value*, llvm::IRBuilder<>&, llvm::MaybeAlign, llvm::Value*)':
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:1122:42: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1122 |           applyChainRule(PointerType::get(addingType, 1), BuilderM, rule, ptr);
+      |                          ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp: In member function 'void DiffeGradientUtils::addToInvertedPtrDiffe(llvm::Instruction*, llvm::Value*, TypeTree, unsigned int, llvm::Value*, llvm::Value*, llvm::IRBuilder<>&, llvm::MaybeAlign, llvm::Value*)':
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:1344:33: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1344 |                 PointerType::get(
+      |                 ~~~~~~~~~~~~~~~~^
+ 1345 |                     i8,
+      |                     ~~~          
+ 1346 |                     cast<PointerType>(tostore->getType())->getAddressSpace()));
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.cpp:1354:31: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1354 |               PointerType::get(
+      |               ~~~~~~~~~~~~~~~~^
+ 1355 |                   AT,
+      |                   ~~~          
+ 1356 |                   cast<PointerType>(tostore->getType())->getAddressSpace()));
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:68:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[30/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/CApi.cpp.o
+In file included from /usr/lib/llvm-21/include/llvm/Transforms/IPO/Attributor.h:110,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/CApi.cpp:56:
+/usr/lib/llvm-21/include/llvm/Analysis/CFG.h:142:1: warning: multi-line comment [-Wcomment]
+  142 | ///  /   \
+      | ^
+/home/user/Enzyme-container/enzyme/Enzyme/CApi.cpp: In function 'void EnzymeMoveBefore(LLVMValueRef, LLVMValueRef, LLVMBuilderRef)':
+/home/user/Enzyme-container/enzyme/Enzyme/CApi.cpp:1011:19: warning: 'void llvm::Instruction::moveBefore(llvm::Instruction*)' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 1011 |     I1->moveBefore(I2);
+      |     ~~~~~~~~~~~~~~^~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/DebugProgramInstruction.h:55,
+                 from /usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:23,
+                 from /usr/lib/llvm-21/include/llvm/IR/Function.h:27,
+                 from /usr/lib/llvm-21/include/llvm/Analysis/AliasAnalysis.h:43,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Utils.h:32,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/CApi.cpp:25:
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:246:37: note: declared here
+  246 |                            "") void moveBefore(Instruction *MovePos);
+      |                                     ^~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CApi.cpp: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/CApi.cpp:1147:19: warning: 'ID' initialized and declared 'extern'
+ 1147 | extern "C++" char MyAttributorLegacyPass::ID = 0;
+      |                   ^~~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[31/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/DifferentialUseAnalysis.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:68,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.h:31,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DifferentialUseAnalysis.h:43,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DifferentialUseAnalysis.cpp:32:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[32/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/Utils.cpp.o
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp: In function 'llvm::Function* getOrInsertExponentialAllocator(llvm::Module&, llvm::Function*, bool, llvm::Type*)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:544:25: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  544 |         PointerType::get(Type::getInt8Ty(gVal->getContext()),
+      |         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  545 |                          cast<PointerType>(gVal->getType())->getAddressSpace());
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/Function.h:29,
+                 from /usr/lib/llvm-21/include/llvm/Analysis/AliasAnalysis.h:43,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Utils.h:32,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:25:
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp: In function 'llvm::Value* CreateAllocation(llvm::IRBuilder<>&, llvm::Type*, llvm::Value*, const llvm::Twine&, llvm::CallInst**, llvm::Instruction**, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:728:35: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  728 |           tozero, PointerType::get(Type::getInt8Ty(PT->getContext()),
+      |                   ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  729 |                                    PT->getAddressSpace()));
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp: In function 'llvm::Function* getOrInsertDifferentialFloatMemcpy(llvm::Module&, llvm::Type*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1027:49: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1027 |   std::vector<Type *> argTys = {PointerType::get(elementType, dstaddr),
+      |                                 ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1028:49: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1028 |                                 PointerType::get(elementType, srcaddr),
+      |                                 ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1093:32: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1093 |           dst, PointerType::get(Type::getInt8Ty(M.getContext()), dstaddr));
+      |                ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp: In function 'void callSPMVDiagUpdate(llvm::IRBuilder<>&, llvm::Module&, BlasInfo, llvm::IntegerType*, llvm::Type*, llvm::Type*, llvm::Type*, llvm::Type*, llvm::Type*, llvm::ArrayRef<llvm::Value*>, llvm::ArrayRef<llvm::OperandBundleDefT<llvm::Value*> >, bool, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1491:27: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1491 |           PointerType::get(
+      |           ~~~~~~~~~~~~~~~~^
+ 1492 |               fpTy,
+      |               ~~~~~        
+ 1493 |               cast<PointerType>(blasalpha->getType())->getAddressSpace()));
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1502:25: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1502 |         PointerType::get(
+      |         ~~~~~~~~~~~~~~~~^
+ 1503 |             fpTy, cast<PointerType>(blasx->getType())->getAddressSpace()));
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1506:25: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1506 |         PointerType::get(
+      |         ~~~~~~~~~~~~~~~~^
+ 1507 |             fpTy, cast<PointerType>(blasdy->getType())->getAddressSpace()));
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1510:25: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1510 |         PointerType::get(
+      |         ~~~~~~~~~~~~~~~~^
+ 1511 |             fpTy, cast<PointerType>(blasdAP->getType())->getAddressSpace()));
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp: In function 'llvm::CallInst* getorInsertInnerProd(llvm::IRBuilder<>&, llvm::Module&, BlasInfo, llvm::IntegerType*, llvm::Type*, llvm::Type*, llvm::Type*, llvm::ArrayRef<llvm::Value*>, llvm::ArrayRef<llvm::OperandBundleDefT<llvm::Value*> >, bool, bool, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1670:31: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1670 |         matA, PointerType::get(
+      |               ~~~~~~~~~~~~~~~~^
+ 1671 |                   fpTy, cast<PointerType>(matA->getType())->getAddressSpace()));
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:1673:31: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1673 |         matB, PointerType::get(
+      |               ~~~~~~~~~~~~~~~~^
+ 1674 |                   fpTy, cast<PointerType>(matB->getType())->getAddressSpace()));
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp: In function 'llvm::Value* load_if_ref(llvm::IRBuilder<>&, llvm::Type*, llvm::Value*, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:4124:28: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 4124 |         V, PointerType::get(
+      |            ~~~~~~~~~~~~~~~~^
+ 4125 |                intType, cast<PointerType>(V->getType())->getAddressSpace()));
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp: In function 'llvm::Value* moveSRetToFromRoots(llvm::IRBuilder<>&, llvm::Type*, llvm::Value*, llvm::Type*, llvm::Value*, size_t, SRetRootMovement)':
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:4794:37: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 4794 |             outloc, PointerType::get(StructType::get(outloc->getContext(), {}),
+      |                     ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 4795 |                                      Tracked));
+      |                                      ~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.cpp:4861:34: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 4861 |       auto JLT = PointerType::get(StructType::get(PT->getContext(), {}), 10);
+      |                  ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[33/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/Enzyme.cpp.o
+In file included from /usr/lib/llvm-21/include/llvm/Transforms/IPO/Attributor.h:110,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:89:
+/usr/lib/llvm-21/include/llvm/Analysis/CFG.h:142:1: warning: multi-line comment [-Wcomment]
+  142 | ///  /   \
+      | ^
+In file included from /usr/lib/llvm-21/include/llvm/Transforms/Scalar/JumpThreading.h:22,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:3124:
+/usr/lib/llvm-21/include/llvm/Analysis/BranchProbabilityInfo.h:85:1: warning: multi-line comment [-Wcomment]
+   85 | ///         /   \
+      | ^
+/usr/lib/llvm-21/include/llvm/Analysis/BranchProbabilityInfo.h:88:1: warning: multi-line comment [-Wcomment]
+   88 | ///     /   \
+      | ^
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp: In function 'bool {anonymous}::ReplaceOriginalCall(llvm::IRBuilder<>&, llvm::Value*, llvm::Type*, llvm::Value*, llvm::Instruction*, DerivativeMode)':
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:350:69: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+  350 |     IRBuilder<> EB(CI->getFunction()->getEntryBlock().getFirstNonPHI());
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-21/include/llvm/IR/Function.h:27,
+                 from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-21/include/llvm/IR/ConstantRange.h:35,
+                 from /usr/lib/llvm-21/include/llvm/Analysis/ScalarEvolution.h:32,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:31:
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp: In static member function 'static std::optional<{anonymous}::EnzymeBase::Options> {anonymous}::EnzymeBase::handleArguments(llvm::IRBuilder<>&, llvm::CallInst*, llvm::Function*, DerivativeMode, bool, std::vector<DIFFE_TYPE>&, llvm::SmallVectorImpl<llvm::Value*>&, std::map<int, llvm::Type*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:617:37: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  617 |             sretPt, PointerType::get(Ty, pty->getAddressSpace()));
+      |                     ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:26:
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:621:30: warning: 'void llvm::Instruction::insertBefore(llvm::Instruction*)' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+  621 |         primalA->insertBefore(CI);
+      |         ~~~~~~~~~~~~~~~~~~~~~^~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/DebugProgramInstruction.h:55,
+                 from /usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:23:
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:217:37: note: declared here
+  217 |                            "") void insertBefore(Instruction *InsertPos);
+      |                                     ^~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:634:39: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  634 |               sretPt, PointerType::get(Ty, pty->getAddressSpace()));
+      |                       ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:641:33: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  641 |                 PointerType::get(Ty, pty->getAddressSpace()), width));
+      |                 ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:906:29: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  906 |             PointerType::get(
+      |             ~~~~~~~~~~~~~~~~^
+  907 |                 subTy, cast<PointerType>(res->getType())->getAddressSpace()));
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:1054:44: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1054 |                   element, PointerType::get(Type::getInt8Ty(CI->getContext()),
+      |                            ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1055 |                                             elementPtrTy->getAddressSpace()));
+      |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp: In member function 'bool {anonymous}::EnzymeBase::HandleBatch(llvm::CallInst*)':
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:1374:44: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1374 |                   element, PointerType::get(Type::getInt8Ty(CI->getContext()),
+      |                            ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1375 |                                             elementPtrTy->getAddressSpace()));
+      |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp: In member function 'bool {anonymous}::EnzymeBase::HandleAutoDiff(llvm::Instruction*, llvm::CallingConv::ID, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, const std::map<int, llvm::Type*>&, const std::vector<DIFFE_TYPE>&, llvm::Function*, DerivativeMode, Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:1681:35: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1681 |             tape, PointerType::get(
+      |                   ~~~~~~~~~~~~~~~~^
+ 1682 |                       tapeType,
+      |                       ~~~~~~~~~    
+ 1683 |                       cast<PointerType>(tape->getType())->getAddressSpace()));
+      |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:1757:33: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 1757 |                 PointerType::get(
+      |                 ~~~~~~~~~~~~~~~~^
+ 1758 |                     tapeRes->getType(),
+      |                     ~~~~~~~~~~~~~~~~~~~
+ 1759 |                     cast<PointerType>(tape->getType())->getAddressSpace())));
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp: In member function 'bool {anonymous}::EnzymeBase::HandleProbProg(llvm::CallInst*, ProbProgMode, llvm::SmallVectorImpl<llvm::CallInst*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:1896:62: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 1896 |     IRBuilder<> AllocaBuilder(CI->getParent()->getFirstNonPHI());
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp: In member function 'bool {anonymous}::EnzymeBase::lowerEnzymeCalls(llvm::Function&, std::set<llvm::Function*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:2086:29: warning: 'llvm::InsertPosition::InsertPosition(llvm::Instruction*)' is deprecated: Use BasicBlock::iterators for insertion instead [-Wdeprecated-declarations]
+ 2086 |             CallInst::Create(II->getFunctionType(), II->getCalledOperand(),
+      |             ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 2087 |                              CallArgs, OpBundles, "", II);
+      |                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:58:7: note: declared here
+   58 |       InsertPosition(Instruction *InsertBefore);
+      |       ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:2095:27: warning: 'llvm::InsertPosition::InsertPosition(llvm::Instruction*)' is deprecated: Use BasicBlock::iterators for insertion instead [-Wdeprecated-declarations]
+ 2095 |         BranchInst::Create(II->getNormalDest(), II);
+      |         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:58:7: note: declared here
+   58 |       InsertPosition(Instruction *InsertBefore);
+      |       ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:2509:33: warning: 'void llvm::Instruction::insertBefore(llvm::Instruction*)' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 2509 |             cloned->insertBefore(B1);
+      |             ~~~~~~~~~~~~~~~~~~~~^~~~
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:217:37: note: declared here
+  217 |                            "") void insertBefore(Instruction *InsertPos);
+      |                                     ^~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:2513:27: warning: 'void llvm::Instruction::moveBefore(llvm::Instruction*)' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 2513 |             CI->moveBefore(B2);
+      |             ~~~~~~~~~~~~~~^~~~
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:246:37: note: declared here
+  246 |                            "") void moveBefore(Instruction *MovePos);
+      |                                     ^~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:2516:49: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 2516 |               IRBuilder<> P(post->getFirstNonPHI());
+      |                             ~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:76:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+In file included from /usr/include/c++/13/map:63,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:58:
+In member function 'std::map<_Key, _Tp, _Compare, _Alloc>::const_iterator std::map<_Key, _Tp, _Compare, _Alloc>::find(const key_type&) const [with _Key = AugmentedStruct; _Tp = int; _Compare = std::less<AugmentedStruct>; _Alloc = std::allocator<std::pair<const AugmentedStruct, int> >]',
+    inlined from 'bool {anonymous}::EnzymeBase::HandleAutoDiff(llvm::Instruction*, llvm::CallingConv::ID, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, const std::map<int, llvm::Type*>&, const std::vector<DIFFE_TYPE>&, llvm::Function*, DerivativeMode, Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&)' at /home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:1744:28:
+/usr/include/c++/13/bits/stl_map.h:1245:25: warning: 'aug' may be used uninitialized [-Wmaybe-uninitialized]
+ 1245 |       { return _M_t.find(__x); }
+      |                ~~~~~~~~~^~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp: In member function 'bool {anonymous}::EnzymeBase::HandleAutoDiff(llvm::Instruction*, llvm::CallingConv::ID, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, const std::map<int, llvm::Type*>&, const std::vector<DIFFE_TYPE>&, llvm::Function*, DerivativeMode, Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/Enzyme.cpp:1473:28: note: 'aug' was declared here
+ 1473 |     const AugmentedReturn *aug;
+      |                            ^~~
+[34/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/TypeAnalysis/TypeAnalysis.cpp.o
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp: In function 'void getConstantAnalysis(llvm::Constant*, TypeAnalyzer&, std::map<llvm::Value*, TypeTree>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:858:20: warning: 'void llvm::Instruction::insertBefore(llvm::Instruction*)' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+  858 |     I->insertBefore(TA.fntypeinfo.Function->getEntryBlock().getTerminator());
+      |     ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/DebugProgramInstruction.h:55,
+                 from /usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:23,
+                 from /usr/lib/llvm-21/include/llvm/IR/Function.h:27,
+                 from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-21/include/llvm/IR/ConstantRange.h:35,
+                 from /usr/lib/llvm-21/include/llvm/IR/Constants.h:29,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:33:
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:217:37: note: declared here
+  217 |                            "") void insertBefore(Instruction *InsertPos);
+      |                                     ^~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp: In member function 'void TypeAnalyzer::visitConstantExpr(llvm::ConstantExpr&)':
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:1873:18: warning: 'void llvm::Instruction::insertBefore(llvm::Instruction*)' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 1873 |   I->insertBefore(fntypeinfo.Function->getEntryBlock().getTerminator());
+      |   ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:217:37: note: declared here
+  217 |                            "") void insertBefore(Instruction *InsertPos);
+      |                                     ^~~~~~~~~~~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:54:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[35/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/FunctionUtils.cpp.o
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp: In function 'void RecursivelyReplaceAddressSpace(llvm::SmallVector<std::tuple<llvm::Value*, llvm::Value*, llvm::Instruction*>, 1>&, llvm::SmallVector<llvm::Instruction*, 1>&, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:513:33: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+  513 |                 PointerType::get(StructType::get(SI->getContext(), {}), 10);
+      |                 ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:26,
+                 from /usr/lib/llvm-21/include/llvm/IR/ConstantRange.h:35,
+                 from /usr/lib/llvm-21/include/llvm/Analysis/ScalarEvolution.h:32,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:35,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:25:
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp: In function 'void SimplifyMPIQueries(llvm::Function&, llvm::FunctionAnalysisManager&)':
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:1436:59: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 1436 |       B.SetInsertPoint(II->getNormalDest()->getFirstNonPHI());
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-21/include/llvm/IR/Function.h:27,
+                 from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:28:
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:1452:61: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 1452 |         B.SetInsertPoint(II->getNormalDest()->getFirstNonPHI());
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp: In function 'std::optional<std::__cxx11::basic_string<char> > fixSparse_inner(llvm::Instruction*, llvm::Function&, QueueType&, llvm::DominatorTree&, llvm::ScalarEvolution&, llvm::LoopInfo&, const llvm::DataLayout&)':
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:6470:53: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 6470 |     B.SetInsertPoint(PN->getParent()->getFirstNonPHI());
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:6495:53: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 6495 |         auto point = PN->getParent()->getFirstNonPHI();
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:7011:30: warning: 'void llvm::Instruction::moveBefore(llvm::Instruction*)' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 7011 |           (*iter)->moveBefore(br);
+      |           ~~~~~~~~~~~~~~~~~~~^~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/DebugProgramInstruction.h:55,
+                 from /usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:23:
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:246:37: note: declared here
+  246 |                            "") void moveBefore(Instruction *MovePos);
+      |                                     ^~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp: In function 'void fixSparseIndices(llvm::Function&, llvm::FunctionAnalysisManager&, llvm::SetVector<llvm::BasicBlock*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.cpp:8463:51: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 8463 |       IRBuilder<> B(L->getHeader()->getFirstNonPHI());
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/FunctionUtils.h:43:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+[36/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/GradientUtils.cpp.o
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp: In member function 'llvm::Value* GradientUtils::getOrInsertTotalMultiplicativeProduct(llvm::Value*, LoopContext&)':
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:487:52: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+  487 |   lbuilder.SetInsertPoint(lc.header->getFirstNonPHI());
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /usr/lib/llvm-21/include/llvm/IR/Function.h:27,
+                 from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:28,
+                 from /usr/lib/llvm-21/include/llvm/IR/ConstantRange.h:35,
+                 from /usr/lib/llvm-21/include/llvm/Analysis/ScalarEvolution.h:32,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:39,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:33:
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp: In lambda function:
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:5046:31: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 5046 |               PointerType::get(
+      |               ~~~~~~~~~~~~~~~~^
+ 5047 |                   i8, cast<PointerType>(ptr->getType())->getAddressSpace()));
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:26:
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:5054:31: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 5054 |               PointerType::get(
+      |               ~~~~~~~~~~~~~~~~^
+ 5055 |                   i8, cast<PointerType>(valptr->getType())->getAddressSpace()));
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:5073:34: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 5073 |             ptr, PointerType::get(
+      |                  ~~~~~~~~~~~~~~~~^
+ 5074 |                      ty, cast<PointerType>(ptr->getType())->getAddressSpace()));
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:5077:29: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 5077 |             PointerType::get(
+      |             ~~~~~~~~~~~~~~~~^
+ 5078 |                 ty, cast<PointerType>(valptr->getType())->getAddressSpace()));
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:5088:44: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 5088 |         auto T_prjlvalue = PointerType::get(T_jlvalue, 10);
+      |                            ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp: In member function 'llvm::Value* GradientUtils::invertPointerM(llvm::Value*, llvm::IRBuilder<>&, TypeTree)':
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:6475:62: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 6475 |         IRBuilder<> postPhi(NewV->getParent()->getFirstNonPHI());
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp: In function 'void SubTransferHelper(GradientUtils*, DerivativeMode, llvm::Type*, llvm::Intrinsic::ID, unsigned int, unsigned int, unsigned int, bool, llvm::Value*, llvm::Value*, bool, llvm::Value*, llvm::Value*, llvm::Value*, llvm::Value*, llvm::CallInst*, bool, bool, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:9112:37: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 9112 |               dsto, PointerType::get(secretty, dstaddr));
+      |                     ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:9124:37: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 9124 |               srco, PointerType::get(secretty, srcaddr));
+      |                     ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:9142:58: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 9142 |                                          PointerType::get(secretty, dstaddr)),
+      |                                          ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.cpp:9144:58: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 9144 |                                          PointerType::get(secretty, srcaddr)),
+      |                                          ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+[37/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/EnzymeLogic.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:4216,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:32:
+/home/user/Enzyme-container/build/Enzyme/BlasDerivatives.inc: In lambda function:
+/home/user/Enzyme-container/build/Enzyme/BlasDerivatives.inc:7269:35: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 7269 |           tozero, PointerType::get(Type::getInt8Ty(PT->getContext()),
+      |                   ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 7270 |                                    PT->getAddressSpace()));
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/Function.h:29,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.h:37,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:30:
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp: In function 'void cleanupInversionAllocs(DiffeGradientUtils*, llvm::BasicBlock*)':
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:1809:23: warning: 'void llvm::Instruction::moveBefore(llvm::Instruction*)' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 1809 |       inst->moveBefore(&gutils->newFunc->getEntryBlock().front());
+      |       ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/DebugProgramInstruction.h:55,
+                 from /usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:23,
+                 from /usr/lib/llvm-21/include/llvm/IR/Function.h:27:
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:246:37: note: declared here
+  246 |                            "") void moveBefore(Instruction *MovePos);
+      |                                     ^~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp: In function 'void restoreCache(DiffeGradientUtils*, const std::map<std::pair<llvm::Instruction*, CacheType>, int>&, const llvm::SmallPtrSetImpl<llvm::BasicBlock*>&)':
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:1847:67: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 1847 |               cast<Instruction>(newi)->getParent()->getFirstNonPHI());
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp: In member function 'const AugmentedReturn& EnzymeLogic::CreateAugmentedPrimal(RequestContext, llvm::Function*, DIFFE_TYPE, llvm::ArrayRef<DIFFE_TYPE>, TypeAnalysis&, bool, bool, const FnTypeInfo&, bool, std::vector<bool>, bool, bool, bool, unsigned int, bool, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:2615:71: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 2615 |                   cast<Instruction>(newi)->getParent()->getFirstNonPHI());
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:2910:54: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 2910 |   IRBuilder<> ib(NewF->getEntryBlock().getFirstNonPHI());
+      |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:2978:62: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 2978 |           ib.SetInsertPoint(inst->getParent()->getFirstNonPHI());
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp: In member function 'llvm::Function* EnzymeLogic::CreatePrimalAndGradient(RequestContext, const ReverseCacheKey&&, TypeAnalysis&, const AugmentedReturn*, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:3817:35: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 3817 |             tape, PointerType::get(
+      |                   ~~~~~~~~~~~~~~~~^
+ 3818 |                       aug.tapeType,
+      |                       ~~~~~~~~~~~~~
+ 3819 |                       cast<PointerType>(tape->getType())->getAddressSpace()));
+      |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:4353:29: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 4353 |             PointerType::get(augmenteddata->tapeType,
+      |             ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+ 4354 |                              cast<PointerType>(additionalValue->getType())
+      |                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 4355 |                                  ->getAddressSpace()));
+      |                                  ~~~~~~~~~~~~~~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp: In member function 'void TruncateUtils::createOriginalFPRTFunc(llvm::Instruction&, std::string, llvm::SmallVectorImpl<llvm::Value*>&, llvm::Type*)':
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:5221:28: warning: 'void llvm::Instruction::insertBefore(llvm::Instruction*)' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 5221 |       ClonedI->insertBefore(Return);
+      |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/usr/lib/llvm-21/include/llvm/IR/Instruction.h:217:37: note: declared here
+  217 |                            "") void insertBefore(Instruction *InsertPos);
+      |                                     ^~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp: In member function 'llvm::Function* EnzymeLogic::CreateBatch(RequestContext, llvm::Function*, unsigned int, llvm::ArrayRef<BATCH_TYPE>, BATCH_TYPE)':
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:5992:45: warning: 'llvm::Instruction* llvm::BasicBlock::getFirstNonPHI()' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 5992 |   IRBuilder<> Builder2(entry->getFirstNonPHI());
+      |                        ~~~~~~~~~~~~~~~~~~~~~^~
+/usr/lib/llvm-21/include/llvm/IR/BasicBlock.h:284:61: note: declared here
+  284 |                            "getFirstNonPHIIt") Instruction *getFirstNonPHI();
+      |                                                             ^~~~~~~~~~~~~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.h:47:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp: In member function 'const AugmentedReturn& EnzymeLogic::CreateAugmentedPrimal(RequestContext, llvm::Function*, DIFFE_TYPE, llvm::ArrayRef<DIFFE_TYPE>, TypeAnalysis&, bool, bool, const FnTypeInfo&, bool, std::vector<bool>, bool, bool, bool, unsigned int, bool, bool)':
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:2982:29: warning: 'tapeMemory' may be used uninitialized [-Wmaybe-uninitialized]
+ 2982 |           gep = ib.CreateGEP(tapeType, tapeMemory, Idxs, "");
+      |                 ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/EnzymeLogic.cpp:2915:12: note: 'tapeMemory' was declared here
+ 2915 |     Value *tapeMemory;
+      |            ^~~~~~~~~~
+[38/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-21.dir/CallDerivatives.cpp.o
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:4216,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:27:
+/home/user/Enzyme-container/build/Enzyme/BlasDerivatives.inc: In lambda function:
+/home/user/Enzyme-container/build/Enzyme/BlasDerivatives.inc:7269:35: warning: 'static llvm::PointerType* llvm::PointerType::get(llvm::Type*, unsigned int)' is deprecated: PointerType::get with pointee type is pending removal. Use Context overload. [-Wdeprecated-declarations]
+ 7269 |           tozero, PointerType::get(Type::getInt8Ty(PT->getContext()),
+      |                   ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 7270 |                                    PT->getAddressSpace()));
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/lib/llvm-21/include/llvm/IR/InstrTypes.h:26,
+                 from /usr/lib/llvm-21/include/llvm/IR/ConstantRange.h:35,
+                 from /usr/lib/llvm-21/include/llvm/IR/Constants.h:29,
+                 from /usr/lib/llvm-21/include/llvm/IR/Operator.h:18,
+                 from /usr/lib/llvm-21/include/llvm/Analysis/SimplifyQuery.h:13,
+                 from /usr/lib/llvm-21/include/llvm/Analysis/ValueTracking.h:17,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:34:
+/usr/lib/llvm-21/include/llvm/IR/DerivedTypes.h:711:32: note: declared here
+  711 |   LLVM_ABI static PointerType *get(Type *ElementType, unsigned AddressSpace);
+      |                                ^~~
+In file included from /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/ActivityAnalysis.h:49,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/GradientUtils.h:68,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/DiffeGradientUtils.h:31,
+                 from /home/user/Enzyme-container/enzyme/Enzyme/AdjointGenerator.h:42:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h: At global scope:
+/home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: 'bool hasTerminator(llvm::BasicBlock*)' defined but not used [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp: In member function 'bool AdjointGenerator::handleKnownCallDerivatives(llvm::CallInst&, llvm::Function*, llvm::StringRef, bool, const std::vector<bool>&, llvm::CallInst*)':
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3954:42: warning: 'val' may be used uninitialized [-Wmaybe-uninitialized]
+ 3954 |           Value *tofree = gutils->lookupM(val, Builder2, ValueToValueMapTy(),
+      |                           ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 3955 |                                           /*tryLegalRecompute*/ false);
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/user/Enzyme-container/enzyme/Enzyme/CallDerivatives.cpp:3837:12: note: 'val' was declared here
+ 3837 |     Value *val;
+      |            ^~~
+[39/39] Linking CXX shared module Enzyme/LLVMEnzyme-21.so
+[0/2] Re-checking globbed directories...
+[1/7] Building Fortran preprocessed Fortran/CMakeFiles/EnzymeFortran.dir/enzyme.f90-pp.f90
+[2/7] Building Fortran preprocessed Fortran/CMakeFiles/EnzymeFortran.dir/enzyme_function_hooks.f90-pp.f90
+[3/7] Generating Fortran dyndep file Fortran/CMakeFiles/EnzymeFortran.dir/Fortran.dd
+[4/7] Building Fortran object Fortran/CMakeFiles/EnzymeFortran.dir/enzyme_function_hooks.f90.o
+[5/7] Building Fortran object Fortran/CMakeFiles/EnzymeFortran.dir/enzyme.f90.o
+[6/7] Linking Fortran shared library Fortran/libEnzymeFortran.so
+[6/7] Running enzyme fortran integration tests
+-- Testing: 6 tests, 6 workers --
+Testing: 
+FAIL: Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 (1 of 6)
+******************** TEST 'Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90' FAILED ********************
+Exit Code: 134
+
+Command Output (stderr):
+--
+RUN: at line 2: if [[ ifx != ifx ]]; then ifx -flto -O0 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O0 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O0 /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90; fi
++ [[ ifx != ifx ]]
+RUN: at line 3: ifx -flto -O1 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O1 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O1 /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90
++ ifx -flto -O1 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -O1 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
++ /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ ifx -flto -O1 /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1
++ /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1
++ FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90
+RUN: at line 4: ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O2 /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90
++ ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
+opt: /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:4535: void analyzeIntelSubscriptIntrinsic(llvm::IntrinsicInst&, TypeAnalyzer&): Assertion `II.arg_size() == 5' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace.
+Stack dump:
+0.	Program arguments: /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
+1.	Running pass "EnzymeNewPM" on module "<stdin>"
+ #0 0x0000711b7403cad6 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45e1ad6)
+ #1 0x0000711b7403a383 llvm::sys::RunSignalHandlers() (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45df383)
+ #2 0x0000711b7403d804 (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45e2804)
+ #3 0x0000711b6f4b7520 (/lib/x86_64-linux-gnu/libc.so.6+0x42520)
+ #4 0x0000711b6f50b9fc pthread_kill (/lib/x86_64-linux-gnu/libc.so.6+0x969fc)
+ #5 0x0000711b6f4b7476 gsignal (/lib/x86_64-linux-gnu/libc.so.6+0x42476)
+ #6 0x0000711b6f49d7f3 abort (/lib/x86_64-linux-gnu/libc.so.6+0x287f3)
+ #7 0x0000711b6f49d71b (/lib/x86_64-linux-gnu/libc.so.6+0x2871b)
+ #8 0x0000711b6f4aee96 (/lib/x86_64-linux-gnu/libc.so.6+0x39e96)
+ #9 0x0000711b6d1bb54f analyzeIntelSubscriptIntrinsic(llvm::IntrinsicInst&, TypeAnalyzer&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5d454f)
+#10 0x0000711b6d1a9fc6 TypeAnalyzer::visitCallBase(llvm::CallBase&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5c2fc6)
+#11 0x0000711b6d1c8086 TypeAnalyzer::run() (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5e1086)
+#12 0x0000711b6d1cb4e8 TypeAnalysis::analyzeFunction(FnTypeInfo const&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5e44e8)
+#13 0x0000711b6cf9bb94 (anonymous namespace)::EnzymeBase::populate_type_args(TypeAnalysis&, llvm::Function*, DerivativeMode) (.constprop.0) Enzyme.cpp:0:0
+#14 0x0000711b6cf9c614 (anonymous namespace)::EnzymeBase::HandleAutoDiff(llvm::Instruction*, unsigned int, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, std::map<int, llvm::Type*, std::less<int>, std::allocator<std::pair<int const, llvm::Type*>>> const&, std::vector<DIFFE_TYPE, std::allocator<DIFFE_TYPE>> const&, llvm::Function*, DerivativeMode, (anonymous namespace)::EnzymeBase::Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#15 0x0000711b6cf9f421 (anonymous namespace)::EnzymeBase::HandleAutoDiffArguments(llvm::CallInst*, DerivativeMode, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#16 0x0000711b6cfa4511 (anonymous namespace)::EnzymeBase::lowerEnzymeCalls(llvm::Function&, std::set<llvm::Function*, std::less<llvm::Function*>, std::allocator<llvm::Function*>>&) Enzyme.cpp:0:0
+#17 0x0000711b6cfa7d02 (anonymous namespace)::EnzymeBase::run(llvm::Module&) Enzyme.cpp:0:0
+#18 0x0000711b6cfb8254 llvm::detail::PassModel<llvm::Module, EnzymeNewPM, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x3d1254)
+#19 0x0000711b741e0ab7 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x4785ab7)
+#20 0x000057ddae87de71 llvm::runPassPipeline(llvm::StringRef, llvm::Module&, llvm::TargetMachine*, llvm::TargetLibraryInfoImpl*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::StringRef, llvm::ArrayRef<llvm::PassPlugin>, llvm::ArrayRef<std::function<void (llvm::PassBuilder&)>>, llvm::opt_tool::OutputKind, llvm::opt_tool::VerifierKind, bool, bool, bool, bool, bool, bool, bool) (/usr/lib/llvm-21/bin/opt+0x30e71)
+#21 0x000057ddae870f79 optMain (/usr/lib/llvm-21/bin/opt+0x23f79)
+#22 0x0000711b6f49ed90 (/lib/x86_64-linux-gnu/libc.so.6+0x29d90)
+#23 0x0000711b6f49ee40 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29e40)
+#24 0x000057ddae86b535 _start (/usr/lib/llvm-21/bin/opt+0x1e535)
+/home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.script: line 4:  2893 Done                    ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
+      2894 Aborted                 (core dumped) | /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout
+      2895                       | /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
+
+--
+
+********************
+Testing:  0.. 10.
+FAIL: Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 (2 of 6)
+******************** TEST 'Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90' FAILED ********************
+Exit Code: 134
+
+Command Output (stderr):
+--
+RUN: at line 1: if [[ ifx != ifx ]]; then ifx -flto -O0 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O0 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O0 /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90; fi
++ [[ ifx != ifx ]]
+RUN: at line 2: ifx -flto -O1 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O1 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O1 /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90
++ ifx -flto -O1 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -O1 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
++ ifx -flto -O1 /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1
++ /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1
++ FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90
+RUN: at line 3: ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O2 /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90
++ ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
+opt: /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:4535: void analyzeIntelSubscriptIntrinsic(llvm::IntrinsicInst&, TypeAnalyzer&): Assertion `II.arg_size() == 5' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace.
+Stack dump:
+0.	Program arguments: /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
+1.	Running pass "EnzymeNewPM" on module "<stdin>"
+ #0 0x000077b68386dad6 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45e1ad6)
+ #1 0x000077b68386b383 llvm::sys::RunSignalHandlers() (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45df383)
+ #2 0x000077b68386e804 (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45e2804)
+ #3 0x000077b67ece8520 (/lib/x86_64-linux-gnu/libc.so.6+0x42520)
+ #4 0x000077b67ed3c9fc pthread_kill (/lib/x86_64-linux-gnu/libc.so.6+0x969fc)
+ #5 0x000077b67ece8476 gsignal (/lib/x86_64-linux-gnu/libc.so.6+0x42476)
+ #6 0x000077b67ecce7f3 abort (/lib/x86_64-linux-gnu/libc.so.6+0x287f3)
+ #7 0x000077b67ecce71b (/lib/x86_64-linux-gnu/libc.so.6+0x2871b)
+ #8 0x000077b67ecdfe96 (/lib/x86_64-linux-gnu/libc.so.6+0x39e96)
+ #9 0x000077b67c9ec54f analyzeIntelSubscriptIntrinsic(llvm::IntrinsicInst&, TypeAnalyzer&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5d454f)
+#10 0x000077b67c9dafc6 TypeAnalyzer::visitCallBase(llvm::CallBase&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5c2fc6)
+#11 0x000077b67c9f9086 TypeAnalyzer::run() (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5e1086)
+#12 0x000077b67c9fc4e8 TypeAnalysis::analyzeFunction(FnTypeInfo const&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5e44e8)
+#13 0x000077b67c7ccb94 (anonymous namespace)::EnzymeBase::populate_type_args(TypeAnalysis&, llvm::Function*, DerivativeMode) (.constprop.0) Enzyme.cpp:0:0
+#14 0x000077b67c7cd614 (anonymous namespace)::EnzymeBase::HandleAutoDiff(llvm::Instruction*, unsigned int, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, std::map<int, llvm::Type*, std::less<int>, std::allocator<std::pair<int const, llvm::Type*>>> const&, std::vector<DIFFE_TYPE, std::allocator<DIFFE_TYPE>> const&, llvm::Function*, DerivativeMode, (anonymous namespace)::EnzymeBase::Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#15 0x000077b67c7d0421 (anonymous namespace)::EnzymeBase::HandleAutoDiffArguments(llvm::CallInst*, DerivativeMode, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#16 0x000077b67c7d5511 (anonymous namespace)::EnzymeBase::lowerEnzymeCalls(llvm::Function&, std::set<llvm::Function*, std::less<llvm::Function*>, std::allocator<llvm::Function*>>&) Enzyme.cpp:0:0
+#17 0x000077b67c7d8d02 (anonymous namespace)::EnzymeBase::run(llvm::Module&) Enzyme.cpp:0:0
+#18 0x000077b67c7e9254 llvm::detail::PassModel<llvm::Module, EnzymeNewPM, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x3d1254)
+#19 0x000077b683a11ab7 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x4785ab7)
+#20 0x0000576399e43e71 llvm::runPassPipeline(llvm::StringRef, llvm::Module&, llvm::TargetMachine*, llvm::TargetLibraryInfoImpl*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::StringRef, llvm::ArrayRef<llvm::PassPlugin>, llvm::ArrayRef<std::function<void (llvm::PassBuilder&)>>, llvm::opt_tool::OutputKind, llvm::opt_tool::VerifierKind, bool, bool, bool, bool, bool, bool, bool) (/usr/lib/llvm-21/bin/opt+0x30e71)
+#21 0x0000576399e36f79 optMain (/usr/lib/llvm-21/bin/opt+0x23f79)
+#22 0x000077b67eccfd90 (/lib/x86_64-linux-gnu/libc.so.6+0x29d90)
+#23 0x000077b67eccfe40 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29e40)
+#24 0x0000576399e31535 _start (/usr/lib/llvm-21/bin/opt+0x1e535)
+/home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.script: line 4:  2898 Done                    ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
+      2899 Aborted                 (core dumped) | /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout
+      2901                       | /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 
+FAIL: Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 (4 of 6)
+******************** TEST 'Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90' FAILED ********************
+Exit Code: 134
+
+Command Output (stderr):
+--
+RUN: at line 2: ifx -flto -O0 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O0 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O0 /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O0 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -O0 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
++ /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ ifx -flto -O0 /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
+RUN: at line 3: ifx -flto -O1 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O1 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O1 /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O1 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -O1 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
++ ifx -flto -O1 /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
+RUN: at line 4: ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O2 /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
+opt: /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:4535: void analyzeIntelSubscriptIntrinsic(llvm::IntrinsicInst&, TypeAnalyzer&): Assertion `II.arg_size() == 5' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace.
+Stack dump:
+0.	Program arguments: /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
+1.	Running pass "EnzymeNewPM" on module "<stdin>"
+ #0 0x0000732bd1afead6 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45e1ad6)
+ #1 0x0000732bd1afc383 llvm::sys::RunSignalHandlers() (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45df383)
+ #2 0x0000732bd1aff804 (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45e2804)
+ #3 0x0000732bccf79520 (/lib/x86_64-linux-gnu/libc.so.6+0x42520)
+ #4 0x0000732bccfcd9fc pthread_kill (/lib/x86_64-linux-gnu/libc.so.6+0x969fc)
+ #5 0x0000732bccf79476 gsignal (/lib/x86_64-linux-gnu/libc.so.6+0x42476)
+ #6 0x0000732bccf5f7f3 abort (/lib/x86_64-linux-gnu/libc.so.6+0x287f3)
+ #7 0x0000732bccf5f71b (/lib/x86_64-linux-gnu/libc.so.6+0x2871b)
+ #8 0x0000732bccf70e96 (/lib/x86_64-linux-gnu/libc.so.6+0x39e96)
+ #9 0x0000732bcac7d54f analyzeIntelSubscriptIntrinsic(llvm::IntrinsicInst&, TypeAnalyzer&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5d454f)
+#10 0x0000732bcac6bfc6 TypeAnalyzer::visitCallBase(llvm::CallBase&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5c2fc6)
+#11 0x0000732bcac8a086 TypeAnalyzer::run() (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5e1086)
+#12 0x0000732bcac8d4e8 TypeAnalysis::analyzeFunction(FnTypeInfo const&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5e44e8)
+#13 0x0000732bcaa5db94 (anonymous namespace)::EnzymeBase::populate_type_args(TypeAnalysis&, llvm::Function*, DerivativeMode) (.constprop.0) Enzyme.cpp:0:0
+#14 0x0000732bcaa5e614 (anonymous namespace)::EnzymeBase::HandleAutoDiff(llvm::Instruction*, unsigned int, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, std::map<int, llvm::Type*, std::less<int>, std::allocator<std::pair<int const, llvm::Type*>>> const&, std::vector<DIFFE_TYPE, std::allocator<DIFFE_TYPE>> const&, llvm::Function*, DerivativeMode, (anonymous namespace)::EnzymeBase::Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#15 0x0000732bcaa61421 (anonymous namespace)::EnzymeBase::HandleAutoDiffArguments(llvm::CallInst*, DerivativeMode, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#16 0x0000732bcaa66511 (anonymous namespace)::EnzymeBase::lowerEnzymeCalls(llvm::Function&, std::set<llvm::Function*, std::less<llvm::Function*>, std::allocator<llvm::Function*>>&) Enzyme.cpp:0:0
+#17 0x0000732bcaa69d02 (anonymous namespace)::EnzymeBase::run(llvm::Module&) Enzyme.cpp:0:0
+#18 0x0000732bcaa7a254 llvm::detail::PassModel<llvm::Module, EnzymeNewPM, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x3d1254)
+#19 0x0000732bd1ca2ab7 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x4785ab7)
+#20 0x0000578570cb1e71 llvm::runPassPipeline(llvm::StringRef, llvm::Module&, llvm::TargetMachine*, llvm::TargetLibraryInfoImpl*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::StringRef, llvm::ArrayRef<llvm::PassPlugin>, llvm::ArrayRef<std::function<void (llvm::PassBuilder&)>>, llvm::opt_tool::OutputKind, llvm::opt_tool::VerifierKind, bool, bool, bool, bool, bool, bool, bool) (/usr/lib/llvm-21/bin/opt+0x30e71)
+#21 0x0000578570ca4f79 optMain (/usr/lib/llvm-21/bin/opt+0x23f79)
+#22 0x0000732bccf60d90 (/lib/x86_64-linux-gnu/libc.so.6+0x29d90)
+#23 0x0000732bccf60e40 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29e40)
+#24 0x0000578570c9f535 _start (/usr/lib/llvm-21/bin/opt+0x1e535)
+/home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.script: line 4:  2974 Done                    ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
+      2975 Aborted                 (core dumped) | /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout
+      2976                       | /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 60.
+FAIL: Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 (5 of 6)
+******************** TEST 'Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90' FAILED ********************
+Exit Code: 134
+
+Command Output (stderr):
+--
+RUN: at line 2: ifx -flto -O0 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O0 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O0 /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O0 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -O0 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
++ ifx -flto -O0 /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
+RUN: at line 3: ifx -flto -O1 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O1 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O1 /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O1 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -O1 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
++ ifx -flto -O1 /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
+RUN: at line 4: ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /usr/lib/llvm-21/bin/opt  -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O2 /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
+opt: /home/user/Enzyme-container/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:4535: void analyzeIntelSubscriptIntrinsic(llvm::IntrinsicInst&, TypeAnalyzer&): Assertion `II.arg_size() == 5' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace.
+Stack dump:
+0.	Program arguments: /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
+1.	Running pass "EnzymeNewPM" on module "<stdin>"
+ #0 0x0000769b6fa3cad6 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45e1ad6)
+ #1 0x0000769b6fa3a383 llvm::sys::RunSignalHandlers() (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45df383)
+ #2 0x0000769b6fa3d804 (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x45e2804)
+ #3 0x0000769b6aeb7520 (/lib/x86_64-linux-gnu/libc.so.6+0x42520)
+ #4 0x0000769b6af0b9fc pthread_kill (/lib/x86_64-linux-gnu/libc.so.6+0x969fc)
+ #5 0x0000769b6aeb7476 gsignal (/lib/x86_64-linux-gnu/libc.so.6+0x42476)
+ #6 0x0000769b6ae9d7f3 abort (/lib/x86_64-linux-gnu/libc.so.6+0x287f3)
+ #7 0x0000769b6ae9d71b (/lib/x86_64-linux-gnu/libc.so.6+0x2871b)
+ #8 0x0000769b6aeaee96 (/lib/x86_64-linux-gnu/libc.so.6+0x39e96)
+ #9 0x0000769b68bbb54f analyzeIntelSubscriptIntrinsic(llvm::IntrinsicInst&, TypeAnalyzer&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5d454f)
+#10 0x0000769b68ba9fc6 TypeAnalyzer::visitCallBase(llvm::CallBase&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5c2fc6)
+#11 0x0000769b68bc8086 TypeAnalyzer::run() (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5e1086)
+#12 0x0000769b68bcb4e8 TypeAnalysis::analyzeFunction(FnTypeInfo const&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x5e44e8)
+#13 0x0000769b6899bb94 (anonymous namespace)::EnzymeBase::populate_type_args(TypeAnalysis&, llvm::Function*, DerivativeMode) (.constprop.0) Enzyme.cpp:0:0
+#14 0x0000769b6899c614 (anonymous namespace)::EnzymeBase::HandleAutoDiff(llvm::Instruction*, unsigned int, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, std::map<int, llvm::Type*, std::less<int>, std::allocator<std::pair<int const, llvm::Type*>>> const&, std::vector<DIFFE_TYPE, std::allocator<DIFFE_TYPE>> const&, llvm::Function*, DerivativeMode, (anonymous namespace)::EnzymeBase::Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#15 0x0000769b6899f421 (anonymous namespace)::EnzymeBase::HandleAutoDiffArguments(llvm::CallInst*, DerivativeMode, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#16 0x0000769b689a4511 (anonymous namespace)::EnzymeBase::lowerEnzymeCalls(llvm::Function&, std::set<llvm::Function*, std::less<llvm::Function*>, std::allocator<llvm::Function*>>&) Enzyme.cpp:0:0
+#17 0x0000769b689a7d02 (anonymous namespace)::EnzymeBase::run(llvm::Module&) Enzyme.cpp:0:0
+#18 0x0000769b689b8254 llvm::detail::PassModel<llvm::Module, EnzymeNewPM, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so+0x3d1254)
+#19 0x0000769b6fbe0ab7 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/usr/lib/llvm-21/lib/libLLVM.so.21.1+0x4785ab7)
+#20 0x00005c6dec755e71 llvm::runPassPipeline(llvm::StringRef, llvm::Module&, llvm::TargetMachine*, llvm::TargetLibraryInfoImpl*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::StringRef, llvm::ArrayRef<llvm::PassPlugin>, llvm::ArrayRef<std::function<void (llvm::PassBuilder&)>>, llvm::opt_tool::OutputKind, llvm::opt_tool::VerifierKind, bool, bool, bool, bool, bool, bool, bool) (/usr/lib/llvm-21/bin/opt+0x30e71)
+#21 0x00005c6dec748f79 optMain (/usr/lib/llvm-21/bin/opt+0x23f79)
+#22 0x0000769b6ae9ed90 (/lib/x86_64-linux-gnu/libc.so.6+0x29d90)
+#23 0x0000769b6ae9ee40 __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29e40)
+#24 0x00005c6dec743535 _start (/usr/lib/llvm-21/bin/opt+0x1e535)
+/home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.script: line 4:  2967 Done                    ifx -flto -O2 -c -I/home/user/Enzyme-container/build/modules /home/user/Enzyme-container/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
+      2969 Aborted                 (core dumped) | /usr/lib/llvm-21/bin/opt -load-pass-plugin=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so -load=/home/user/Enzyme-container/build/Enzyme/LLVMEnzyme-21.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout
+      2971                       | /usr/lib/llvm-21/bin/opt -O2 -S -o /home/user/Enzyme-container/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 60.. 70.. 80.. 90.. 
+********************
+Failed Tests (4):
+  Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90
+  Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
+  Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90
+  Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
+
+
+Testing Time: 0.45s
+
+Total Discovered Tests: 6
+  Passed: 2 (33.33%)
+  Failed: 4 (66.67%)
+FAILED: test/Fortran/CMakeFiles/check-enzyme-fortran /home/user/Enzyme-container/build/test/Fortran/CMakeFiles/check-enzyme-fortran 
+cd /home/user/Enzyme-container/build/test/Fortran && /usr/local/bin/lit -v -sv /home/user/Enzyme-container/build/test/Fortran
+ninja: build stopped: subcommand failed.

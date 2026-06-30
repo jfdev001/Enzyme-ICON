@@ -1,0 +1,995 @@
+ifx (IFX) 2025.2.1 20250806
+Copyright (C) 1985-2025 Intel Corporation. All rights reserved.
+LLVM (http://llvm.org/):
+  LLVM version 20.1.8
+  Optimized build.
+-- The C compiler identification is IntelLLVM 2025.2.1
+-- The CXX compiler identification is IntelLLVM 2025.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2025.2.1-w5k3igtjngpu7xxwvpyvbs4zna77kwfj/compiler/2025.2/bin/icx - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2025.2.1-w5k3igtjngpu7xxwvpyvbs4zna77kwfj/compiler/2025.2/bin/icpx - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+LLVM_SHLIBEXT=.so
+LLVM ABS DIR /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm
+CMAKE_PREFIX_PATH 
+-- Looking for histedit.h
+-- Looking for histedit.h - found
+-- Found LibEdit: /home/jf01/dev/spack/opt/spack/linux-skylake/libedit-3.1-20240808-3gxpzfkc4ye25ai2szrpbkcsykcqnpdh/include (found version "2.11") 
+-- Found ZLIB: /home/jf01/dev/spack/opt/spack/linux-skylake/zlib-ng-2.2.4-tkyyjk247idlzgrbzyjmxvykbfvbqxy6/lib/libz.so (found version "1.3.1")  
+found llvm lit /home/jf01/miniconda3/bin/lit
+LLVM dir /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm
+clang dir from llvm /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm/../clang
+-- Linker detection: GNU ld
+clang dir /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm/../clang
+mlir dir 
+clang inc dir /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include
+found Clang 1
+found MLIR 0
+LLVM_INSTALL_PREFIX: /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf
+LLVM_INCLUDE_DIRS: /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include
+found LLVM definitions -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+found LLVM version 20
+first llvm include directory/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include
+-- Looking for mpfr.h
+-- Looking for mpfr.h - found
+MPFR lib: /usr/lib/x86_64-linux-gnu/libmpfr.so
+MPFR header: 1
+Building Fortran bindings
+-- The Fortran compiler identification is IntelLLVM 2025.2.1
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /home/jf01/dev/spack/opt/spack/linux-skylake/intel-oneapi-compilers-2025.2.1-w5k3igtjngpu7xxwvpyvbs4zna77kwfj/compiler/2025.2/bin/ifx - skipped
+-- Detecting Fortran/C Interface
+-- Detecting Fortran/C Interface - Found GLOBAL and MODULE mangling
+-- Verifying Fortran/C Compiler Compatibility
+-- Verifying Fortran/C Compiler Compatibility - Success
+Building Fortran tests
+-- Configuring done (1.5s)
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm/TableGen.cmake:134 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:23 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm/TableGen.cmake:134 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:28 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm/TableGen.cmake:134 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:27 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm/TableGen.cmake:134 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:30 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm/TableGen.cmake:134 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:29 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm/TableGen.cmake:134 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:25 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm/TableGen.cmake:134 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:26 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/lib/cmake/llvm/TableGen.cmake:134 (add_custom_command):
+  Policy CMP0116 is not set: Ninja generators transform DEPFILEs from
+  add_custom_command().  Run "cmake --help-policy CMP0116" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+Call Stack (most recent call first):
+  Enzyme/CMakeLists.txt:17 (tablegen)
+  Enzyme/CMakeLists.txt:24 (enzyme_tablegen)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jf01/dev/Enzyme/build
+[0/2] Re-checking globbed directories...
+[1/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/caching.cpp.o
+[2/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/datastructures.cpp.o
+[3/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/blas-tblgen.cpp.o
+[4/39] Building CXX object tools/enzyme-tblgen/CMakeFiles/enzyme-tblgen.dir/enzyme-tblgen.cpp.o
+[5/39] Linking CXX executable tools/enzyme-tblgen/enzyme-tblgen
+[6/39] Building BinopDerivatives.inc...
+[7/39] Building InstructionDerivatives.inc...
+[8/39] Building IntrinsicDerivatives.inc...
+[9/39] Building BlasDiffUse.inc...
+[10/39] Building BlasTA.inc...
+[11/39] Building BlasAttributor.inc...
+[12/39] Building BlasDerivatives.inc...
+[13/39] Building CallDerivatives.inc...
+[14/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/JLInstSimplify.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/JLInstSimplify.cpp:53:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/LibraryFuncs.h:33:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[15/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/TraceUtils.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceUtils.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceUtils.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[16/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/PreserveNVVM.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/PreserveNVVM.cpp:49:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[17/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/TypeAnalysis/TypeTree.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.cpp:36:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[18/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/TraceGenerator.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceGenerator.cpp:26:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceGenerator.h:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[19/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/MustExitScalarEvolution.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/MustExitScalarEvolution.cpp:29:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[20/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/TraceInterface.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TraceInterface.cpp:29:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[21/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/InstructionBatcher.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/InstructionBatcher.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/InstructionBatcher.h:48:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[22/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/TypeAnalysis/TypeAnalysisPrinter.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysisPrinter.cpp:57:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[23/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/TypeAnalysis/RustDebugInfo.cpp.o
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp:68:45: warning: 'get' is deprecated: Use cast instead [-Wdeprecated-declarations]
+   68 |       if (auto Count = Subrange->getCount().get<ConstantInt *>()) {
+      |                                             ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/ADT/PointerUnion.h:161:12: note: 'get' has been explicitly marked deprecated here
+  161 |   inline T get() const {
+      |            ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp:68:45: warning: 'get<llvm::ConstantInt *>' is deprecated: Use cast instead [-Wdeprecated-declarations]
+   68 |       if (auto Count = Subrange->getCount().get<ConstantInt *>()) {
+      |                                             ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/ADT/PointerUnion.h:160:5: note: 'get<llvm::ConstantInt *>' has been explicitly marked deprecated here
+  160 |   [[deprecated("Use cast instead")]]
+      |     ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.cpp:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/RustDebugInfo.h:33:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeTree.h:41:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+4 warnings generated.
+[24/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/SimpleGVN.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/SimpleGVN.cpp:87:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[25/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/CacheUtility.cpp.o
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.cpp:198:12: warning: 'moveBefore' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+  198 |       Inc->moveBefore(getFirstNonPHIOrDbg(Header));
+      |            ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:243:3: note: 'moveBefore' has been explicitly marked deprecated here
+  243 |   LLVM_DEPRECATED("Use iterators as instruction positions", "")
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.cpp:259:54: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+  259 |         Exp.expandCodeFor(S, Tmp->getType(), Header->getFirstNonPHI());
+      |                                                      ^~~~~~~~~~~~~~
+      |                                                      getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.cpp:286:50: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+  286 |   Increment->moveAfter(CanonicalIV->getParent()->getFirstNonPHI());
+      |                                                  ^~~~~~~~~~~~~~
+      |                                                  getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.cpp:400:52: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+  400 |     Increment->moveAfter(CanonicalIV->getParent()->getFirstNonPHI());
+      |                                                    ^~~~~~~~~~~~~~
+      |                                                    getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.cpp:1489:55: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 1489 |                                 ? (inst->getParent()->getFirstNonPHI())
+      |                                                       ^~~~~~~~~~~~~~
+      |                                                       getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CacheUtility.h:52:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+7 warnings generated.
+[26/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/ActivityAnalysisPrinter.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysisPrinter.cpp:52:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[27/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/ActivityAnalysis.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.cpp:55:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[28/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/CApi.cpp.o
+/home/jf01/dev/Enzyme/enzyme/Enzyme/CApi.cpp:1011:9: warning: 'moveBefore' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 1011 |     I1->moveBefore(I2);
+      |         ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:243:3: note: 'moveBefore' has been explicitly marked deprecated here
+  243 |   LLVM_DEPRECATED("Use iterators as instruction positions", "")
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CApi.cpp:25:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+3 warnings generated.
+[29/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/DifferentialUseAnalysis.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DifferentialUseAnalysis.cpp:32:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DifferentialUseAnalysis.h:43:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[30/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/DiffeGradientUtils.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.cpp:30:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[31/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/FixupJuliaCallingConvention.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FixupJuliaCallingConvention.cpp:2:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[32/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/Utils.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.cpp:25:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+1 warning generated.
+[33/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/Enzyme.cpp.o
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:350:55: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+  350 |     IRBuilder<> EB(CI->getFunction()->getEntryBlock().getFirstNonPHI());
+      |                                                       ^~~~~~~~~~~~~~
+      |                                                       getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:621:18: warning: 'insertBefore' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+  621 |         primalA->insertBefore(CI);
+      |                  ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:214:3: note: 'insertBefore' has been explicitly marked deprecated here
+  214 |   LLVM_DEPRECATED("Use iterators as instruction positions", "")
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:1896:48: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 1896 |     IRBuilder<> AllocaBuilder(CI->getParent()->getFirstNonPHI());
+      |                                                ^~~~~~~~~~~~~~
+      |                                                getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:2087:55: warning: 'InsertPosition' is deprecated: Use BasicBlock::iterators for insertion instead [-Wdeprecated-declarations]
+ 2087 |                              CallArgs, OpBundles, "", II);
+      |                                                       ^~
+      |                                                       BasicBlock::iterator
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:55:3: note: 'InsertPosition' has been explicitly marked deprecated here
+   55 |   LLVM_DEPRECATED("Use BasicBlock::iterators for insertion instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:2095:49: warning: 'InsertPosition' is deprecated: Use BasicBlock::iterators for insertion instead [-Wdeprecated-declarations]
+ 2095 |         BranchInst::Create(II->getNormalDest(), II);
+      |                                                 ^~
+      |                                                 BasicBlock::iterator
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:55:3: note: 'InsertPosition' has been explicitly marked deprecated here
+   55 |   LLVM_DEPRECATED("Use BasicBlock::iterators for insertion instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:2509:21: warning: 'insertBefore' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 2509 |             cloned->insertBefore(B1);
+      |                     ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:214:3: note: 'insertBefore' has been explicitly marked deprecated here
+  214 |   LLVM_DEPRECATED("Use iterators as instruction positions", "")
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:2513:17: warning: 'moveBefore' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 2513 |             CI->moveBefore(B2);
+      |                 ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:243:3: note: 'moveBefore' has been explicitly marked deprecated here
+  243 |   LLVM_DEPRECATED("Use iterators as instruction positions", "")
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:2516:35: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 2516 |               IRBuilder<> P(post->getFirstNonPHI());
+      |                                   ^~~~~~~~~~~~~~
+      |                                   getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/Enzyme.cpp:76:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+10 warnings generated.
+[34/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/TypeAnalysis/TypeAnalysis.cpp.o
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:858:8: warning: 'insertBefore' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+  858 |     I->insertBefore(TA.fntypeinfo.Function->getEntryBlock().getTerminator());
+      |        ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:214:3: note: 'insertBefore' has been explicitly marked deprecated here
+  214 |   LLVM_DEPRECATED("Use iterators as instruction positions", "")
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:1873:6: warning: 'insertBefore' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 1873 |   I->insertBefore(fntypeinfo.Function->getEntryBlock().getTerminator());
+      |      ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:214:3: note: 'insertBefore' has been explicitly marked deprecated here
+  214 |   LLVM_DEPRECATED("Use iterators as instruction positions", "")
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.cpp:54:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+4 warnings generated.
+[35/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/FunctionUtils.cpp.o
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:1436:45: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 1436 |       B.SetInsertPoint(II->getNormalDest()->getFirstNonPHI());
+      |                                             ^~~~~~~~~~~~~~
+      |                                             getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:1452:47: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 1452 |         B.SetInsertPoint(II->getNormalDest()->getFirstNonPHI());
+      |                                               ^~~~~~~~~~~~~~
+      |                                               getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:6470:39: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 6470 |     B.SetInsertPoint(PN->getParent()->getFirstNonPHI());
+      |                                       ^~~~~~~~~~~~~~
+      |                                       getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:6495:39: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 6495 |         auto point = PN->getParent()->getFirstNonPHI();
+      |                                       ^~~~~~~~~~~~~~
+      |                                       getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:7011:20: warning: 'moveBefore' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 7011 |           (*iter)->moveBefore(br);
+      |                    ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:243:3: note: 'moveBefore' has been explicitly marked deprecated here
+  243 |   LLVM_DEPRECATED("Use iterators as instruction positions", "")
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:8463:37: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 8463 |       IRBuilder<> B(L->getHeader()->getFirstNonPHI());
+      |                                     ^~~~~~~~~~~~~~
+      |                                     getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.cpp:25:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/FunctionUtils.h:43:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+8 warnings generated.
+[36/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/GradientUtils.cpp.o
+/home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.cpp:487:38: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+  487 |   lbuilder.SetInsertPoint(lc.header->getFirstNonPHI());
+      |                                      ^~~~~~~~~~~~~~
+      |                                      getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.cpp:6475:48: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 6475 |         IRBuilder<> postPhi(NewV->getParent()->getFirstNonPHI());
+      |                                                ^~~~~~~~~~~~~~
+      |                                                getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+2 warnings generated.
+[37/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/EnzymeLogic.cpp.o
+/home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:1809:13: warning: 'moveBefore' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 1809 |       inst->moveBefore(&gutils->newFunc->getEntryBlock().front());
+      |             ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:243:3: note: 'moveBefore' has been explicitly marked deprecated here
+  243 |   LLVM_DEPRECATED("Use iterators as instruction positions", "")
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:1847:53: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 1847 |               cast<Instruction>(newi)->getParent()->getFirstNonPHI());
+      |                                                     ^~~~~~~~~~~~~~
+      |                                                     getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:2615:57: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 2615 |                   cast<Instruction>(newi)->getParent()->getFirstNonPHI());
+      |                                                         ^~~~~~~~~~~~~~
+      |                                                         getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:2910:40: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 2910 |   IRBuilder<> ib(NewF->getEntryBlock().getFirstNonPHI());
+      |                                        ^~~~~~~~~~~~~~
+      |                                        getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:2978:48: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 2978 |           ib.SetInsertPoint(inst->getParent()->getFirstNonPHI());
+      |                                                ^~~~~~~~~~~~~~
+      |                                                getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:5221:16: warning: 'insertBefore' is deprecated: Use iterators as instruction positions [-Wdeprecated-declarations]
+ 5221 |       ClonedI->insertBefore(Return);
+      |                ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/Instruction.h:214:3: note: 'insertBefore' has been explicitly marked deprecated here
+  214 |   LLVM_DEPRECATED("Use iterators as instruction positions", "")
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+/home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:5992:31: warning: 'getFirstNonPHI' is deprecated: Use iterators as instruction positions instead [-Wdeprecated-declarations]
+ 5992 |   IRBuilder<> Builder2(entry->getFirstNonPHI());
+      |                               ^~~~~~~~~~~~~~
+      |                               getFirstNonPHIIt
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/IR/BasicBlock.h:288:3: note: 'getFirstNonPHI' has been explicitly marked deprecated here
+  288 |   LLVM_DEPRECATED("Use iterators as instruction positions instead",
+      |   ^
+/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/include/llvm/Support/Compiler.h:234:50: note: expanded from macro 'LLVM_DEPRECATED'
+  234 | #define LLVM_DEPRECATED(MSG, FIX) __attribute__((deprecated(MSG, FIX)))
+      |                                                  ^
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.cpp:30:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/EnzymeLogic.h:47:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+9 warnings generated.
+[38/39] Building CXX object Enzyme/CMakeFiles/LLVMEnzyme-20.dir/CallDerivatives.cpp.o
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/CallDerivatives.cpp:27:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/AdjointGenerator.h:42:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/DiffeGradientUtils.h:31:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/GradientUtils.h:68:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/ActivityAnalysis.h:49:
+In file included from /home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/TypeAnalysis.h:56:
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2528:13: warning: 'static' function 'anyJuliaObjects' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+ 2528 | static bool anyJuliaObjects(llvm::Type *T) {
+      |             ^~~~~~~~~~~~~~~
+/home/jf01/dev/Enzyme/enzyme/Enzyme/TypeAnalysis/../Utils.h:2556:13: warning: unused function 'hasTerminator' [-Wunused-function]
+ 2556 | static bool hasTerminator(llvm::BasicBlock *BB) {
+      |             ^~~~~~~~~~~~~
+2 warnings generated.
+[39/39] Linking CXX shared module Enzyme/LLVMEnzyme-20.so
+[0/2] Re-checking globbed directories...
+[1/7] Building Fortran preprocessed Fortran/CMakeFiles/EnzymeFortran.dir/enzyme.f90-pp.f90
+[2/7] Building Fortran preprocessed Fortran/CMakeFiles/EnzymeFortran.dir/enzyme_function_hooks.f90-pp.f90
+[3/7] Generating Fortran dyndep file Fortran/CMakeFiles/EnzymeFortran.dir/Fortran.dd
+[4/7] Building Fortran object Fortran/CMakeFiles/EnzymeFortran.dir/enzyme_function_hooks.f90.o
+[5/7] Building Fortran object Fortran/CMakeFiles/EnzymeFortran.dir/enzyme.f90.o
+[6/7] Linking Fortran shared library Fortran/libEnzymeFortran.so
+[6/7] Running enzyme fortran integration tests
+-- Testing: 6 tests, 6 workers --
+Testing: 
+FAIL: Enzyme :: Fortran/ReverseMode/square_with_explicit_interface.f90 (1 of 6)
+******************** TEST 'Enzyme :: Fortran/ReverseMode/square_with_explicit_interface.f90' FAILED ********************
+Exit Code: 1
+
+Command Output (stderr):
+--
+RUN: at line 1: ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp.ll && ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90
++ ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp.ll
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp1
++ /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp1
++ FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90
+RUN: at line 2: ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp.ll && ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90
++ ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/square_with_explicit_interface.f90.tmp.ll
+/home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90(27): error #7005: Error in reading the compiled module file.   [MATH]
+    use math
+--------^
+/home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90(32): error #6404: This name does not have a type, and must have an explicit type.   [SQUARE]
+    print *, square(x)
+-------------^
+ifx: error #10442: Could not remove '/dev/stdout'
+compilation aborted for /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/square_with_explicit_interface.f90 (code 1)
+
+--
+
+********************
+Testing:  0.. 10.
+FAIL: Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 (2 of 6)
+******************** TEST 'Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90' FAILED ********************
+Exit Code: 2
+
+Command Output (stderr):
+--
+RUN: at line 2: ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
++ ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
++ /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
+RUN: at line 3: ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
++ ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libc.so.6          0000713528E45330  Unknown               Unknown  Unknown
+allocatableArrayS  000000000040549C  Unknown               Unknown  Unknown
+allocatableArrayS  000000000040520D  Unknown               Unknown  Unknown
+libc.so.6          0000713528E2A1CA  Unknown               Unknown  Unknown
+libc.so.6          0000713528E2A28B  __libc_start_main     Unknown  Unknown
+allocatableArrayS  0000000000405125  Unknown               Unknown  Unknown
+FileCheck error: '<stdin>' is empty.
+FileCheck command line:  FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30
+FAIL: Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 (3 of 6)
+******************** TEST 'Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90' FAILED ********************
+Exit Code: 134
+
+Command Output (stderr):
+--
+RUN: at line 2: if [[ ifx != ifx ]]; then ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90; fi
++ [[ ifx != ifx ]]
+RUN: at line 3: ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90
++ ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1
++ FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90
++ /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1
+RUN: at line 4: ifx -flto -O2 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O2 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O2 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90
++ ifx -flto -O2 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O2 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
+opt: TypeAnalysis.cpp:4535: void analyzeIntelSubscriptIntrinsic(IntrinsicInst &, TypeAnalyzer &): Assertion `II.arg_size() == 5' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace.
+Stack dump:
+0.	Program arguments: /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
+1.	Running pass "EnzymeNewPM" on module "<stdin>"
+ #0 0x00005b2dcd178c65 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0x559cc65)
+ #1 0x00005b2dcd175d96 SignalHandler(int) Signals.cpp:0:0
+ #2 0x000079bf93045330 (/lib/x86_64-linux-gnu/libc.so.6+0x45330)
+ #3 0x000079bf9309eb2c __pthread_kill_implementation ./nptl/pthread_kill.c:44:76
+ #4 0x000079bf9309eb2c __pthread_kill_internal ./nptl/pthread_kill.c:78:10
+ #5 0x000079bf9309eb2c pthread_kill ./nptl/pthread_kill.c:89:10
+ #6 0x000079bf9304527e raise ./signal/../sysdeps/posix/raise.c:27:6
+ #7 0x000079bf930288ff abort ./stdlib/abort.c:81:7
+ #8 0x000079bf9302881b _nl_load_domain ./intl/loadmsgcat.c:1177:9
+ #9 0x000079bf9303b517 (/lib/x86_64-linux-gnu/libc.so.6+0x3b517)
+#10 0x000079bf92c9147d analyzeIntelSubscriptIntrinsic(llvm::IntrinsicInst&, TypeAnalyzer&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x69147d)
+#11 0x000079bf92c65bc6 TypeAnalyzer::visitCallBase(llvm::CallBase&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x665bc6)
+#12 0x000079bf92c7687b TypeAnalyzer::run() (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x67687b)
+#13 0x000079bf92c91c84 TypeAnalysis::analyzeFunction(FnTypeInfo const&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x691c84)
+#14 0x000079bf92a4415d (anonymous namespace)::EnzymeBase::HandleAutoDiff(llvm::Instruction*, unsigned int, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, std::map<int, llvm::Type*, std::less<int>, std::allocator<std::pair<int const, llvm::Type*>>> const&, std::vector<DIFFE_TYPE, std::allocator<DIFFE_TYPE>> const&, llvm::Function*, DerivativeMode, (anonymous namespace)::EnzymeBase::Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#15 0x000079bf92a3c522 (anonymous namespace)::EnzymeBase::HandleAutoDiffArguments(llvm::CallInst*, DerivativeMode, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#16 0x000079bf92a38e06 (anonymous namespace)::EnzymeBase::lowerEnzymeCalls(llvm::Function&, std::set<llvm::Function*, std::less<llvm::Function*>, std::allocator<llvm::Function*>>&) Enzyme.cpp:0:0
+#17 0x000079bf92a326a0 (anonymous namespace)::EnzymeBase::run(llvm::Module&) Enzyme.cpp:0:0
+#18 0x000079bf92a5ff30 llvm::detail::PassModel<llvm::Module, EnzymeNewPM, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x45ff30)
+#19 0x00005b2dccf40594 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0x5364594)
+#20 0x00005b2dc88a6e66 llvm::runPassPipeline(llvm::StringRef, llvm::Module&, llvm::TargetMachine*, llvm::TargetLibraryInfoImpl*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::StringRef, llvm::ArrayRef<llvm::PassPlugin>, llvm::ArrayRef<std::function<void (llvm::PassBuilder&)>>, llvm::opt_tool::OutputKind, llvm::opt_tool::VerifierKind, bool, bool, bool, bool, bool, bool, bool) (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0xccae66)
+#21 0x00005b2dc8897db8 optMain (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0xcbbdb8)
+#22 0x000079bf9302a1ca __libc_start_call_main ./csu/../sysdeps/nptl/libc_start_call_main.h:74:3
+#23 0x000079bf9302a28b call_init ./csu/../csu/libc-start.c:128:20
+#24 0x000079bf9302a28b __libc_start_main ./csu/../csu/libc-start.c:347:5
+#25 0x00005b2dc888dcb5 _start (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0xcb1cb5)
+/home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.script: line 4: 239494 Done                    ifx -flto -O2 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
+     239496 Aborted                 (core dumped) | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout
+     239498                       | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O2 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 
+FAIL: Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 (4 of 6)
+******************** TEST 'Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90' FAILED ********************
+Exit Code: 134
+
+Command Output (stderr):
+--
+RUN: at line 1: if [[ ifx != ifx ]]; then ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90; fi
++ [[ ifx != ifx ]]
+RUN: at line 2: ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90
++ ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
++ ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1
++ /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1
++ FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90
+RUN: at line 3: ifx -flto -O2 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O2 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll && ifx -flto -O2 /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90
++ ifx -flto -O2 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O2 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
+opt: TypeAnalysis.cpp:4535: void analyzeIntelSubscriptIntrinsic(IntrinsicInst &, TypeAnalyzer &): Assertion `II.arg_size() == 5' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace.
+Stack dump:
+0.	Program arguments: /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
+1.	Running pass "EnzymeNewPM" on module "<stdin>"
+ #0 0x0000563f97af3c65 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0x559cc65)
+ #1 0x0000563f97af0d96 SignalHandler(int) Signals.cpp:0:0
+ #2 0x00007e6f1ee45330 (/lib/x86_64-linux-gnu/libc.so.6+0x45330)
+ #3 0x00007e6f1ee9eb2c __pthread_kill_implementation ./nptl/pthread_kill.c:44:76
+ #4 0x00007e6f1ee9eb2c __pthread_kill_internal ./nptl/pthread_kill.c:78:10
+ #5 0x00007e6f1ee9eb2c pthread_kill ./nptl/pthread_kill.c:89:10
+ #6 0x00007e6f1ee4527e raise ./signal/../sysdeps/posix/raise.c:27:6
+ #7 0x00007e6f1ee288ff abort ./stdlib/abort.c:81:7
+ #8 0x00007e6f1ee2881b _nl_load_domain ./intl/loadmsgcat.c:1177:9
+ #9 0x00007e6f1ee3b517 (/lib/x86_64-linux-gnu/libc.so.6+0x3b517)
+#10 0x00007e6f1ea9147d analyzeIntelSubscriptIntrinsic(llvm::IntrinsicInst&, TypeAnalyzer&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x69147d)
+#11 0x00007e6f1ea65bc6 TypeAnalyzer::visitCallBase(llvm::CallBase&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x665bc6)
+#12 0x00007e6f1ea7687b TypeAnalyzer::run() (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x67687b)
+#13 0x00007e6f1ea91c84 TypeAnalysis::analyzeFunction(FnTypeInfo const&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x691c84)
+#14 0x00007e6f1e84415d (anonymous namespace)::EnzymeBase::HandleAutoDiff(llvm::Instruction*, unsigned int, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, std::map<int, llvm::Type*, std::less<int>, std::allocator<std::pair<int const, llvm::Type*>>> const&, std::vector<DIFFE_TYPE, std::allocator<DIFFE_TYPE>> const&, llvm::Function*, DerivativeMode, (anonymous namespace)::EnzymeBase::Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#15 0x00007e6f1e83c522 (anonymous namespace)::EnzymeBase::HandleAutoDiffArguments(llvm::CallInst*, DerivativeMode, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#16 0x00007e6f1e838e06 (anonymous namespace)::EnzymeBase::lowerEnzymeCalls(llvm::Function&, std::set<llvm::Function*, std::less<llvm::Function*>, std::allocator<llvm::Function*>>&) Enzyme.cpp:0:0
+#17 0x00007e6f1e8326a0 (anonymous namespace)::EnzymeBase::run(llvm::Module&) Enzyme.cpp:0:0
+#18 0x00007e6f1e85ff30 llvm::detail::PassModel<llvm::Module, EnzymeNewPM, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x45ff30)
+#19 0x0000563f978bb594 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0x5364594)
+#20 0x0000563f93221e66 llvm::runPassPipeline(llvm::StringRef, llvm::Module&, llvm::TargetMachine*, llvm::TargetLibraryInfoImpl*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::StringRef, llvm::ArrayRef<llvm::PassPlugin>, llvm::ArrayRef<std::function<void (llvm::PassBuilder&)>>, llvm::opt_tool::OutputKind, llvm::opt_tool::VerifierKind, bool, bool, bool, bool, bool, bool, bool) (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0xccae66)
+#21 0x0000563f93212db8 optMain (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0xcbbdb8)
+#22 0x00007e6f1ee2a1ca __libc_start_call_main ./csu/../sysdeps/nptl/libc_start_call_main.h:74:3
+#23 0x00007e6f1ee2a28b call_init ./csu/../csu/libc-start.c:128:20
+#24 0x00007e6f1ee2a28b __libc_start_main ./csu/../csu/libc-start.c:347:5
+#25 0x0000563f93208cb5 _start (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0xcb1cb5)
+/home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.script: line 4: 239500 Done                    ifx -flto -O2 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90 -o /dev/stdout
+     239502 Aborted                 (core dumped) | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout
+     239504                       | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O2 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ForwardMode/Output/allocatableArraySimple_with_bindings.f90.tmp.ll
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 60.. 70.. 80
+FAIL: Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 (6 of 6)
+******************** TEST 'Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90' FAILED ********************
+Exit Code: 134
+
+Command Output (stderr):
+--
+RUN: at line 2: ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O0 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O0 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
++ ifx -flto -O0 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
+RUN: at line 3: ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O1 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O1 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
++ ifx -flto -O1 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1
++ FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
+RUN: at line 4: ifx -flto -O2 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt  -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O2 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll && ifx -flto -O2 /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 && /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp1 | FileCheck /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
++ ifx -flto -O2 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
++ /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O2 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
+opt: TypeAnalysis.cpp:4535: void analyzeIntelSubscriptIntrinsic(IntrinsicInst &, TypeAnalyzer &): Assertion `II.arg_size() == 5' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace.
+Stack dump:
+0.	Program arguments: /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes=enzyme -o /dev/stdout
+1.	Running pass "EnzymeNewPM" on module "<stdin>"
+ #0 0x000055d5f01e9c65 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0x559cc65)
+ #1 0x000055d5f01e6d96 SignalHandler(int) Signals.cpp:0:0
+ #2 0x00007d04c3e45330 (/lib/x86_64-linux-gnu/libc.so.6+0x45330)
+ #3 0x00007d04c3e9eb2c __pthread_kill_implementation ./nptl/pthread_kill.c:44:76
+ #4 0x00007d04c3e9eb2c __pthread_kill_internal ./nptl/pthread_kill.c:78:10
+ #5 0x00007d04c3e9eb2c pthread_kill ./nptl/pthread_kill.c:89:10
+ #6 0x00007d04c3e4527e raise ./signal/../sysdeps/posix/raise.c:27:6
+ #7 0x00007d04c3e288ff abort ./stdlib/abort.c:81:7
+ #8 0x00007d04c3e2881b _nl_load_domain ./intl/loadmsgcat.c:1177:9
+ #9 0x00007d04c3e3b517 (/lib/x86_64-linux-gnu/libc.so.6+0x3b517)
+#10 0x00007d04c3a9147d analyzeIntelSubscriptIntrinsic(llvm::IntrinsicInst&, TypeAnalyzer&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x69147d)
+#11 0x00007d04c3a65bc6 TypeAnalyzer::visitCallBase(llvm::CallBase&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x665bc6)
+#12 0x00007d04c3a7687b TypeAnalyzer::run() (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x67687b)
+#13 0x00007d04c3a91c84 TypeAnalysis::analyzeFunction(FnTypeInfo const&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x691c84)
+#14 0x00007d04c384415d (anonymous namespace)::EnzymeBase::HandleAutoDiff(llvm::Instruction*, unsigned int, llvm::Value*, llvm::Type*, llvm::SmallVectorImpl<llvm::Value*>&, std::map<int, llvm::Type*, std::less<int>, std::allocator<std::pair<int const, llvm::Type*>>> const&, std::vector<DIFFE_TYPE, std::allocator<DIFFE_TYPE>> const&, llvm::Function*, DerivativeMode, (anonymous namespace)::EnzymeBase::Options&, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#15 0x00007d04c383c522 (anonymous namespace)::EnzymeBase::HandleAutoDiffArguments(llvm::CallInst*, DerivativeMode, bool, llvm::SmallVectorImpl<llvm::CallInst*>&) Enzyme.cpp:0:0
+#16 0x00007d04c3838e06 (anonymous namespace)::EnzymeBase::lowerEnzymeCalls(llvm::Function&, std::set<llvm::Function*, std::less<llvm::Function*>, std::allocator<llvm::Function*>>&) Enzyme.cpp:0:0
+#17 0x00007d04c38326a0 (anonymous namespace)::EnzymeBase::run(llvm::Module&) Enzyme.cpp:0:0
+#18 0x00007d04c385ff30 llvm::detail::PassModel<llvm::Module, EnzymeNewPM, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so+0x45ff30)
+#19 0x000055d5effb1594 llvm::PassManager<llvm::Module, llvm::AnalysisManager<llvm::Module>>::run(llvm::Module&, llvm::AnalysisManager<llvm::Module>&) (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0x5364594)
+#20 0x000055d5eb917e66 llvm::runPassPipeline(llvm::StringRef, llvm::Module&, llvm::TargetMachine*, llvm::TargetLibraryInfoImpl*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::ToolOutputFile*, llvm::StringRef, llvm::ArrayRef<llvm::PassPlugin>, llvm::ArrayRef<std::function<void (llvm::PassBuilder&)>>, llvm::opt_tool::OutputKind, llvm::opt_tool::VerifierKind, bool, bool, bool, bool, bool, bool, bool) (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0xccae66)
+#21 0x000055d5eb908db8 optMain (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0xcbbdb8)
+#22 0x00007d04c3e2a1ca __libc_start_call_main ./csu/../sysdeps/nptl/libc_start_call_main.h:74:3
+#23 0x00007d04c3e2a28b call_init ./csu/../csu/libc-start.c:128:20
+#24 0x00007d04c3e2a28b __libc_start_main ./csu/../csu/libc-start.c:347:5
+#25 0x000055d5eb8fecb5 _start (/home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt+0xcb1cb5)
+/home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.script: line 4: 239579 Done                    ifx -flto -O2 -c -I/home/jf01/dev/Enzyme/build/modules /home/jf01/dev/Enzyme/enzyme/test/Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90 -o /dev/stdout
+     239580 Aborted                 (core dumped) | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -load-pass-plugin=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so -load=/home/jf01/dev/Enzyme/build/Enzyme/LLVMEnzyme-20.so --enzyme-attributor=0 -passes="enzyme" -o /dev/stdout
+     239581                       | /home/jf01/dev/spack/opt/spack/linux-skylake/llvm-20.1.8-egbi65mevw5tfjvhfmibeefa3hoqt4qf/bin/opt -O2 -S -o /home/jf01/dev/Enzyme/build/test/Fortran/ReverseMode/Output/allocatableArraySimple_with_explicit_interface.f90.tmp.ll
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 60.. 70.. 80.. 90.. 
+********************
+Failed Tests (5):
+  Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_bindings.f90
+  Enzyme :: Fortran/ForwardMode/allocatableArraySimple_with_explicit_interface.f90
+  Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_bindings.f90
+  Enzyme :: Fortran/ReverseMode/allocatableArraySimple_with_explicit_interface.f90
+  Enzyme :: Fortran/ReverseMode/square_with_explicit_interface.f90
+
+
+Testing Time: 0.47s
+
+Total Discovered Tests: 6
+  Passed: 1 (16.67%)
+  Failed: 5 (83.33%)
+FAILED: test/Fortran/CMakeFiles/check-enzyme-fortran /home/jf01/dev/Enzyme/build/test/Fortran/CMakeFiles/check-enzyme-fortran 
+cd /home/jf01/dev/Enzyme/build/test/Fortran && /home/jf01/miniconda3/bin/lit -v -sv /home/jf01/dev/Enzyme/build/test/Fortran
+ninja: build stopped: subcommand failed.
