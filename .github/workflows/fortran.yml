@@ -1,6 +1,8 @@
 name: Fortran
 
 on:
+  # TODO: do not merge, makes manually triggerable
+  workflow_dispatch:
   push:
     branches: 
     - main
