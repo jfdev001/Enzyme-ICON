@@ -23,8 +23,10 @@
 //
 //===----------------------------------------------------------------------===//
 #include <cstdint>
+#include <cstdio>
 #include <deque>
 
+#include <iostream>
 #include <llvm/Config/llvm-config.h>
 
 #include "llvm/Demangle/Demangle.h"
@@ -4545,7 +4547,12 @@ void analyzeFuncTypes(RT (*fn)(Args...), CallBase &call, TypeAnalyzer &TA) {
 void analyzeIntelSubscriptIntrinsic(IntrinsicInst &II, TypeAnalyzer &TA) {
   assert(isIntelSubscriptIntrinsic(II));
 #if LLVM_VERSION_MAJOR >= 14
-  assert(II.arg_size() == 5);
+  llvm::errs() << II << "\n";
+  llvm::errs() << "arg_size=" << II.arg_size() << "\n";
+  if (II.arg_size() != 5) {
+      llvm_unreachable("unexpected Intel intrinsic signature");
+  }
+  llvm::report_fatal_error("debug");
 #else
   assert(II.getNumArgOperands() == 5);
 #endif
